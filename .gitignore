@@ -1,0 +1,30 @@
+
+# Virtual environment
+venv/
+.venv/
+
+# API keys and environment variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Private invoice data
+data/raw/
+data/processed/
+data/embeddings/
+data/vectorstore/
+
+# Generated evaluation outputs
+evaluation_results/

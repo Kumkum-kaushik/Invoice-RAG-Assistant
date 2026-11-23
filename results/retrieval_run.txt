@@ -1,0 +1,2657 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  62%|██████▏   | 64/103 [00:00<00:00, 639.89it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 953.02it/s]
+
+========== SEMANTIC / FIXED-SIZE ==========
+
+Question: Find the invoice with Order ID 10902.
+Expected (1): ['invoice_10902.pdf']
+  1. invoice_10992.pdf    score=0.7386 match=semantic not relevant
+  2. invoice_10708.pdf    score=0.7120 match=semantic not relevant
+  3. invoice_10907.pdf    score=0.7097 match=semantic not relevant
+  4. invoice_10998.pdf    score=0.6959 match=semantic not relevant
+  5. invoice_10995.pdf    score=0.6878 match=semantic not relevant
+  6. invoice_10906.pdf    score=0.6878 match=semantic not relevant
+  7. invoice_10805.pdf    score=0.6876 match=semantic not relevant
+  8. invoice_10991.pdf    score=0.6857 match=semantic not relevant
+  9. invoice_10996.pdf    score=0.6852 match=semantic not relevant
+  10. invoice_10365.pdf    score=0.6812 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which customer placed Order ID 10362?
+Expected (1): ['invoice_10362.pdf']
+  1. invoice_10308.pdf    score=0.5199 match=semantic not relevant
+  2. invoice_10307.pdf    score=0.5180 match=semantic not relevant
+  3. invoice_11047.pdf    score=0.5139 match=semantic not relevant
+  4. invoice_10364.pdf    score=0.5137 match=semantic not relevant
+  5. invoice_10305.pdf    score=0.5130 match=semantic not relevant
+  6. invoice_10355.pdf    score=0.5127 match=semantic not relevant
+  7. invoice_10383.pdf    score=0.5121 match=semantic not relevant
+  8. invoice_10502.pdf    score=0.5116 match=semantic not relevant
+  9. invoice_10708.pdf    score=0.5100 match=semantic not relevant
+  10. invoice_10306.pdf    score=0.5077 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find the invoice with Order ID 10273.
+Expected (1): ['invoice_10273.pdf']
+  1. invoice_10708.pdf    score=0.7386 match=semantic not relevant
+  2. invoice_10992.pdf    score=0.7291 match=semantic not relevant
+  3. invoice_10677.pdf    score=0.7271 match=semantic not relevant
+  4. invoice_10682.pdf    score=0.7247 match=semantic not relevant
+  5. invoice_10611.pdf    score=0.7181 match=semantic not relevant
+  6. invoice_10792.pdf    score=0.7178 match=semantic not relevant
+  7. invoice_10259.pdf    score=0.7160 match=semantic not relevant
+  8. invoice_10805.pdf    score=0.7151 match=semantic not relevant
+  9. invoice_10998.pdf    score=0.7144 match=semantic not relevant
+  10. invoice_10365.pdf    score=0.7140 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which customer placed Order ID 11007?
+Expected (1): ['invoice_11007.pdf']
+  1. invoice_10805.pdf    score=0.5429 match=semantic not relevant
+  2. invoice_10364.pdf    score=0.5424 match=semantic not relevant
+  3. invoice_10577.pdf    score=0.5405 match=semantic not relevant
+  4. invoice_10708.pdf    score=0.5396 match=semantic not relevant
+  5. invoice_10677.pdf    score=0.5396 match=semantic not relevant
+  6. invoice_10682.pdf    score=0.5388 match=semantic not relevant
+  7. invoice_10545.pdf    score=0.5387 match=semantic not relevant
+  8. invoice_10907.pdf    score=0.5382 match=semantic not relevant
+  9. invoice_10383.pdf    score=0.5378 match=semantic not relevant
+  10. invoice_10306.pdf    score=0.5352 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find the invoice with Order ID 10529.
+Expected (1): ['invoice_10529.pdf']
+  1. invoice_10708.pdf    score=0.7350 match=semantic not relevant
+  2. invoice_10992.pdf    score=0.7248 match=semantic not relevant
+  3. invoice_10259.pdf    score=0.7186 match=semantic not relevant
+  4. invoice_10535.pdf    score=0.7179 match=semantic not relevant
+  5. invoice_10310.pdf    score=0.7159 match=semantic not relevant
+  6. invoice_10682.pdf    score=0.7151 match=semantic not relevant
+  7. invoice_10677.pdf    score=0.7147 match=semantic not relevant
+  8. invoice_10532.pdf    score=0.7121 match=semantic not relevant
+  9. invoice_10365.pdf    score=0.7117 match=semantic not relevant
+  10. invoice_10998.pdf    score=0.7117 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which customer placed Order ID 10498?
+Expected (1): ['invoice_10498.pdf']
+  1. invoice_10995.pdf    score=0.5483 match=semantic not relevant
+  2. invoice_10307.pdf    score=0.5344 match=semantic not relevant
+  3. invoice_10502.pdf    score=0.5321 match=semantic not relevant
+  4. invoice_10992.pdf    score=0.5319 match=semantic not relevant
+  5. invoice_10883.pdf    score=0.5277 match=semantic not relevant
+  6. invoice_10708.pdf    score=0.5273 match=semantic not relevant
+  7. invoice_10907.pdf    score=0.5272 match=semantic not relevant
+  8. invoice_10398.pdf    score=0.5270 match=semantic not relevant
+  9. invoice_10474.pdf    score=0.5263 match=semantic not relevant
+  10. invoice_10867.pdf    score=0.5244 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find the invoice with Order ID 10476.
+Expected (1): ['invoice_10476.pdf']
+  1. invoice_10992.pdf    score=0.7304 match=semantic not relevant
+  2. invoice_10708.pdf    score=0.7222 match=semantic not relevant
+  3. invoice_10995.pdf    score=0.7127 match=semantic not relevant
+  4. invoice_10677.pdf    score=0.7101 match=semantic not relevant
+  5. invoice_10682.pdf    score=0.7012 match=semantic not relevant
+  6. invoice_10502.pdf    score=0.6996 match=semantic not relevant
+  7. invoice_10907.pdf    score=0.6993 match=semantic not relevant
+  8. invoice_10322.pdf    score=0.6973 match=semantic not relevant
+  9. invoice_10365.pdf    score=0.6973 match=semantic not relevant
+  10. invoice_10884.pdf    score=0.6959 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which customer placed Order ID 10390?
+Expected (1): ['invoice_10390.pdf']
+  1. invoice_10307.pdf    score=0.5254 match=semantic not relevant
+  2. invoice_10364.pdf    score=0.5142 match=semantic not relevant
+  3. invoice_10306.pdf    score=0.5138 match=semantic not relevant
+  4. invoice_10308.pdf    score=0.5117 match=semantic not relevant
+  5. invoice_10305.pdf    score=0.5117 match=semantic not relevant
+  6. invoice_10355.pdf    score=0.5115 match=semantic not relevant
+  7. invoice_11047.pdf    score=0.5114 match=semantic not relevant
+  8. invoice_10317.pdf    score=0.5114 match=semantic not relevant
+  9. invoice_10883.pdf    score=0.5109 match=semantic not relevant
+  10. invoice_10544.pdf    score=0.5074 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find the invoice with Order ID 11002.
+Expected (1): ['invoice_11002.pdf']
+  1. invoice_10708.pdf    score=0.7204 match=semantic not relevant
+  2. invoice_10992.pdf    score=0.7181 match=semantic not relevant
+  3. invoice_10611.pdf    score=0.7088 match=semantic not relevant
+  4. invoice_10792.pdf    score=0.7074 match=semantic not relevant
+  5. invoice_10677.pdf    score=0.7070 match=semantic not relevant
+  6. invoice_10998.pdf    score=0.7067 match=semantic not relevant
+  7. invoice_10682.pdf    score=0.7060 match=semantic not relevant
+  8. invoice_10906.pdf    score=0.7052 match=semantic not relevant
+  9. invoice_10805.pdf    score=0.7040 match=semantic not relevant
+  10. invoice_10365.pdf    score=0.7038 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which customer placed Order ID 10352?
+Expected (1): ['invoice_10352.pdf']
+  1. invoice_10308.pdf    score=0.5433 match=semantic not relevant
+  2. invoice_10306.pdf    score=0.5407 match=semantic not relevant
+  3. invoice_10364.pdf    score=0.5372 match=semantic not relevant
+  4. invoice_11047.pdf    score=0.5367 match=semantic not relevant
+  5. invoice_10502.pdf    score=0.5351 match=semantic not relevant
+  6. invoice_10708.pdf    score=0.5334 match=semantic not relevant
+  7. invoice_10307.pdf    score=0.5329 match=semantic not relevant
+  8. invoice_10805.pdf    score=0.5285 match=semantic not relevant
+  9. invoice_10682.pdf    score=0.5277 match=semantic not relevant
+  10. invoice_10365.pdf    score=0.5269 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find all invoices belonging to customer WHITC.
+Expected (14): ['invoice_10269.pdf', 'invoice_10344.pdf', 'invoice_10469.pdf', 'invoice_10483.pdf', 'invoice_10504.pdf', 'invoice_10596.pdf'] ...
+  1. invoice_10861.pdf    score=0.6050 match=semantic RELEVANT
+  2. invoice_10740.pdf    score=0.6042 match=semantic RELEVANT
+  3. invoice_10344.pdf    score=0.6034 match=semantic RELEVANT
+  4. invoice_10723.pdf    score=0.6034 match=semantic RELEVANT
+  5. invoice_10904.pdf    score=0.6012 match=semantic RELEVANT
+  6. invoice_10269.pdf    score=0.5983 match=semantic RELEVANT
+  7. invoice_10504.pdf    score=0.5963 match=semantic RELEVANT
+  8. invoice_10693.pdf    score=0.5961 match=semantic RELEVANT
+  9. invoice_10469.pdf    score=0.5961 match=semantic RELEVANT
+  10. invoice_10696.pdf    score=0.5929 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.21  mrr@3=1.00
+
+Question: Which invoices belong to customer SEVES?
+Expected (9): ['invoice_10359.pdf', 'invoice_10377.pdf', 'invoice_10388.pdf', 'invoice_10472.pdf', 'invoice_10523.pdf', 'invoice_10547.pdf'] ...
+  1. invoice_10800.pdf    score=0.4955 match=semantic RELEVANT
+  2. invoice_10297.pdf    score=0.4949 match=semantic not relevant
+  3. invoice_10523.pdf    score=0.4910 match=semantic RELEVANT
+  4. invoice_10679.pdf    score=0.4876 match=semantic not relevant
+  5. invoice_10826.pdf    score=0.4856 match=semantic not relevant
+  6. invoice_10377.pdf    score=0.4852 match=semantic RELEVANT
+  7. invoice_10472.pdf    score=0.4843 match=semantic RELEVANT
+  8. invoice_10804.pdf    score=0.4841 match=semantic RELEVANT
+  9. invoice_10265.pdf    score=0.4825 match=semantic not relevant
+  10. invoice_10547.pdf    score=0.4823 match=semantic RELEVANT
+  hit@3=1.00  precision@3=0.67  recall@3=0.22  mrr@3=1.00
+
+Question: Find all invoices belonging to customer CACTU.
+Expected (6): ['invoice_10521.pdf', 'invoice_10782.pdf', 'invoice_10819.pdf', 'invoice_10881.pdf', 'invoice_10937.pdf', 'invoice_11054.pdf']
+  1. invoice_10782.pdf    score=0.6116 match=semantic RELEVANT
+  2. invoice_10881.pdf    score=0.6065 match=semantic RELEVANT
+  3. invoice_10521.pdf    score=0.6026 match=semantic RELEVANT
+  4. invoice_10937.pdf    score=0.5990 match=semantic RELEVANT
+  5. invoice_10819.pdf    score=0.5977 match=semantic RELEVANT
+  6. invoice_11054.pdf    score=0.5957 match=semantic RELEVANT
+  7. invoice_10259.pdf    score=0.5331 match=semantic not relevant
+  8. invoice_10281.pdf    score=0.5183 match=semantic not relevant
+  9. invoice_10248.pdf    score=0.5163 match=semantic not relevant
+  10. invoice_10282.pdf    score=0.5161 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.50  mrr@3=1.00
+
+Question: Which invoices belong to customer THECR?
+Expected (3): ['invoice_10624.pdf', 'invoice_10775.pdf', 'invoice_11003.pdf']
+  1. invoice_10802.pdf    score=0.4706 match=semantic not relevant
+  2. invoice_10528.pdf    score=0.4692 match=semantic not relevant
+  3. invoice_10417.pdf    score=0.4691 match=semantic not relevant
+  4. invoice_10708.pdf    score=0.4647 match=semantic not relevant
+  5. invoice_10616.pdf    score=0.4647 match=semantic not relevant
+  6. invoice_10642.pdf    score=0.4617 match=semantic not relevant
+  7. invoice_10617.pdf    score=0.4616 match=semantic not relevant
+  8. invoice_10573.pdf    score=0.4606 match=semantic not relevant
+  9. invoice_10816.pdf    score=0.4601 match=semantic not relevant
+  10. invoice_10992.pdf    score=0.4594 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find all invoices belonging to customer OTTIK.
+Expected (10): ['invoice_10260.pdf', 'invoice_10407.pdf', 'invoice_10508.pdf', 'invoice_10554.pdf', 'invoice_10580.pdf', 'invoice_10684.pdf'] ...
+  1. invoice_10508.pdf    score=0.5973 match=semantic RELEVANT
+  2. invoice_10999.pdf    score=0.5972 match=semantic RELEVANT
+  3. invoice_10407.pdf    score=0.5961 match=semantic RELEVANT
+  4. invoice_10833.pdf    score=0.5939 match=semantic RELEVANT
+  5. invoice_10766.pdf    score=0.5865 match=semantic RELEVANT
+  6. invoice_11020.pdf    score=0.5856 match=semantic RELEVANT
+  7. invoice_10260.pdf    score=0.5850 match=semantic RELEVANT
+  8. invoice_10554.pdf    score=0.5843 match=semantic RELEVANT
+  9. invoice_10684.pdf    score=0.5820 match=semantic RELEVANT
+  10. invoice_10580.pdf    score=0.5541 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.30  mrr@3=1.00
+
+Question: Which invoices belong to customer BERGS?
+Expected (18): ['invoice_10278.pdf', 'invoice_10280.pdf', 'invoice_10384.pdf', 'invoice_10444.pdf', 'invoice_10445.pdf', 'invoice_10524.pdf'] ...
+  1. invoice_10778.pdf    score=0.6194 match=semantic RELEVANT
+  2. invoice_10672.pdf    score=0.6161 match=semantic RELEVANT
+  3. invoice_10857.pdf    score=0.6138 match=semantic RELEVANT
+  4. invoice_10837.pdf    score=0.6126 match=semantic RELEVANT
+  5. invoice_10572.pdf    score=0.6107 match=semantic RELEVANT
+  6. invoice_10689.pdf    score=0.6107 match=semantic RELEVANT
+  7. invoice_10278.pdf    score=0.6097 match=semantic RELEVANT
+  8. invoice_10384.pdf    score=0.6092 match=semantic RELEVANT
+  9. invoice_10445.pdf    score=0.6084 match=semantic RELEVANT
+  10. invoice_10924.pdf    score=0.6078 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.17  mrr@3=1.00
+
+Question: Find all invoices belonging to customer AROUT.
+Expected (13): ['invoice_10355.pdf', 'invoice_10383.pdf', 'invoice_10453.pdf', 'invoice_10558.pdf', 'invoice_10707.pdf', 'invoice_10741.pdf'] ...
+  1. invoice_10616.pdf    score=0.5793 match=semantic not relevant
+  2. invoice_10617.pdf    score=0.5768 match=semantic not relevant
+  3. invoice_10528.pdf    score=0.5725 match=semantic not relevant
+  4. invoice_10816.pdf    score=0.5721 match=semantic not relevant
+  5. invoice_10994.pdf    score=0.5654 match=semantic not relevant
+  6. invoice_11006.pdf    score=0.5593 match=semantic not relevant
+  7. invoice_10681.pdf    score=0.5574 match=semantic not relevant
+  8. invoice_10656.pdf    score=0.5523 match=semantic not relevant
+  9. invoice_11040.pdf    score=0.5479 match=semantic not relevant
+  10. invoice_10355.pdf    score=0.5451 match=semantic RELEVANT
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices belong to customer GALED?
+Expected (5): ['invoice_10366.pdf', 'invoice_10426.pdf', 'invoice_10568.pdf', 'invoice_10887.pdf', 'invoice_10928.pdf']
+  1. invoice_10366.pdf    score=0.5555 match=semantic RELEVANT
+  2. invoice_10887.pdf    score=0.5497 match=semantic RELEVANT
+  3. invoice_10426.pdf    score=0.5469 match=semantic RELEVANT
+  4. invoice_10928.pdf    score=0.5458 match=semantic RELEVANT
+  5. invoice_10568.pdf    score=0.5439 match=semantic RELEVANT
+  6. invoice_10797.pdf    score=0.5257 match=semantic not relevant
+  7. invoice_10825.pdf    score=0.5243 match=semantic not relevant
+  8. invoice_10391.pdf    score=0.5154 match=semantic not relevant
+  9. invoice_11036.pdf    score=0.5106 match=semantic not relevant
+  10. invoice_11067.pdf    score=0.5060 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.60  mrr@3=1.00
+
+Question: Find all invoices belonging to customer GOURL.
+Expected (9): ['invoice_10423.pdf', 'invoice_10652.pdf', 'invoice_10685.pdf', 'invoice_10709.pdf', 'invoice_10734.pdf', 'invoice_10777.pdf'] ...
+  1. invoice_10423.pdf    score=0.5422 match=semantic RELEVANT
+  2. invoice_10777.pdf    score=0.5385 match=semantic RELEVANT
+  3. invoice_10790.pdf    score=0.5368 match=semantic RELEVANT
+  4. invoice_10709.pdf    score=0.5338 match=semantic RELEVANT
+  5. invoice_10734.pdf    score=0.5317 match=semantic RELEVANT
+  6. invoice_10685.pdf    score=0.5304 match=semantic RELEVANT
+  7. invoice_10652.pdf    score=0.5276 match=semantic RELEVANT
+  8. invoice_10959.pdf    score=0.5255 match=semantic RELEVANT
+  9. invoice_11049.pdf    score=0.5173 match=semantic RELEVANT
+  10. invoice_10617.pdf    score=0.4948 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.33  mrr@3=1.00
+
+Question: Which invoices belong to customer RICAR?
+Expected (11): ['invoice_10287.pdf', 'invoice_10299.pdf', 'invoice_10447.pdf', 'invoice_10481.pdf', 'invoice_10563.pdf', 'invoice_10622.pdf'] ...
+  1. invoice_10365.pdf    score=0.5035 match=semantic not relevant
+  2. invoice_10535.pdf    score=0.4956 match=semantic not relevant
+  3. invoice_10573.pdf    score=0.4931 match=semantic not relevant
+  4. invoice_10528.pdf    score=0.4899 match=semantic not relevant
+  5. invoice_10677.pdf    score=0.4865 match=semantic not relevant
+  6. invoice_10322.pdf    score=0.4819 match=semantic not relevant
+  7. invoice_10995.pdf    score=0.4811 match=semantic not relevant
+  8. invoice_10851.pdf    score=0.4801 match=semantic RELEVANT
+  9. invoice_10682.pdf    score=0.4800 match=semantic not relevant
+  10. invoice_10287.pdf    score=0.4798 match=semantic RELEVANT
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices contain Aniseed Syrup?
+Expected (12): ['invoice_10289.pdf', 'invoice_10405.pdf', 'invoice_10485.pdf', 'invoice_10540.pdf', 'invoice_10591.pdf', 'invoice_10702.pdf'] ...
+  1. invoice_10764.pdf    score=0.5673 match=semantic RELEVANT
+  2. invoice_10702.pdf    score=0.5649 match=semantic RELEVANT
+  3. invoice_10289.pdf    score=0.5467 match=semantic RELEVANT
+  4. invoice_10849.pdf    score=0.5299 match=semantic RELEVANT
+  5. invoice_11017.pdf    score=0.5237 match=semantic RELEVANT
+  6. invoice_10540.pdf    score=0.5181 match=semantic RELEVANT
+  7. invoice_10591.pdf    score=0.5058 match=semantic RELEVANT
+  8. invoice_10405.pdf    score=0.5046 match=semantic RELEVANT
+  9. invoice_10485.pdf    score=0.4659 match=semantic RELEVANT
+  10. invoice_10742.pdf    score=0.4590 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.25  mrr@3=1.00
+
+Question: Find invoices containing Gustaf's Knäckebröd.
+Expected (14): ['invoice_10251.pdf', 'invoice_10435.pdf', 'invoice_10553.pdf', 'invoice_10603.pdf', 'invoice_10619.pdf', 'invoice_10635.pdf'] ...
+  1. invoice_10844.pdf    score=0.6043 match=semantic RELEVANT
+  2. invoice_10603.pdf    score=0.6019 match=semantic RELEVANT
+  3. invoice_10943.pdf    score=0.5908 match=semantic RELEVANT
+  4. invoice_10836.pdf    score=0.5867 match=semantic RELEVANT
+  5. invoice_10768.pdf    score=0.5512 match=semantic RELEVANT
+  6. invoice_10251.pdf    score=0.5507 match=semantic RELEVANT
+  7. invoice_10648.pdf    score=0.5352 match=semantic RELEVANT
+  8. invoice_10619.pdf    score=0.5072 match=semantic RELEVANT
+  9. invoice_10651.pdf    score=0.4899 match=semantic RELEVANT
+  10. invoice_10635.pdf    score=0.4869 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.21  mrr@3=1.00
+
+Question: Which invoices contain Queso Manchego La Pastora?
+Expected (14): ['invoice_10266.pdf', 'invoice_10439.pdf', 'invoice_10536.pdf', 'invoice_10543.pdf', 'invoice_10633.pdf', 'invoice_10678.pdf'] ...
+  1. invoice_10266.pdf    score=0.5291 match=semantic RELEVANT
+  2. invoice_10911.pdf    score=0.5255 match=semantic not relevant
+  3. invoice_10872.pdf    score=0.5237 match=semantic not relevant
+  4. invoice_10948.pdf    score=0.5200 match=semantic not relevant
+  5. invoice_10629.pdf    score=0.5125 match=semantic not relevant
+  6. invoice_10550.pdf    score=0.5106 match=semantic not relevant
+  7. invoice_10888.pdf    score=0.5032 match=semantic not relevant
+  8. invoice_11009.pdf    score=0.5026 match=semantic not relevant
+  9. invoice_11037.pdf    score=0.5018 match=semantic not relevant
+  10. invoice_10257.pdf    score=0.4975 match=semantic not relevant
+  hit@3=1.00  precision@3=0.33  recall@3=0.07  mrr@3=1.00
+
+Question: Find invoices containing Genen Shouyu.
+Expected (6): ['invoice_10283.pdf', 'invoice_10323.pdf', 'invoice_10500.pdf', 'invoice_10579.pdf', 'invoice_10592.pdf', 'invoice_10657.pdf']
+  1. invoice_10931.pdf    score=0.5334 match=semantic not relevant
+  2. invoice_10419.pdf    score=0.5260 match=semantic not relevant
+  3. invoice_10255.pdf    score=0.5210 match=semantic not relevant
+  4. invoice_10751.pdf    score=0.5185 match=semantic not relevant
+  5. invoice_10666.pdf    score=0.5180 match=semantic not relevant
+  6. invoice_10526.pdf    score=0.5163 match=semantic not relevant
+  7. invoice_10758.pdf    score=0.5155 match=semantic not relevant
+  8. invoice_10333.pdf    score=0.5153 match=semantic not relevant
+  9. invoice_10750.pdf    score=0.5138 match=semantic not relevant
+  10. invoice_10657.pdf    score=0.5133 match=semantic RELEVANT
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices contain Laughing Lumberjack Lager?
+Expected (10): ['invoice_10284.pdf', 'invoice_10502.pdf', 'invoice_10544.pdf', 'invoice_10670.pdf', 'invoice_10775.pdf', 'invoice_10864.pdf'] ...
+  1. invoice_11054.pdf    score=0.5573 match=semantic RELEVANT
+  2. invoice_10544.pdf    score=0.5283 match=semantic RELEVANT
+  3. invoice_10911.pdf    score=0.5274 match=semantic RELEVANT
+  4. invoice_10502.pdf    score=0.5161 match=semantic RELEVANT
+  5. invoice_10775.pdf    score=0.5160 match=semantic RELEVANT
+  6. invoice_10939.pdf    score=0.5029 match=semantic RELEVANT
+  7. invoice_10864.pdf    score=0.4945 match=semantic RELEVANT
+  8. invoice_10284.pdf    score=0.4336 match=semantic RELEVANT
+  9. invoice_10698.pdf    score=0.4213 match=semantic not relevant
+  10. invoice_10670.pdf    score=0.4051 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.30  mrr@3=1.00
+
+Question: Find invoices containing Raclette Courdavault.
+Expected (54): ['invoice_10255.pdf', 'invoice_10267.pdf', 'invoice_10275.pdf', 'invoice_10278.pdf', 'invoice_10298.pdf', 'invoice_10304.pdf'] ...
+  1. invoice_10994.pdf    score=0.5909 match=semantic RELEVANT
+  2. invoice_10617.pdf    score=0.5775 match=semantic RELEVANT
+  3. invoice_11036.pdf    score=0.5542 match=semantic RELEVANT
+  4. invoice_10457.pdf    score=0.5312 match=semantic RELEVANT
+  5. invoice_10679.pdf    score=0.5233 match=semantic RELEVANT
+  6. invoice_10947.pdf    score=0.5227 match=semantic RELEVANT
+  7. invoice_10531.pdf    score=0.5226 match=semantic RELEVANT
+  8. invoice_10892.pdf    score=0.5129 match=semantic RELEVANT
+  9. invoice_10341.pdf    score=0.5064 match=semantic RELEVANT
+  10. invoice_10575.pdf    score=0.5061 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.06  mrr@3=1.00
+
+Question: Which invoices contain Gula Malacca?
+Expected (24): ['invoice_10278.pdf', 'invoice_10284.pdf', 'invoice_10291.pdf', 'invoice_10351.pdf', 'invoice_10411.pdf', 'invoice_10452.pdf'] ...
+  1. invoice_10721.pdf    score=0.5880 match=semantic RELEVANT
+  2. invoice_10656.pdf    score=0.5466 match=semantic RELEVANT
+  3. invoice_10576.pdf    score=0.5314 match=semantic RELEVANT
+  4. invoice_10944.pdf    score=0.4950 match=semantic RELEVANT
+  5. invoice_11042.pdf    score=0.4837 match=semantic RELEVANT
+  6. invoice_10832.pdf    score=0.4791 match=semantic RELEVANT
+  7. invoice_10561.pdf    score=0.4785 match=semantic RELEVANT
+  8. invoice_10452.pdf    score=0.4752 match=semantic RELEVANT
+  9. invoice_10518.pdf    score=0.4736 match=semantic RELEVANT
+  10. invoice_10469.pdf    score=0.4616 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.12  mrr@3=1.00
+
+Question: Find invoices containing Thüringer Rostbratwurst.
+Expected (32): ['invoice_10268.pdf', 'invoice_10290.pdf', 'invoice_10305.pdf', 'invoice_10354.pdf', 'invoice_10360.pdf', 'invoice_10369.pdf'] ...
+  1. invoice_10897.pdf    score=0.5645 match=semantic RELEVANT
+  2. invoice_10834.pdf    score=0.5611 match=semantic RELEVANT
+  3. invoice_10629.pdf    score=0.5585 match=semantic RELEVANT
+  4. invoice_10510.pdf    score=0.5487 match=semantic RELEVANT
+  5. invoice_10354.pdf    score=0.5482 match=semantic RELEVANT
+  6. invoice_10971.pdf    score=0.5454 match=semantic RELEVANT
+  7. invoice_11006.pdf    score=0.5394 match=semantic RELEVANT
+  8. invoice_10575.pdf    score=0.5329 match=semantic not relevant
+  9. invoice_10643.pdf    score=0.5326 match=semantic not relevant
+  10. invoice_10772.pdf    score=0.5316 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.09  mrr@3=1.00
+
+Question: Which invoices contain Uncle Bob's Organic Dried Pears?
+Expected (29): ['invoice_10262.pdf', 'invoice_10385.pdf', 'invoice_10459.pdf', 'invoice_10471.pdf', 'invoice_10511.pdf', 'invoice_10546.pdf'] ...
+  1. invoice_10940.pdf    score=0.6659 match=semantic RELEVANT
+  2. invoice_10962.pdf    score=0.6648 match=semantic RELEVANT
+  3. invoice_10833.pdf    score=0.6573 match=semantic RELEVANT
+  4. invoice_10908.pdf    score=0.6484 match=semantic RELEVANT
+  5. invoice_10979.pdf    score=0.6452 match=semantic RELEVANT
+  6. invoice_10858.pdf    score=0.6402 match=semantic RELEVANT
+  7. invoice_11010.pdf    score=0.6397 match=semantic RELEVANT
+  8. invoice_10607.pdf    score=0.6395 match=semantic RELEVANT
+  9. invoice_10385.pdf    score=0.6377 match=semantic RELEVANT
+  10. invoice_10988.pdf    score=0.6315 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.10  mrr@3=1.00
+
+Question: Find invoices containing Alice Mutton.
+Expected (37): ['invoice_10265.pdf', 'invoice_10279.pdf', 'invoice_10294.pdf', 'invoice_10302.pdf', 'invoice_10319.pdf', 'invoice_10338.pdf'] ...
+  1. invoice_10573.pdf    score=0.5968 match=semantic RELEVANT
+  2. invoice_10523.pdf    score=0.5894 match=semantic RELEVANT
+  3. invoice_10430.pdf    score=0.5831 match=semantic RELEVANT
+  4. invoice_10915.pdf    score=0.5800 match=semantic RELEVANT
+  5. invoice_11064.pdf    score=0.5706 match=semantic RELEVANT
+  6. invoice_10972.pdf    score=0.5703 match=semantic RELEVANT
+  7. invoice_10686.pdf    score=0.5613 match=semantic RELEVANT
+  8. invoice_10550.pdf    score=0.5600 match=semantic RELEVANT
+  9. invoice_10415.pdf    score=0.5570 match=semantic RELEVANT
+  10. invoice_10801.pdf    score=0.5498 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.08  mrr@3=1.00
+
+Question: Find invoices associated with Peter Franken.
+Expected (15): ['invoice_10267.pdf', 'invoice_10337.pdf', 'invoice_10342.pdf', 'invoice_10396.pdf', 'invoice_10488.pdf', 'invoice_10560.pdf'] ...
+  1. invoice_10717.pdf    score=0.5773 match=semantic RELEVANT
+  2. invoice_10337.pdf    score=0.5706 match=semantic RELEVANT
+  3. invoice_10670.pdf    score=0.5689 match=semantic RELEVANT
+  4. invoice_10791.pdf    score=0.5674 match=semantic RELEVANT
+  5. invoice_10859.pdf    score=0.5650 match=semantic RELEVANT
+  6. invoice_10929.pdf    score=0.5621 match=semantic RELEVANT
+  7. invoice_10396.pdf    score=0.5604 match=semantic RELEVANT
+  8. invoice_10342.pdf    score=0.5595 match=semantic RELEVANT
+  9. invoice_10623.pdf    score=0.5589 match=semantic RELEVANT
+  10. invoice_10560.pdf    score=0.5575 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.20  mrr@3=1.00
+
+Question: Find invoices associated with Horst Kloss.
+Expected (28): ['invoice_10273.pdf', 'invoice_10285.pdf', 'invoice_10286.pdf', 'invoice_10313.pdf', 'invoice_10345.pdf', 'invoice_10361.pdf'] ...
+  1. invoice_10799.pdf    score=0.6132 match=semantic not relevant
+  2. invoice_10718.pdf    score=0.6051 match=semantic not relevant
+  3. invoice_10325.pdf    score=0.6027 match=semantic not relevant
+  4. invoice_10893.pdf    score=0.5990 match=semantic not relevant
+  5. invoice_10468.pdf    score=0.5970 match=semantic not relevant
+  6. invoice_10542.pdf    score=0.5960 match=semantic not relevant
+  7. invoice_10323.pdf    score=0.5958 match=semantic not relevant
+  8. invoice_10630.pdf    score=0.5956 match=semantic not relevant
+  9. invoice_10456.pdf    score=0.5945 match=semantic not relevant
+  10. invoice_10506.pdf    score=0.5926 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find invoices associated with Catherine Dewey.
+Expected (7): ['invoice_10529.pdf', 'invoice_10649.pdf', 'invoice_10760.pdf', 'invoice_10892.pdf', 'invoice_10896.pdf', 'invoice_10978.pdf'] ...
+  1. invoice_10760.pdf    score=0.4469 match=semantic RELEVANT
+  2. invoice_10649.pdf    score=0.4386 match=semantic RELEVANT
+  3. invoice_10978.pdf    score=0.4379 match=semantic RELEVANT
+  4. invoice_11004.pdf    score=0.4336 match=semantic RELEVANT
+  5. invoice_10529.pdf    score=0.4296 match=semantic RELEVANT
+  6. invoice_10892.pdf    score=0.4273 match=semantic RELEVANT
+  7. invoice_10896.pdf    score=0.4236 match=semantic RELEVANT
+  8. invoice_10429.pdf    score=0.4021 match=semantic not relevant
+  9. invoice_10701.pdf    score=0.4010 match=semantic not relevant
+  10. invoice_10736.pdf    score=0.3986 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.43  mrr@3=1.00
+
+Question: Find invoices associated with Yoshi Tannamuri.
+Expected (3): ['invoice_10495.pdf', 'invoice_10620.pdf', 'invoice_10810.pdf']
+  1. invoice_10495.pdf    score=0.5783 match=semantic RELEVANT
+  2. invoice_10620.pdf    score=0.5727 match=semantic RELEVANT
+  3. invoice_10810.pdf    score=0.5622 match=semantic RELEVANT
+  4. invoice_10804.pdf    score=0.4565 match=semantic not relevant
+  5. invoice_10561.pdf    score=0.4397 match=semantic not relevant
+  6. invoice_10341.pdf    score=0.4337 match=semantic not relevant
+  7. invoice_10703.pdf    score=0.4321 match=semantic not relevant
+  8. invoice_10902.pdf    score=0.4319 match=semantic not relevant
+  9. invoice_10869.pdf    score=0.4305 match=semantic not relevant
+  10. invoice_10759.pdf    score=0.4287 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find invoices associated with Maria Larsson.
+Expected (19): ['invoice_10264.pdf', 'invoice_10327.pdf', 'invoice_10378.pdf', 'invoice_10434.pdf', 'invoice_10460.pdf', 'invoice_10533.pdf'] ...
+  1. invoice_10952.pdf    score=0.5433 match=semantic not relevant
+  2. invoice_10835.pdf    score=0.5376 match=semantic not relevant
+  3. invoice_11011.pdf    score=0.5342 match=semantic not relevant
+  4. invoice_10692.pdf    score=0.5333 match=semantic not relevant
+  5. invoice_10762.pdf    score=0.5327 match=semantic RELEVANT
+  6. invoice_10977.pdf    score=0.5311 match=semantic RELEVANT
+  7. invoice_10824.pdf    score=0.5275 match=semantic RELEVANT
+  8. invoice_10980.pdf    score=0.5269 match=semantic RELEVANT
+  9. invoice_10702.pdf    score=0.5268 match=semantic not relevant
+  10. invoice_10955.pdf    score=0.5253 match=semantic RELEVANT
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: What is the total price of Order ID 10472?
+Expected (1): ['invoice_10472.pdf']
+  1. invoice_10907.pdf    score=0.5538 match=semantic not relevant
+  2. invoice_10683.pdf    score=0.5477 match=semantic not relevant
+  3. invoice_10535.pdf    score=0.5475 match=semantic not relevant
+  4. invoice_10805.pdf    score=0.5470 match=semantic not relevant
+  5. invoice_10738.pdf    score=0.5442 match=semantic not relevant
+  6. invoice_10992.pdf    score=0.5410 match=semantic not relevant
+  7. invoice_11043.pdf    score=0.5392 match=semantic not relevant
+  8. invoice_10365.pdf    score=0.5387 match=semantic not relevant
+  9. invoice_10682.pdf    score=0.5361 match=semantic not relevant
+  10. invoice_10708.pdf    score=0.5357 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: What quantity of Ravioli Angelo was ordered in Order ID 11039?
+Expected (1): ['invoice_11039.pdf']
+  1. invoice_10582.pdf    score=0.6291 match=semantic not relevant
+  2. invoice_10282.pdf    score=0.6008 match=semantic not relevant
+  3. invoice_10355.pdf    score=0.5644 match=semantic not relevant
+  4. invoice_10931.pdf    score=0.5589 match=semantic not relevant
+  5. invoice_10983.pdf    score=0.5551 match=semantic not relevant
+  6. invoice_10707.pdf    score=0.5541 match=semantic not relevant
+  7. invoice_10826.pdf    score=0.5388 match=semantic not relevant
+  8. invoice_10428.pdf    score=0.5267 match=semantic not relevant
+  9. invoice_11010.pdf    score=0.5254 match=semantic not relevant
+  10. invoice_10942.pdf    score=0.5221 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: What is the unit price of Tarte au sucre in Order ID 10599?
+Expected (1): ['invoice_10599.pdf']
+  1. invoice_10599.pdf    score=0.8021 match=semantic RELEVANT
+  2. invoice_10505.pdf    score=0.7789 match=semantic not relevant
+  3. invoice_11044.pdf    score=0.7770 match=semantic not relevant
+  4. invoice_10822.pdf    score=0.7211 match=semantic not relevant
+  5. invoice_10816.pdf    score=0.6884 match=semantic not relevant
+  6. invoice_10560.pdf    score=0.6864 match=semantic not relevant
+  7. invoice_10394.pdf    score=0.6810 match=semantic not relevant
+  8. invoice_10562.pdf    score=0.6770 match=semantic not relevant
+  9. invoice_10902.pdf    score=0.6549 match=semantic not relevant
+  10. invoice_10627.pdf    score=0.6454 match=semantic not relevant
+  hit@3=1.00  precision@3=0.33  recall@3=1.00  mrr@3=1.00
+
+Question: What is the total price of Order ID 10354?
+Expected (1): ['invoice_10354.pdf']
+  1. invoice_10867.pdf    score=0.5562 match=semantic not relevant
+  2. invoice_10906.pdf    score=0.5542 match=semantic not relevant
+  3. invoice_10933.pdf    score=0.5478 match=semantic not relevant
+  4. invoice_10259.pdf    score=0.5441 match=semantic not relevant
+  5. invoice_10974.pdf    score=0.5418 match=semantic not relevant
+  6. invoice_10371.pdf    score=0.5399 match=semantic not relevant
+  7. invoice_10631.pdf    score=0.5399 match=semantic not relevant
+  8. invoice_10805.pdf    score=0.5364 match=semantic not relevant
+  9. invoice_10907.pdf    score=0.5360 match=semantic not relevant
+  10. invoice_10752.pdf    score=0.5356 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: What quantity of Scottish Longbreads was ordered in Order ID 10343?
+Expected (1): ['invoice_10343.pdf']
+  1. invoice_11048.pdf    score=0.7256 match=semantic not relevant
+  2. invoice_10662.pdf    score=0.7213 match=semantic not relevant
+  3. invoice_10460.pdf    score=0.7148 match=semantic not relevant
+  4. invoice_10399.pdf    score=0.6719 match=semantic not relevant
+  5. invoice_10288.pdf    score=0.6571 match=semantic not relevant
+  6. invoice_10307.pdf    score=0.6461 match=semantic not relevant
+  7. invoice_10334.pdf    score=0.6410 match=semantic not relevant
+  8. invoice_10888.pdf    score=0.6274 match=semantic not relevant
+  9. invoice_10792.pdf    score=0.6180 match=semantic not relevant
+  10. invoice_10622.pdf    score=0.6115 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices contain expensive products, with a unit price above 200?
+Expected (24): ['invoice_10329.pdf', 'invoice_10351.pdf', 'invoice_10353.pdf', 'invoice_10360.pdf', 'invoice_10372.pdf', 'invoice_10417.pdf'] ...
+  1. invoice_10365.pdf    score=0.5104 match=semantic not relevant
+  2. invoice_10865.pdf    score=0.5013 match=semantic RELEVANT
+  3. invoice_11040.pdf    score=0.4962 match=semantic not relevant
+  4. invoice_11043.pdf    score=0.4953 match=semantic not relevant
+  5. invoice_10545.pdf    score=0.4953 match=semantic not relevant
+  6. invoice_11025.pdf    score=0.4936 match=semantic not relevant
+  7. invoice_10508.pdf    score=0.4908 match=semantic not relevant
+  8. invoice_10477.pdf    score=0.4884 match=semantic not relevant
+  9. invoice_10955.pdf    score=0.4879 match=semantic not relevant
+  10. invoice_10456.pdf    score=0.4867 match=semantic not relevant
+  hit@3=1.00  precision@3=0.33  recall@3=0.04  mrr@3=0.50
+
+Question: Which invoices have a total price above 10000?
+Expected (14): ['invoice_10353.pdf', 'invoice_10372.pdf', 'invoice_10417.pdf', 'invoice_10424.pdf', 'invoice_10479.pdf', 'invoice_10515.pdf'] ...
+  1. invoice_10365.pdf    score=0.5055 match=semantic not relevant
+  2. invoice_10374.pdf    score=0.5052 match=semantic not relevant
+  3. invoice_10528.pdf    score=0.5011 match=semantic not relevant
+  4. invoice_10998.pdf    score=0.5004 match=semantic not relevant
+  5. invoice_11050.pdf    score=0.4997 match=semantic not relevant
+  6. invoice_10259.pdf    score=0.4993 match=semantic not relevant
+  7. invoice_10816.pdf    score=0.4990 match=semantic not relevant
+  8. invoice_10616.pdf    score=0.4978 match=semantic not relevant
+  9. invoice_10870.pdf    score=0.4954 match=semantic not relevant
+  10. invoice_11044.pdf    score=0.4944 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoice has the highest total price?
+Expected (1): ['invoice_10865.pdf']
+  1. invoice_10374.pdf    score=0.4921 match=semantic not relevant
+  2. invoice_11044.pdf    score=0.4870 match=semantic not relevant
+  3. invoice_10998.pdf    score=0.4837 match=semantic not relevant
+  4. invoice_10942.pdf    score=0.4827 match=semantic not relevant
+  5. invoice_10714.pdf    score=0.4814 match=semantic not relevant
+  6. invoice_10870.pdf    score=0.4803 match=semantic not relevant
+  7. invoice_10418.pdf    score=0.4793 match=semantic not relevant
+  8. invoice_10906.pdf    score=0.4791 match=semantic not relevant
+  9. invoice_10617.pdf    score=0.4774 match=semantic not relevant
+  10. invoice_10573.pdf    score=0.4773 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoice has the lowest total price?
+Expected (1): ['invoice_10782.pdf']
+  1. invoice_11041.pdf    score=0.4907 match=semantic not relevant
+  2. invoice_10259.pdf    score=0.4849 match=semantic not relevant
+  3. invoice_10980.pdf    score=0.4817 match=semantic not relevant
+  4. invoice_10374.pdf    score=0.4763 match=semantic not relevant
+  5. invoice_10714.pdf    score=0.4752 match=semantic not relevant
+  6. invoice_10692.pdf    score=0.4736 match=semantic not relevant
+  7. invoice_10501.pdf    score=0.4732 match=semantic not relevant
+  8. invoice_10955.pdf    score=0.4721 match=semantic not relevant
+  9. invoice_11044.pdf    score=0.4707 match=semantic not relevant
+  10. invoice_10998.pdf    score=0.4702 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices are from customers in Norway?
+Expected (6): ['invoice_10387.pdf', 'invoice_10520.pdf', 'invoice_10639.pdf', 'invoice_10831.pdf', 'invoice_10909.pdf', 'invoice_11015.pdf']
+  1. invoice_10520.pdf    score=0.5717 match=semantic RELEVANT
+  2. invoice_10639.pdf    score=0.5701 match=semantic RELEVANT
+  3. invoice_10831.pdf    score=0.5673 match=semantic RELEVANT
+  4. invoice_10909.pdf    score=0.5668 match=semantic RELEVANT
+  5. invoice_11015.pdf    score=0.5659 match=semantic RELEVANT
+  6. invoice_10387.pdf    score=0.5607 match=semantic RELEVANT
+  7. invoice_10417.pdf    score=0.5509 match=semantic not relevant
+  8. invoice_10946.pdf    score=0.5444 match=semantic not relevant
+  9. invoice_10642.pdf    score=0.5440 match=semantic not relevant
+  10. invoice_10688.pdf    score=0.5432 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.50  mrr@3=1.00
+
+Question: Which invoices are from customers in Poland?
+Expected (7): ['invoice_10374.pdf', 'invoice_10611.pdf', 'invoice_10792.pdf', 'invoice_10870.pdf', 'invoice_10906.pdf', 'invoice_10998.pdf'] ...
+  1. invoice_10792.pdf    score=0.6836 match=semantic RELEVANT
+  2. invoice_10611.pdf    score=0.6821 match=semantic RELEVANT
+  3. invoice_10374.pdf    score=0.6762 match=semantic RELEVANT
+  4. invoice_10998.pdf    score=0.6720 match=semantic RELEVANT
+  5. invoice_11044.pdf    score=0.6710 match=semantic RELEVANT
+  6. invoice_10870.pdf    score=0.6692 match=semantic RELEVANT
+  7. invoice_10906.pdf    score=0.6679 match=semantic RELEVANT
+  8. invoice_10553.pdf    score=0.5861 match=semantic not relevant
+  9. invoice_10781.pdf    score=0.5792 match=semantic not relevant
+  10. invoice_10455.pdf    score=0.5771 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.43  mrr@3=1.00
+
+Question: Which invoices contain six or more product line items?
+Expected (4): ['invoice_10657.pdf', 'invoice_10847.pdf', 'invoice_10979.pdf', 'invoice_11077.pdf']
+  1. invoice_10528.pdf    score=0.5082 match=semantic not relevant
+  2. invoice_10816.pdf    score=0.4970 match=semantic not relevant
+  3. invoice_10616.pdf    score=0.4945 match=semantic not relevant
+  4. invoice_10708.pdf    score=0.4893 match=semantic not relevant
+  5. invoice_10681.pdf    score=0.4885 match=semantic not relevant
+  6. invoice_10617.pdf    score=0.4828 match=semantic not relevant
+  7. invoice_11040.pdf    score=0.4793 match=semantic not relevant
+  8. invoice_10992.pdf    score=0.4784 match=semantic not relevant
+  9. invoice_10656.pdf    score=0.4782 match=semantic not relevant
+  10. invoice_10365.pdf    score=0.4774 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices were placed in May 2018?
+Expected (14): ['invoice_11064.pdf', 'invoice_11065.pdf', 'invoice_11066.pdf', 'invoice_11067.pdf', 'invoice_11068.pdf', 'invoice_11069.pdf'] ...
+  1. invoice_10856.pdf    score=0.5503 match=semantic not relevant
+  2. invoice_10816.pdf    score=0.5498 match=semantic not relevant
+  3. invoice_10708.pdf    score=0.5477 match=semantic not relevant
+  4. invoice_10992.pdf    score=0.5468 match=semantic not relevant
+  5. invoice_10573.pdf    score=0.5453 match=semantic not relevant
+  6. invoice_10616.pdf    score=0.5453 match=semantic not relevant
+  7. invoice_11006.pdf    score=0.5429 match=semantic not relevant
+  8. invoice_10656.pdf    score=0.5425 match=semantic not relevant
+  9. invoice_10528.pdf    score=0.5398 match=semantic not relevant
+  10. invoice_10681.pdf    score=0.5385 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices include an order line with a quantity of 100 or more?
+Expected (20): ['invoice_10286.pdf', 'invoice_10398.pdf', 'invoice_10451.pdf', 'invoice_10452.pdf', 'invoice_10515.pdf', 'invoice_10549.pdf'] ...
+  1. invoice_10365.pdf    score=0.5548 match=semantic not relevant
+  2. invoice_10535.pdf    score=0.5535 match=semantic not relevant
+  3. invoice_10573.pdf    score=0.5488 match=semantic not relevant
+  4. invoice_10248.pdf    score=0.5441 match=semantic not relevant
+  5. invoice_10259.pdf    score=0.5433 match=semantic not relevant
+  6. invoice_10528.pdf    score=0.5383 match=semantic not relevant
+  7. invoice_10322.pdf    score=0.5326 match=semantic not relevant
+  8. invoice_10295.pdf    score=0.5319 match=semantic not relevant
+  9. invoice_10350.pdf    score=0.5301 match=semantic not relevant
+  10. invoice_10677.pdf    score=0.5278 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?
+Expected (2): ['invoice_10465.pdf', 'invoice_10893.pdf']
+  1. invoice_10386.pdf    score=0.4872 match=semantic not relevant
+  2. invoice_11031.pdf    score=0.4867 match=semantic not relevant
+  3. invoice_10512.pdf    score=0.4863 match=semantic not relevant
+  4. invoice_10465.pdf    score=0.4770 match=semantic RELEVANT
+  5. invoice_10254.pdf    score=0.4758 match=semantic not relevant
+  6. invoice_10565.pdf    score=0.4745 match=semantic not relevant
+  7. invoice_10467.pdf    score=0.4653 match=semantic not relevant
+  8. invoice_10895.pdf    score=0.4572 match=semantic not relevant
+  9. invoice_10387.pdf    score=0.4552 match=semantic not relevant
+  10. invoice_10859.pdf    score=0.4549 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+========== SEMANTIC / STRUCTURE-AWARE ==========
+
+Question: Find the invoice with Order ID 10902.
+Expected (1): ['invoice_10902.pdf']
+  1. invoice_10989.pdf    score=0.7226 match=semantic not relevant
+  2. invoice_10992.pdf    score=0.7190 match=semantic not relevant
+  3. invoice_10988.pdf    score=0.7113 match=semantic not relevant
+  4. invoice_10909.pdf    score=0.7094 match=semantic not relevant
+  5. invoice_10971.pdf    score=0.7033 match=semantic not relevant
+  6. invoice_10908.pdf    score=0.7030 match=semantic not relevant
+  7. invoice_10998.pdf    score=0.7028 match=semantic not relevant
+  8. invoice_10967.pdf    score=0.7026 match=semantic not relevant
+  9. invoice_10968.pdf    score=0.6999 match=semantic not relevant
+  10. invoice_10708.pdf    score=0.6972 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which customer placed Order ID 10362?
+Expected (1): ['invoice_10362.pdf']
+  1. invoice_10332.pdf    score=0.5483 match=semantic not relevant
+  2. invoice_10376.pdf    score=0.5430 match=semantic not relevant
+  3. invoice_10306.pdf    score=0.5409 match=semantic not relevant
+  4. invoice_10339.pdf    score=0.5376 match=semantic not relevant
+  5. invoice_10357.pdf    score=0.5339 match=semantic not relevant
+  6. invoice_10344.pdf    score=0.5336 match=semantic not relevant
+  7. invoice_10311.pdf    score=0.5328 match=semantic not relevant
+  8. invoice_10706.pdf    score=0.5325 match=semantic not relevant
+  9. invoice_10507.pdf    score=0.5319 match=semantic not relevant
+  10. invoice_10305.pdf    score=0.5315 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find the invoice with Order ID 10273.
+Expected (1): ['invoice_10273.pdf']
+  1. invoice_10708.pdf    score=0.7258 match=semantic not relevant
+  2. invoice_10310.pdf    score=0.7182 match=semantic not relevant
+  3. invoice_10507.pdf    score=0.7160 match=semantic not relevant
+  4. invoice_10805.pdf    score=0.7160 match=semantic not relevant
+  5. invoice_10573.pdf    score=0.7149 match=semantic not relevant
+  6. invoice_10992.pdf    score=0.7144 match=semantic not relevant
+  7. invoice_10295.pdf    score=0.7142 match=semantic not relevant
+  8. invoice_10739.pdf    score=0.7092 match=semantic not relevant
+  9. invoice_10677.pdf    score=0.7086 match=semantic not relevant
+  10. invoice_10682.pdf    score=0.7082 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which customer placed Order ID 11007?
+Expected (1): ['invoice_11007.pdf']
+  1. invoice_10708.pdf    score=0.5503 match=semantic not relevant
+  2. invoice_10507.pdf    score=0.5462 match=semantic not relevant
+  3. invoice_10295.pdf    score=0.5454 match=semantic not relevant
+  4. invoice_10738.pdf    score=0.5426 match=semantic not relevant
+  5. invoice_10577.pdf    score=0.5426 match=semantic not relevant
+  6. invoice_10758.pdf    score=0.5417 match=semantic not relevant
+  7. invoice_10907.pdf    score=0.5416 match=semantic not relevant
+  8. invoice_10684.pdf    score=0.5414 match=semantic not relevant
+  9. invoice_10573.pdf    score=0.5410 match=semantic not relevant
+  10. invoice_10740.pdf    score=0.5408 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find the invoice with Order ID 10529.
+Expected (1): ['invoice_10529.pdf']
+  1. invoice_10708.pdf    score=0.7134 match=semantic not relevant
+  2. invoice_10310.pdf    score=0.7067 match=semantic not relevant
+  3. invoice_10507.pdf    score=0.7034 match=semantic not relevant
+  4. invoice_10992.pdf    score=0.7032 match=semantic not relevant
+  5. invoice_10573.pdf    score=0.7015 match=semantic not relevant
+  6. invoice_10805.pdf    score=0.7014 match=semantic not relevant
+  7. invoice_10583.pdf    score=0.6991 match=semantic not relevant
+  8. invoice_10479.pdf    score=0.6972 match=semantic not relevant
+  9. invoice_10529.pdf    score=0.6945 match=semantic RELEVANT
+  10. invoice_10535.pdf    score=0.6937 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which customer placed Order ID 10498?
+Expected (1): ['invoice_10498.pdf']
+  1. invoice_10376.pdf    score=0.5718 match=semantic not relevant
+  2. invoice_10439.pdf    score=0.5698 match=semantic not relevant
+  3. invoice_10424.pdf    score=0.5691 match=semantic not relevant
+  4. invoice_10332.pdf    score=0.5690 match=semantic not relevant
+  5. invoice_10708.pdf    score=0.5660 match=semantic not relevant
+  6. invoice_10306.pdf    score=0.5653 match=semantic not relevant
+  7. invoice_10495.pdf    score=0.5631 match=semantic not relevant
+  8. invoice_10706.pdf    score=0.5625 match=semantic not relevant
+  9. invoice_10469.pdf    score=0.5617 match=semantic not relevant
+  10. invoice_10339.pdf    score=0.5616 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find the invoice with Order ID 10476.
+Expected (1): ['invoice_10476.pdf']
+  1. invoice_10992.pdf    score=0.7240 match=semantic not relevant
+  2. invoice_10708.pdf    score=0.7198 match=semantic not relevant
+  3. invoice_10310.pdf    score=0.7119 match=semantic not relevant
+  4. invoice_10805.pdf    score=0.7101 match=semantic not relevant
+  5. invoice_10507.pdf    score=0.7061 match=semantic not relevant
+  6. invoice_10573.pdf    score=0.7056 match=semantic not relevant
+  7. invoice_10677.pdf    score=0.7029 match=semantic not relevant
+  8. invoice_10682.pdf    score=0.7004 match=semantic not relevant
+  9. invoice_10365.pdf    score=0.6987 match=semantic not relevant
+  10. invoice_10995.pdf    score=0.6978 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which customer placed Order ID 10390?
+Expected (1): ['invoice_10390.pdf']
+  1. invoice_10332.pdf    score=0.5578 match=semantic not relevant
+  2. invoice_10311.pdf    score=0.5501 match=semantic not relevant
+  3. invoice_10306.pdf    score=0.5494 match=semantic not relevant
+  4. invoice_10376.pdf    score=0.5473 match=semantic not relevant
+  5. invoice_10310.pdf    score=0.5458 match=semantic not relevant
+  6. invoice_10339.pdf    score=0.5457 match=semantic not relevant
+  7. invoice_10344.pdf    score=0.5443 match=semantic not relevant
+  8. invoice_10305.pdf    score=0.5423 match=semantic not relevant
+  9. invoice_10322.pdf    score=0.5404 match=semantic not relevant
+  10. invoice_10259.pdf    score=0.5384 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find the invoice with Order ID 11002.
+Expected (1): ['invoice_11002.pdf']
+  1. invoice_10708.pdf    score=0.7036 match=semantic not relevant
+  2. invoice_10992.pdf    score=0.7000 match=semantic not relevant
+  3. invoice_10310.pdf    score=0.6994 match=semantic not relevant
+  4. invoice_10805.pdf    score=0.6958 match=semantic not relevant
+  5. invoice_10968.pdf    score=0.6902 match=semantic not relevant
+  6. invoice_10508.pdf    score=0.6874 match=semantic not relevant
+  7. invoice_10990.pdf    score=0.6874 match=semantic not relevant
+  8. invoice_10998.pdf    score=0.6854 match=semantic not relevant
+  9. invoice_10906.pdf    score=0.6845 match=semantic not relevant
+  10. invoice_10573.pdf    score=0.6837 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which customer placed Order ID 10352?
+Expected (1): ['invoice_10352.pdf']
+  1. invoice_10332.pdf    score=0.5550 match=semantic not relevant
+  2. invoice_10507.pdf    score=0.5503 match=semantic not relevant
+  3. invoice_10306.pdf    score=0.5497 match=semantic not relevant
+  4. invoice_10357.pdf    score=0.5472 match=semantic not relevant
+  5. invoice_10376.pdf    score=0.5446 match=semantic not relevant
+  6. invoice_10339.pdf    score=0.5444 match=semantic not relevant
+  7. invoice_10295.pdf    score=0.5441 match=semantic not relevant
+  8. invoice_10708.pdf    score=0.5441 match=semantic not relevant
+  9. invoice_10365.pdf    score=0.5436 match=semantic not relevant
+  10. invoice_10344.pdf    score=0.5431 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find all invoices belonging to customer WHITC.
+Expected (14): ['invoice_10269.pdf', 'invoice_10344.pdf', 'invoice_10469.pdf', 'invoice_10483.pdf', 'invoice_10504.pdf', 'invoice_10596.pdf'] ...
+  1. invoice_10740.pdf    score=0.5982 match=semantic RELEVANT
+  2. invoice_10344.pdf    score=0.5966 match=semantic RELEVANT
+  3. invoice_10723.pdf    score=0.5943 match=semantic RELEVANT
+  4. invoice_10269.pdf    score=0.5942 match=semantic RELEVANT
+  5. invoice_10504.pdf    score=0.5923 match=semantic RELEVANT
+  6. invoice_10400.pdf    score=0.5920 match=semantic not relevant
+  7. invoice_10364.pdf    score=0.5907 match=semantic not relevant
+  8. invoice_10861.pdf    score=0.5896 match=semantic RELEVANT
+  9. invoice_10904.pdf    score=0.5894 match=semantic RELEVANT
+  10. invoice_10726.pdf    score=0.5888 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.21  mrr@3=1.00
+
+Question: Which invoices belong to customer SEVES?
+Expected (9): ['invoice_10359.pdf', 'invoice_10377.pdf', 'invoice_10388.pdf', 'invoice_10472.pdf', 'invoice_10523.pdf', 'invoice_10547.pdf'] ...
+  1. invoice_10359.pdf    score=0.6416 match=semantic RELEVANT
+  2. invoice_10800.pdf    score=0.6373 match=semantic RELEVANT
+  3. invoice_10472.pdf    score=0.6310 match=semantic RELEVANT
+  4. invoice_10869.pdf    score=0.6301 match=semantic RELEVANT
+  5. invoice_10523.pdf    score=0.6292 match=semantic RELEVANT
+  6. invoice_10388.pdf    score=0.6276 match=semantic RELEVANT
+  7. invoice_10377.pdf    score=0.6247 match=semantic RELEVANT
+  8. invoice_10547.pdf    score=0.6243 match=semantic RELEVANT
+  9. invoice_10804.pdf    score=0.6144 match=semantic RELEVANT
+  10. invoice_10801.pdf    score=0.6130 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.33  mrr@3=1.00
+
+Question: Find all invoices belonging to customer CACTU.
+Expected (6): ['invoice_10521.pdf', 'invoice_10782.pdf', 'invoice_10819.pdf', 'invoice_10881.pdf', 'invoice_10937.pdf', 'invoice_11054.pdf']
+  1. invoice_10782.pdf    score=0.6725 match=semantic RELEVANT
+  2. invoice_10521.pdf    score=0.6676 match=semantic RELEVANT
+  3. invoice_11054.pdf    score=0.6672 match=semantic RELEVANT
+  4. invoice_10937.pdf    score=0.6568 match=semantic RELEVANT
+  5. invoice_10881.pdf    score=0.6536 match=semantic RELEVANT
+  6. invoice_10819.pdf    score=0.6500 match=semantic RELEVANT
+  7. invoice_10259.pdf    score=0.5642 match=semantic not relevant
+  8. invoice_10281.pdf    score=0.5633 match=semantic not relevant
+  9. invoice_10282.pdf    score=0.5606 match=semantic not relevant
+  10. invoice_10306.pdf    score=0.5576 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.50  mrr@3=1.00
+
+Question: Which invoices belong to customer THECR?
+Expected (3): ['invoice_10624.pdf', 'invoice_10775.pdf', 'invoice_11003.pdf']
+  1. invoice_10992.pdf    score=0.6035 match=semantic not relevant
+  2. invoice_10624.pdf    score=0.6031 match=semantic RELEVANT
+  3. invoice_10775.pdf    score=0.6022 match=semantic RELEVANT
+  4. invoice_11003.pdf    score=0.5965 match=semantic RELEVANT
+  5. invoice_10708.pdf    score=0.5961 match=semantic not relevant
+  6. invoice_10801.pdf    score=0.5916 match=semantic not relevant
+  7. invoice_10759.pdf    score=0.5904 match=semantic not relevant
+  8. invoice_10786.pdf    score=0.5892 match=semantic not relevant
+  9. invoice_10728.pdf    score=0.5884 match=semantic not relevant
+  10. invoice_10372.pdf    score=0.5847 match=semantic not relevant
+  hit@3=1.00  precision@3=0.67  recall@3=0.67  mrr@3=0.50
+
+Question: Find all invoices belonging to customer OTTIK.
+Expected (10): ['invoice_10260.pdf', 'invoice_10407.pdf', 'invoice_10508.pdf', 'invoice_10554.pdf', 'invoice_10580.pdf', 'invoice_10684.pdf'] ...
+  1. invoice_10999.pdf    score=0.6380 match=semantic RELEVANT
+  2. invoice_10833.pdf    score=0.6331 match=semantic RELEVANT
+  3. invoice_10407.pdf    score=0.6328 match=semantic RELEVANT
+  4. invoice_10260.pdf    score=0.6326 match=semantic RELEVANT
+  5. invoice_10554.pdf    score=0.6310 match=semantic RELEVANT
+  6. invoice_10508.pdf    score=0.6309 match=semantic RELEVANT
+  7. invoice_10766.pdf    score=0.6300 match=semantic RELEVANT
+  8. invoice_10684.pdf    score=0.6279 match=semantic RELEVANT
+  9. invoice_10580.pdf    score=0.6271 match=semantic RELEVANT
+  10. invoice_11020.pdf    score=0.6268 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.30  mrr@3=1.00
+
+Question: Which invoices belong to customer BERGS?
+Expected (18): ['invoice_10278.pdf', 'invoice_10280.pdf', 'invoice_10384.pdf', 'invoice_10444.pdf', 'invoice_10445.pdf', 'invoice_10524.pdf'] ...
+  1. invoice_10778.pdf    score=0.6714 match=semantic RELEVANT
+  2. invoice_10733.pdf    score=0.6708 match=semantic RELEVANT
+  3. invoice_10444.pdf    score=0.6623 match=semantic RELEVANT
+  4. invoice_10672.pdf    score=0.6584 match=semantic RELEVANT
+  5. invoice_10689.pdf    score=0.6574 match=semantic RELEVANT
+  6. invoice_10445.pdf    score=0.6555 match=semantic RELEVANT
+  7. invoice_10857.pdf    score=0.6538 match=semantic RELEVANT
+  8. invoice_10837.pdf    score=0.6536 match=semantic RELEVANT
+  9. invoice_10524.pdf    score=0.6520 match=semantic RELEVANT
+  10. invoice_10924.pdf    score=0.6514 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.17  mrr@3=1.00
+
+Question: Find all invoices belonging to customer AROUT.
+Expected (13): ['invoice_10355.pdf', 'invoice_10383.pdf', 'invoice_10453.pdf', 'invoice_10558.pdf', 'invoice_10707.pdf', 'invoice_10741.pdf'] ...
+  1. invoice_10616.pdf    score=0.6030 match=semantic not relevant
+  2. invoice_10741.pdf    score=0.5979 match=semantic RELEVANT
+  3. invoice_10617.pdf    score=0.5949 match=semantic not relevant
+  4. invoice_10864.pdf    score=0.5931 match=semantic RELEVANT
+  5. invoice_10681.pdf    score=0.5917 match=semantic not relevant
+  6. invoice_10383.pdf    score=0.5911 match=semantic RELEVANT
+  7. invoice_10743.pdf    score=0.5901 match=semantic RELEVANT
+  8. invoice_11006.pdf    score=0.5875 match=semantic not relevant
+  9. invoice_10355.pdf    score=0.5873 match=semantic RELEVANT
+  10. invoice_10768.pdf    score=0.5870 match=semantic RELEVANT
+  hit@3=1.00  precision@3=0.33  recall@3=0.08  mrr@3=0.50
+
+Question: Which invoices belong to customer GALED?
+Expected (5): ['invoice_10366.pdf', 'invoice_10426.pdf', 'invoice_10568.pdf', 'invoice_10887.pdf', 'invoice_10928.pdf']
+  1. invoice_10366.pdf    score=0.6813 match=semantic RELEVANT
+  2. invoice_10426.pdf    score=0.6774 match=semantic RELEVANT
+  3. invoice_10928.pdf    score=0.6717 match=semantic RELEVANT
+  4. invoice_10568.pdf    score=0.6688 match=semantic RELEVANT
+  5. invoice_10887.pdf    score=0.6585 match=semantic RELEVANT
+  6. invoice_10738.pdf    score=0.6228 match=semantic not relevant
+  7. invoice_10964.pdf    score=0.6082 match=semantic not relevant
+  8. invoice_10739.pdf    score=0.6006 match=semantic not relevant
+  9. invoice_10801.pdf    score=0.5997 match=semantic not relevant
+  10. invoice_10750.pdf    score=0.5990 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.60  mrr@3=1.00
+
+Question: Find all invoices belonging to customer GOURL.
+Expected (9): ['invoice_10423.pdf', 'invoice_10652.pdf', 'invoice_10685.pdf', 'invoice_10709.pdf', 'invoice_10734.pdf', 'invoice_10777.pdf'] ...
+  1. invoice_10423.pdf    score=0.5958 match=semantic RELEVANT
+  2. invoice_10734.pdf    score=0.5896 match=semantic RELEVANT
+  3. invoice_10777.pdf    score=0.5827 match=semantic RELEVANT
+  4. invoice_10685.pdf    score=0.5807 match=semantic RELEVANT
+  5. invoice_10790.pdf    score=0.5790 match=semantic RELEVANT
+  6. invoice_10652.pdf    score=0.5782 match=semantic RELEVANT
+  7. invoice_10959.pdf    score=0.5749 match=semantic RELEVANT
+  8. invoice_10709.pdf    score=0.5717 match=semantic RELEVANT
+  9. invoice_11049.pdf    score=0.5661 match=semantic RELEVANT
+  10. invoice_10430.pdf    score=0.4973 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.33  mrr@3=1.00
+
+Question: Which invoices belong to customer RICAR?
+Expected (11): ['invoice_10287.pdf', 'invoice_10299.pdf', 'invoice_10447.pdf', 'invoice_10481.pdf', 'invoice_10563.pdf', 'invoice_10622.pdf'] ...
+  1. invoice_10447.pdf    score=0.6261 match=semantic RELEVANT
+  2. invoice_10851.pdf    score=0.6242 match=semantic RELEVANT
+  3. invoice_10563.pdf    score=0.6238 match=semantic RELEVANT
+  4. invoice_10481.pdf    score=0.6232 match=semantic RELEVANT
+  5. invoice_10622.pdf    score=0.6224 match=semantic RELEVANT
+  6. invoice_10648.pdf    score=0.6211 match=semantic RELEVANT
+  7. invoice_11059.pdf    score=0.6198 match=semantic RELEVANT
+  8. invoice_10813.pdf    score=0.6067 match=semantic RELEVANT
+  9. invoice_10287.pdf    score=0.6063 match=semantic RELEVANT
+  10. invoice_10299.pdf    score=0.6016 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.27  mrr@3=1.00
+
+Question: Which invoices contain Aniseed Syrup?
+Expected (12): ['invoice_10289.pdf', 'invoice_10405.pdf', 'invoice_10485.pdf', 'invoice_10540.pdf', 'invoice_10591.pdf', 'invoice_10702.pdf'] ...
+  1. invoice_11017.pdf    score=0.5804 match=semantic RELEVANT
+  2. invoice_11077.pdf    score=0.5656 match=semantic RELEVANT
+  3. invoice_10742.pdf    score=0.5616 match=semantic RELEVANT
+  4. invoice_10540.pdf    score=0.5570 match=semantic RELEVANT
+  5. invoice_10764.pdf    score=0.5420 match=semantic RELEVANT
+  6. invoice_10849.pdf    score=0.5329 match=semantic RELEVANT
+  7. invoice_10591.pdf    score=0.5290 match=semantic RELEVANT
+  8. invoice_10289.pdf    score=0.5183 match=semantic RELEVANT
+  9. invoice_10857.pdf    score=0.5123 match=semantic RELEVANT
+  10. invoice_10485.pdf    score=0.5093 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.25  mrr@3=1.00
+
+Question: Find invoices containing Gustaf's Knäckebröd.
+Expected (14): ['invoice_10251.pdf', 'invoice_10435.pdf', 'invoice_10553.pdf', 'invoice_10603.pdf', 'invoice_10619.pdf', 'invoice_10635.pdf'] ...
+  1. invoice_10251.pdf    score=0.6281 match=semantic RELEVANT
+  2. invoice_10648.pdf    score=0.6160 match=semantic RELEVANT
+  3. invoice_10844.pdf    score=0.5911 match=semantic RELEVANT
+  4. invoice_10651.pdf    score=0.5894 match=semantic RELEVANT
+  5. invoice_10836.pdf    score=0.5831 match=semantic RELEVANT
+  6. invoice_10768.pdf    score=0.5734 match=semantic RELEVANT
+  7. invoice_10603.pdf    score=0.5689 match=semantic RELEVANT
+  8. invoice_11001.pdf    score=0.5623 match=semantic RELEVANT
+  9. invoice_10435.pdf    score=0.5435 match=semantic RELEVANT
+  10. invoice_10943.pdf    score=0.5229 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.21  mrr@3=1.00
+
+Question: Which invoices contain Queso Manchego La Pastora?
+Expected (14): ['invoice_10266.pdf', 'invoice_10439.pdf', 'invoice_10536.pdf', 'invoice_10543.pdf', 'invoice_10633.pdf', 'invoice_10678.pdf'] ...
+  1. invoice_10536.pdf    score=0.5639 match=semantic RELEVANT
+  2. invoice_10968.pdf    score=0.5599 match=semantic RELEVANT
+  3. invoice_10948.pdf    score=0.5495 match=semantic not relevant
+  4. invoice_10911.pdf    score=0.5481 match=semantic not relevant
+  5. invoice_10550.pdf    score=0.5451 match=semantic not relevant
+  6. invoice_10629.pdf    score=0.5451 match=semantic not relevant
+  7. invoice_11037.pdf    score=0.5445 match=semantic not relevant
+  8. invoice_10718.pdf    score=0.5439 match=semantic RELEVANT
+  9. invoice_10874.pdf    score=0.5429 match=semantic not relevant
+  10. invoice_10266.pdf    score=0.5416 match=semantic RELEVANT
+  hit@3=1.00  precision@3=0.67  recall@3=0.14  mrr@3=1.00
+
+Question: Find invoices containing Genen Shouyu.
+Expected (6): ['invoice_10283.pdf', 'invoice_10323.pdf', 'invoice_10500.pdf', 'invoice_10579.pdf', 'invoice_10592.pdf', 'invoice_10657.pdf']
+  1. invoice_10758.pdf    score=0.5565 match=semantic not relevant
+  2. invoice_10751.pdf    score=0.5520 match=semantic not relevant
+  3. invoice_10255.pdf    score=0.5516 match=semantic not relevant
+  4. invoice_10666.pdf    score=0.5513 match=semantic not relevant
+  5. invoice_10419.pdf    score=0.5512 match=semantic not relevant
+  6. invoice_10951.pdf    score=0.5504 match=semantic not relevant
+  7. invoice_10537.pdf    score=0.5477 match=semantic not relevant
+  8. invoice_10781.pdf    score=0.5475 match=semantic not relevant
+  9. invoice_10266.pdf    score=0.5468 match=semantic not relevant
+  10. invoice_11033.pdf    score=0.5467 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices contain Laughing Lumberjack Lager?
+Expected (10): ['invoice_10284.pdf', 'invoice_10502.pdf', 'invoice_10544.pdf', 'invoice_10670.pdf', 'invoice_10775.pdf', 'invoice_10864.pdf'] ...
+  1. invoice_10775.pdf    score=0.5693 match=semantic RELEVANT
+  2. invoice_10864.pdf    score=0.5587 match=semantic RELEVANT
+  3. invoice_11054.pdf    score=0.5579 match=semantic RELEVANT
+  4. invoice_10544.pdf    score=0.5553 match=semantic RELEVANT
+  5. invoice_10939.pdf    score=0.5383 match=semantic RELEVANT
+  6. invoice_10502.pdf    score=0.5354 match=semantic RELEVANT
+  7. invoice_10670.pdf    score=0.5134 match=semantic RELEVANT
+  8. invoice_10911.pdf    score=0.5027 match=semantic RELEVANT
+  9. invoice_10284.pdf    score=0.4962 match=semantic RELEVANT
+  10. invoice_10382.pdf    score=0.4885 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.30  mrr@3=1.00
+
+Question: Find invoices containing Raclette Courdavault.
+Expected (54): ['invoice_10255.pdf', 'invoice_10267.pdf', 'invoice_10275.pdf', 'invoice_10278.pdf', 'invoice_10298.pdf', 'invoice_10304.pdf'] ...
+  1. invoice_10617.pdf    score=0.6009 match=semantic RELEVANT
+  2. invoice_10457.pdf    score=0.5809 match=semantic RELEVANT
+  3. invoice_10892.pdf    score=0.5695 match=semantic RELEVANT
+  4. invoice_10679.pdf    score=0.5653 match=semantic RELEVANT
+  5. invoice_10488.pdf    score=0.5629 match=semantic RELEVANT
+  6. invoice_10531.pdf    score=0.5608 match=semantic RELEVANT
+  7. invoice_10328.pdf    score=0.5527 match=semantic RELEVANT
+  8. invoice_10994.pdf    score=0.5433 match=semantic RELEVANT
+  9. invoice_10410.pdf    score=0.5423 match=semantic RELEVANT
+  10. invoice_11017.pdf    score=0.5407 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.06  mrr@3=1.00
+
+Question: Which invoices contain Gula Malacca?
+Expected (24): ['invoice_10278.pdf', 'invoice_10284.pdf', 'invoice_10291.pdf', 'invoice_10351.pdf', 'invoice_10411.pdf', 'invoice_10452.pdf'] ...
+  1. invoice_10656.pdf    score=0.6693 match=semantic RELEVANT
+  2. invoice_10576.pdf    score=0.6432 match=semantic RELEVANT
+  3. invoice_10721.pdf    score=0.6369 match=semantic RELEVANT
+  4. invoice_10469.pdf    score=0.6346 match=semantic RELEVANT
+  5. invoice_10452.pdf    score=0.6324 match=semantic RELEVANT
+  6. invoice_10518.pdf    score=0.6251 match=semantic RELEVANT
+  7. invoice_10944.pdf    score=0.6246 match=semantic RELEVANT
+  8. invoice_10624.pdf    score=0.6224 match=semantic RELEVANT
+  9. invoice_10796.pdf    score=0.6200 match=semantic RELEVANT
+  10. invoice_10832.pdf    score=0.6114 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.12  mrr@3=1.00
+
+Question: Find invoices containing Thüringer Rostbratwurst.
+Expected (32): ['invoice_10268.pdf', 'invoice_10290.pdf', 'invoice_10305.pdf', 'invoice_10354.pdf', 'invoice_10360.pdf', 'invoice_10369.pdf'] ...
+  1. invoice_10834.pdf    score=0.6416 match=semantic RELEVANT
+  2. invoice_10629.pdf    score=0.6402 match=semantic RELEVANT
+  3. invoice_10971.pdf    score=0.6271 match=semantic RELEVANT
+  4. invoice_10624.pdf    score=0.6248 match=semantic RELEVANT
+  5. invoice_10857.pdf    score=0.6072 match=semantic RELEVANT
+  6. invoice_10897.pdf    score=0.6068 match=semantic RELEVANT
+  7. invoice_10772.pdf    score=0.6058 match=semantic RELEVANT
+  8. invoice_10369.pdf    score=0.5999 match=semantic RELEVANT
+  9. invoice_10801.pdf    score=0.5985 match=semantic RELEVANT
+  10. invoice_10666.pdf    score=0.5965 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.09  mrr@3=1.00
+
+Question: Which invoices contain Uncle Bob's Organic Dried Pears?
+Expected (29): ['invoice_10262.pdf', 'invoice_10385.pdf', 'invoice_10459.pdf', 'invoice_10471.pdf', 'invoice_10511.pdf', 'invoice_10546.pdf'] ...
+  1. invoice_10908.pdf    score=0.6577 match=semantic RELEVANT
+  2. invoice_11010.pdf    score=0.6486 match=semantic RELEVANT
+  3. invoice_10833.pdf    score=0.6478 match=semantic RELEVANT
+  4. invoice_10694.pdf    score=0.6463 match=semantic RELEVANT
+  5. invoice_10962.pdf    score=0.6444 match=semantic RELEVANT
+  6. invoice_10979.pdf    score=0.6441 match=semantic RELEVANT
+  7. invoice_10988.pdf    score=0.6405 match=semantic RELEVANT
+  8. invoice_11056.pdf    score=0.6404 match=semantic RELEVANT
+  9. invoice_11071.pdf    score=0.6367 match=semantic RELEVANT
+  10. invoice_10459.pdf    score=0.6309 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.10  mrr@3=1.00
+
+Question: Find invoices containing Alice Mutton.
+Expected (37): ['invoice_10265.pdf', 'invoice_10279.pdf', 'invoice_10294.pdf', 'invoice_10302.pdf', 'invoice_10319.pdf', 'invoice_10338.pdf'] ...
+  1. invoice_10573.pdf    score=0.6498 match=semantic RELEVANT
+  2. invoice_10801.pdf    score=0.6371 match=semantic RELEVANT
+  3. invoice_10338.pdf    score=0.6343 match=semantic RELEVANT
+  4. invoice_10430.pdf    score=0.6263 match=semantic RELEVANT
+  5. invoice_10431.pdf    score=0.6248 match=semantic RELEVANT
+  6. invoice_10346.pdf    score=0.6188 match=semantic RELEVANT
+  7. invoice_10915.pdf    score=0.6134 match=semantic RELEVANT
+  8. invoice_10972.pdf    score=0.6117 match=semantic RELEVANT
+  9. invoice_10415.pdf    score=0.6106 match=semantic RELEVANT
+  10. invoice_10727.pdf    score=0.6099 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.08  mrr@3=1.00
+
+Question: Find invoices associated with Peter Franken.
+Expected (15): ['invoice_10267.pdf', 'invoice_10337.pdf', 'invoice_10342.pdf', 'invoice_10396.pdf', 'invoice_10488.pdf', 'invoice_10560.pdf'] ...
+  1. invoice_10717.pdf    score=0.5825 match=semantic RELEVANT
+  2. invoice_10342.pdf    score=0.5820 match=semantic RELEVANT
+  3. invoice_10560.pdf    score=0.5801 match=semantic RELEVANT
+  4. invoice_10791.pdf    score=0.5795 match=semantic RELEVANT
+  5. invoice_10859.pdf    score=0.5784 match=semantic RELEVANT
+  6. invoice_10396.pdf    score=0.5780 match=semantic RELEVANT
+  7. invoice_10337.pdf    score=0.5779 match=semantic RELEVANT
+  8. invoice_10267.pdf    score=0.5761 match=semantic RELEVANT
+  9. invoice_10488.pdf    score=0.5748 match=semantic RELEVANT
+  10. invoice_10670.pdf    score=0.5737 match=semantic RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.20  mrr@3=1.00
+
+Question: Find invoices associated with Horst Kloss.
+Expected (28): ['invoice_10273.pdf', 'invoice_10285.pdf', 'invoice_10286.pdf', 'invoice_10313.pdf', 'invoice_10345.pdf', 'invoice_10361.pdf'] ...
+  1. invoice_10799.pdf    score=0.6414 match=semantic not relevant
+  2. invoice_10718.pdf    score=0.6413 match=semantic not relevant
+  3. invoice_10325.pdf    score=0.6410 match=semantic not relevant
+  4. invoice_10323.pdf    score=0.6404 match=semantic not relevant
+  5. invoice_10849.pdf    score=0.6388 match=semantic not relevant
+  6. invoice_10630.pdf    score=0.6385 match=semantic not relevant
+  7. invoice_10457.pdf    score=0.6362 match=semantic not relevant
+  8. invoice_10456.pdf    score=0.6360 match=semantic not relevant
+  9. invoice_11028.pdf    score=0.6349 match=semantic not relevant
+  10. invoice_10542.pdf    score=0.6338 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Find invoices associated with Catherine Dewey.
+Expected (7): ['invoice_10529.pdf', 'invoice_10649.pdf', 'invoice_10760.pdf', 'invoice_10892.pdf', 'invoice_10896.pdf', 'invoice_10978.pdf'] ...
+  1. invoice_10760.pdf    score=0.5310 match=semantic RELEVANT
+  2. invoice_10649.pdf    score=0.5273 match=semantic RELEVANT
+  3. invoice_11004.pdf    score=0.5237 match=semantic RELEVANT
+  4. invoice_10978.pdf    score=0.5187 match=semantic RELEVANT
+  5. invoice_10529.pdf    score=0.5176 match=semantic RELEVANT
+  6. invoice_10892.pdf    score=0.5125 match=semantic RELEVANT
+  7. invoice_10896.pdf    score=0.5093 match=semantic RELEVANT
+  8. invoice_10646.pdf    score=0.4425 match=semantic not relevant
+  9. invoice_10712.pdf    score=0.4402 match=semantic not relevant
+  10. invoice_10701.pdf    score=0.4400 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.43  mrr@3=1.00
+
+Question: Find invoices associated with Yoshi Tannamuri.
+Expected (3): ['invoice_10495.pdf', 'invoice_10620.pdf', 'invoice_10810.pdf']
+  1. invoice_10620.pdf    score=0.5856 match=semantic RELEVANT
+  2. invoice_10810.pdf    score=0.5850 match=semantic RELEVANT
+  3. invoice_10495.pdf    score=0.5752 match=semantic RELEVANT
+  4. invoice_10832.pdf    score=0.5159 match=semantic not relevant
+  5. invoice_10787.pdf    score=0.5031 match=semantic not relevant
+  6. invoice_10624.pdf    score=0.4973 match=semantic not relevant
+  7. invoice_10796.pdf    score=0.4933 match=semantic not relevant
+  8. invoice_10656.pdf    score=0.4920 match=semantic not relevant
+  9. invoice_10291.pdf    score=0.4913 match=semantic not relevant
+  10. invoice_10561.pdf    score=0.4909 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find invoices associated with Maria Larsson.
+Expected (19): ['invoice_10264.pdf', 'invoice_10327.pdf', 'invoice_10378.pdf', 'invoice_10434.pdf', 'invoice_10460.pdf', 'invoice_10533.pdf'] ...
+  1. invoice_10702.pdf    score=0.5982 match=semantic not relevant
+  2. invoice_10952.pdf    score=0.5951 match=semantic not relevant
+  3. invoice_10835.pdf    score=0.5931 match=semantic not relevant
+  4. invoice_10692.pdf    score=0.5917 match=semantic not relevant
+  5. invoice_10643.pdf    score=0.5908 match=semantic not relevant
+  6. invoice_11011.pdf    score=0.5880 match=semantic not relevant
+  7. invoice_10703.pdf    score=0.5722 match=semantic RELEVANT
+  8. invoice_10327.pdf    score=0.5717 match=semantic RELEVANT
+  9. invoice_10977.pdf    score=0.5713 match=semantic RELEVANT
+  10. invoice_10774.pdf    score=0.5713 match=semantic RELEVANT
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: What is the total price of Order ID 10472?
+Expected (1): ['invoice_10472.pdf']
+  1. invoice_10505.pdf    score=0.6159 match=semantic not relevant
+  2. invoice_11006.pdf    score=0.6036 match=semantic not relevant
+  3. invoice_10971.pdf    score=0.6031 match=semantic not relevant
+  4. invoice_10409.pdf    score=0.6016 match=semantic not relevant
+  5. invoice_10867.pdf    score=0.5998 match=semantic not relevant
+  6. invoice_10472.pdf    score=0.5961 match=semantic RELEVANT
+  7. invoice_10462.pdf    score=0.5955 match=semantic not relevant
+  8. invoice_10970.pdf    score=0.5946 match=semantic not relevant
+  9. invoice_11044.pdf    score=0.5930 match=semantic not relevant
+  10. invoice_10965.pdf    score=0.5920 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: What quantity of Ravioli Angelo was ordered in Order ID 11039?
+Expected (1): ['invoice_11039.pdf']
+  1. invoice_10282.pdf    score=0.5502 match=semantic not relevant
+  2. invoice_10582.pdf    score=0.5452 match=semantic not relevant
+  3. invoice_10355.pdf    score=0.5223 match=semantic not relevant
+  4. invoice_10707.pdf    score=0.5211 match=semantic not relevant
+  5. invoice_10798.pdf    score=0.5199 match=semantic not relevant
+  6. invoice_10826.pdf    score=0.5183 match=semantic not relevant
+  7. invoice_10575.pdf    score=0.5166 match=semantic not relevant
+  8. invoice_10396.pdf    score=0.5074 match=semantic not relevant
+  9. invoice_10742.pdf    score=0.5063 match=semantic not relevant
+  10. invoice_10269.pdf    score=0.5059 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: What is the unit price of Tarte au sucre in Order ID 10599?
+Expected (1): ['invoice_10599.pdf']
+  1. invoice_11044.pdf    score=0.5992 match=semantic not relevant
+  2. invoice_10560.pdf    score=0.5973 match=semantic not relevant
+  3. invoice_10505.pdf    score=0.5939 match=semantic not relevant
+  4. invoice_10562.pdf    score=0.5826 match=semantic not relevant
+  5. invoice_10822.pdf    score=0.5822 match=semantic not relevant
+  6. invoice_10310.pdf    score=0.5746 match=semantic not relevant
+  7. invoice_10307.pdf    score=0.5705 match=semantic not relevant
+  8. invoice_10779.pdf    score=0.5613 match=semantic not relevant
+  9. invoice_10816.pdf    score=0.5518 match=semantic not relevant
+  10. invoice_11027.pdf    score=0.5510 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: What is the total price of Order ID 10354?
+Expected (1): ['invoice_10354.pdf']
+  1. invoice_10867.pdf    score=0.5987 match=semantic not relevant
+  2. invoice_10595.pdf    score=0.5974 match=semantic not relevant
+  3. invoice_11044.pdf    score=0.5941 match=semantic not relevant
+  4. invoice_11006.pdf    score=0.5937 match=semantic not relevant
+  5. invoice_10311.pdf    score=0.5937 match=semantic not relevant
+  6. invoice_10505.pdf    score=0.5933 match=semantic not relevant
+  7. invoice_11067.pdf    score=0.5869 match=semantic not relevant
+  8. invoice_10906.pdf    score=0.5853 match=semantic not relevant
+  9. invoice_10724.pdf    score=0.5846 match=semantic not relevant
+  10. invoice_10391.pdf    score=0.5836 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: What quantity of Scottish Longbreads was ordered in Order ID 10343?
+Expected (1): ['invoice_10343.pdf']
+  1. invoice_10460.pdf    score=0.5151 match=semantic not relevant
+  2. invoice_10662.pdf    score=0.5075 match=semantic not relevant
+  3. invoice_10792.pdf    score=0.4903 match=semantic not relevant
+  4. invoice_10288.pdf    score=0.4893 match=semantic not relevant
+  5. invoice_10307.pdf    score=0.4883 match=semantic not relevant
+  6. invoice_10334.pdf    score=0.4866 match=semantic not relevant
+  7. invoice_10424.pdf    score=0.4826 match=semantic not relevant
+  8. invoice_10540.pdf    score=0.4766 match=semantic not relevant
+  9. invoice_10521.pdf    score=0.4646 match=semantic not relevant
+  10. invoice_10789.pdf    score=0.4613 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices contain expensive products, with a unit price above 200?
+Expected (24): ['invoice_10329.pdf', 'invoice_10351.pdf', 'invoice_10353.pdf', 'invoice_10360.pdf', 'invoice_10372.pdf', 'invoice_10417.pdf'] ...
+  1. invoice_11058.pdf    score=0.6072 match=semantic not relevant
+  2. invoice_10727.pdf    score=0.6064 match=semantic not relevant
+  3. invoice_10430.pdf    score=0.6054 match=semantic not relevant
+  4. invoice_11006.pdf    score=0.6025 match=semantic not relevant
+  5. invoice_10614.pdf    score=0.5985 match=semantic not relevant
+  6. invoice_10729.pdf    score=0.5938 match=semantic not relevant
+  7. invoice_10365.pdf    score=0.5913 match=semantic not relevant
+  8. invoice_10526.pdf    score=0.5898 match=semantic not relevant
+  9. invoice_10477.pdf    score=0.5861 match=semantic not relevant
+  10. invoice_10294.pdf    score=0.5850 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices have a total price above 10000?
+Expected (14): ['invoice_10353.pdf', 'invoice_10372.pdf', 'invoice_10417.pdf', 'invoice_10424.pdf', 'invoice_10479.pdf', 'invoice_10515.pdf'] ...
+  1. invoice_11006.pdf    score=0.6467 match=semantic not relevant
+  2. invoice_10550.pdf    score=0.6391 match=semantic not relevant
+  3. invoice_10430.pdf    score=0.6374 match=semantic not relevant
+  4. invoice_10727.pdf    score=0.6352 match=semantic not relevant
+  5. invoice_10637.pdf    score=0.6242 match=semantic not relevant
+  6. invoice_10614.pdf    score=0.6206 match=semantic not relevant
+  7. invoice_10526.pdf    score=0.6197 match=semantic not relevant
+  8. invoice_10861.pdf    score=0.6192 match=semantic not relevant
+  9. invoice_10504.pdf    score=0.6174 match=semantic not relevant
+  10. invoice_10755.pdf    score=0.6167 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoice has the highest total price?
+Expected (1): ['invoice_10865.pdf']
+  1. invoice_10727.pdf    score=0.6297 match=semantic not relevant
+  2. invoice_10430.pdf    score=0.6265 match=semantic not relevant
+  3. invoice_10861.pdf    score=0.6236 match=semantic not relevant
+  4. invoice_10657.pdf    score=0.6233 match=semantic not relevant
+  5. invoice_10346.pdf    score=0.6223 match=semantic not relevant
+  6. invoice_10550.pdf    score=0.6203 match=semantic not relevant
+  7. invoice_10564.pdf    score=0.6150 match=semantic not relevant
+  8. invoice_10749.pdf    score=0.6129 match=semantic not relevant
+  9. invoice_11058.pdf    score=0.6126 match=semantic not relevant
+  10. invoice_10714.pdf    score=0.6119 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoice has the lowest total price?
+Expected (1): ['invoice_10782.pdf']
+  1. invoice_10727.pdf    score=0.6197 match=semantic not relevant
+  2. invoice_10430.pdf    score=0.6166 match=semantic not relevant
+  3. invoice_10346.pdf    score=0.6106 match=semantic not relevant
+  4. invoice_10861.pdf    score=0.6104 match=semantic not relevant
+  5. invoice_10657.pdf    score=0.6097 match=semantic not relevant
+  6. invoice_10526.pdf    score=0.6094 match=semantic not relevant
+  7. invoice_10820.pdf    score=0.6019 match=semantic not relevant
+  8. invoice_10550.pdf    score=0.6018 match=semantic not relevant
+  9. invoice_10749.pdf    score=0.6013 match=semantic not relevant
+  10. invoice_10564.pdf    score=0.5994 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices are from customers in Norway?
+Expected (6): ['invoice_10387.pdf', 'invoice_10520.pdf', 'invoice_10639.pdf', 'invoice_10831.pdf', 'invoice_10909.pdf', 'invoice_11015.pdf']
+  1. invoice_10520.pdf    score=0.6274 match=semantic RELEVANT
+  2. invoice_10909.pdf    score=0.6221 match=semantic RELEVANT
+  3. invoice_10639.pdf    score=0.6205 match=semantic RELEVANT
+  4. invoice_10831.pdf    score=0.6184 match=semantic RELEVANT
+  5. invoice_11015.pdf    score=0.6173 match=semantic RELEVANT
+  6. invoice_10387.pdf    score=0.6173 match=semantic RELEVANT
+  7. invoice_10669.pdf    score=0.5931 match=semantic not relevant
+  8. invoice_10417.pdf    score=0.5930 match=semantic not relevant
+  9. invoice_10760.pdf    score=0.5927 match=semantic not relevant
+  10. invoice_10341.pdf    score=0.5925 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.50  mrr@3=1.00
+
+Question: Which invoices are from customers in Poland?
+Expected (7): ['invoice_10374.pdf', 'invoice_10611.pdf', 'invoice_10792.pdf', 'invoice_10870.pdf', 'invoice_10906.pdf', 'invoice_10998.pdf'] ...
+  1. invoice_10792.pdf    score=0.7180 match=semantic RELEVANT
+  2. invoice_10374.pdf    score=0.7168 match=semantic RELEVANT
+  3. invoice_10611.pdf    score=0.7149 match=semantic RELEVANT
+  4. invoice_11044.pdf    score=0.7144 match=semantic RELEVANT
+  5. invoice_10998.pdf    score=0.7109 match=semantic RELEVANT
+  6. invoice_10906.pdf    score=0.7092 match=semantic RELEVANT
+  7. invoice_10870.pdf    score=0.7076 match=semantic RELEVANT
+  8. invoice_10750.pdf    score=0.6240 match=semantic not relevant
+  9. invoice_10781.pdf    score=0.6192 match=semantic not relevant
+  10. invoice_10266.pdf    score=0.6152 match=semantic not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.43  mrr@3=1.00
+
+Question: Which invoices contain six or more product line items?
+Expected (4): ['invoice_10657.pdf', 'invoice_10847.pdf', 'invoice_10979.pdf', 'invoice_11077.pdf']
+  1. invoice_10614.pdf    score=0.5820 match=semantic not relevant
+  2. invoice_10430.pdf    score=0.5798 match=semantic not relevant
+  3. invoice_10637.pdf    score=0.5720 match=semantic not relevant
+  4. invoice_10466.pdf    score=0.5716 match=semantic not relevant
+  5. invoice_10926.pdf    score=0.5679 match=semantic not relevant
+  6. invoice_10799.pdf    score=0.5677 match=semantic not relevant
+  7. invoice_10727.pdf    score=0.5677 match=semantic not relevant
+  8. invoice_10859.pdf    score=0.5676 match=semantic not relevant
+  9. invoice_10893.pdf    score=0.5655 match=semantic not relevant
+  10. invoice_10829.pdf    score=0.5647 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices were placed in May 2018?
+Expected (14): ['invoice_11064.pdf', 'invoice_11065.pdf', 'invoice_11066.pdf', 'invoice_11067.pdf', 'invoice_11068.pdf', 'invoice_11069.pdf'] ...
+  1. invoice_10956.pdf    score=0.6127 match=semantic not relevant
+  2. invoice_10744.pdf    score=0.6080 match=semantic not relevant
+  3. invoice_10961.pdf    score=0.6047 match=semantic not relevant
+  4. invoice_10860.pdf    score=0.6034 match=semantic not relevant
+  5. invoice_10864.pdf    score=0.6029 match=semantic not relevant
+  6. invoice_10725.pdf    score=0.5996 match=semantic not relevant
+  7. invoice_10944.pdf    score=0.5989 match=semantic not relevant
+  8. invoice_10949.pdf    score=0.5987 match=semantic not relevant
+  9. invoice_10992.pdf    score=0.5975 match=semantic not relevant
+  10. invoice_10862.pdf    score=0.5970 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices include an order line with a quantity of 100 or more?
+Expected (20): ['invoice_10286.pdf', 'invoice_10398.pdf', 'invoice_10451.pdf', 'invoice_10452.pdf', 'invoice_10515.pdf', 'invoice_10549.pdf'] ...
+  1. invoice_10727.pdf    score=0.6262 match=semantic not relevant
+  2. invoice_10430.pdf    score=0.6201 match=semantic not relevant
+  3. invoice_10294.pdf    score=0.6189 match=semantic not relevant
+  4. invoice_10322.pdf    score=0.6136 match=semantic not relevant
+  5. invoice_10739.pdf    score=0.6113 match=semantic not relevant
+  6. invoice_10526.pdf    score=0.6112 match=semantic not relevant
+  7. invoice_10346.pdf    score=0.6102 match=semantic not relevant
+  8. invoice_10512.pdf    score=0.6101 match=semantic not relevant
+  9. invoice_10517.pdf    score=0.6100 match=semantic not relevant
+  10. invoice_10781.pdf    score=0.6092 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?
+Expected (2): ['invoice_10465.pdf', 'invoice_10893.pdf']
+  1. invoice_10467.pdf    score=0.5592 match=semantic not relevant
+  2. invoice_10859.pdf    score=0.5363 match=semantic not relevant
+  3. invoice_10387.pdf    score=0.5352 match=semantic not relevant
+  4. invoice_10893.pdf    score=0.5295 match=semantic RELEVANT
+  5. invoice_10275.pdf    score=0.5250 match=semantic not relevant
+  6. invoice_10386.pdf    score=0.5226 match=semantic not relevant
+  7. invoice_10565.pdf    score=0.5216 match=semantic not relevant
+  8. invoice_11055.pdf    score=0.5208 match=semantic not relevant
+  9. invoice_10352.pdf    score=0.5203 match=semantic not relevant
+  10. invoice_10520.pdf    score=0.5146 match=semantic not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+========== HYBRID / FIXED-SIZE ==========
+
+Question: Find the invoice with Order ID 10902.
+Expected (1): ['invoice_10902.pdf']
+  1. invoice_10902.pdf    score=0.0180 match=exact    RELEVANT
+  2. invoice_10902.pdf    score=0.0008 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which customer placed Order ID 10362?
+Expected (1): ['invoice_10362.pdf']
+  1. invoice_10362.pdf    score=0.0178 match=exact    RELEVANT
+  2. invoice_10362.pdf    score=0.0016 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find the invoice with Order ID 10273.
+Expected (1): ['invoice_10273.pdf']
+  1. invoice_10273.pdf    score=0.0236 match=exact    RELEVANT
+  2. invoice_10273.pdf    score=0.0006 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which customer placed Order ID 11007?
+Expected (1): ['invoice_11007.pdf']
+  1. invoice_11007.pdf    score=0.0178 match=exact    RELEVANT
+  2. invoice_11007.pdf    score=0.0018 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find the invoice with Order ID 10529.
+Expected (1): ['invoice_10529.pdf']
+  1. invoice_10529.pdf    score=0.0225 match=exact    RELEVANT
+  2. invoice_10529.pdf    score=0.0017 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which customer placed Order ID 10498?
+Expected (1): ['invoice_10498.pdf']
+  1. invoice_10498.pdf    score=0.0256 match=exact    RELEVANT
+  2. invoice_10498.pdf    score=0.0018 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find the invoice with Order ID 10476.
+Expected (1): ['invoice_10476.pdf']
+  1. invoice_10476.pdf    score=0.0212 match=exact    RELEVANT
+  2. invoice_10476.pdf    score=0.0019 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which customer placed Order ID 10390?
+Expected (1): ['invoice_10390.pdf']
+  1. invoice_10390.pdf    score=0.0187 match=exact    RELEVANT
+  2. invoice_10390.pdf    score=0.0006 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find the invoice with Order ID 11002.
+Expected (1): ['invoice_11002.pdf']
+  1. invoice_11002.pdf    score=0.0208 match=exact    RELEVANT
+  2. invoice_11002.pdf    score=0.0007 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which customer placed Order ID 10352?
+Expected (1): ['invoice_10352.pdf']
+  1. invoice_10352.pdf    score=0.0195 match=exact    RELEVANT
+  2. invoice_10352.pdf    score=0.0019 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find all invoices belonging to customer WHITC.
+Expected (14): ['invoice_10269.pdf', 'invoice_10344.pdf', 'invoice_10469.pdf', 'invoice_10483.pdf', 'invoice_10504.pdf', 'invoice_10596.pdf'] ...
+  1. invoice_10861.pdf    score=0.0320 match=exact    RELEVANT
+  2. invoice_10269.pdf    score=0.0313 match=exact    RELEVANT
+  3. invoice_10904.pdf    score=0.0313 match=exact    RELEVANT
+  4. invoice_10740.pdf    score=0.0306 match=exact    RELEVANT
+  5. invoice_10723.pdf    score=0.0306 match=exact    RELEVANT
+  6. invoice_11066.pdf    score=0.0299 match=exact    RELEVANT
+  7. invoice_10344.pdf    score=0.0298 match=exact    RELEVANT
+  8. invoice_10483.pdf    score=0.0295 match=exact    RELEVANT
+  9. invoice_10596.pdf    score=0.0290 match=exact    RELEVANT
+  10. invoice_10696.pdf    score=0.0290 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.21  mrr@3=1.00
+
+Question: Which invoices belong to customer SEVES?
+Expected (9): ['invoice_10359.pdf', 'invoice_10377.pdf', 'invoice_10388.pdf', 'invoice_10472.pdf', 'invoice_10523.pdf', 'invoice_10547.pdf'] ...
+  1. invoice_10800.pdf    score=0.0328 match=exact    RELEVANT
+  2. invoice_10377.pdf    score=0.0310 match=exact    RELEVANT
+  3. invoice_10523.pdf    score=0.0308 match=exact    RELEVANT
+  4. invoice_10472.pdf    score=0.0306 match=exact    RELEVANT
+  5. invoice_10547.pdf    score=0.0304 match=exact    RELEVANT
+  6. invoice_10804.pdf    score=0.0294 match=exact    RELEVANT
+  7. invoice_10388.pdf    score=0.0284 match=exact    RELEVANT
+  8. invoice_10869.pdf    score=0.0247 match=exact    RELEVANT
+  9. invoice_10359.pdf    score=0.0227 match=exact    RELEVANT
+  10. invoice_10377.pdf    score=0.0011 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.33  mrr@3=1.00
+
+Question: Find all invoices belonging to customer CACTU.
+Expected (6): ['invoice_10521.pdf', 'invoice_10782.pdf', 'invoice_10819.pdf', 'invoice_10881.pdf', 'invoice_10937.pdf', 'invoice_11054.pdf']
+  1. invoice_10782.pdf    score=0.0320 match=exact    RELEVANT
+  2. invoice_10819.pdf    score=0.0318 match=exact    RELEVANT
+  3. invoice_10937.pdf    score=0.0315 match=exact    RELEVANT
+  4. invoice_11054.pdf    score=0.0313 match=exact    RELEVANT
+  5. invoice_10881.pdf    score=0.0313 match=exact    RELEVANT
+  6. invoice_10521.pdf    score=0.0313 match=exact    RELEVANT
+  7. invoice_10819.pdf    score=0.0010 match=exact    RELEVANT
+  8. invoice_10782.pdf    score=0.0009 match=exact    RELEVANT
+  9. invoice_10937.pdf    score=0.0009 match=exact    RELEVANT
+  10. invoice_10881.pdf    score=0.0007 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.50  mrr@3=1.00
+
+Question: Which invoices belong to customer THECR?
+Expected (3): ['invoice_10624.pdf', 'invoice_10775.pdf', 'invoice_11003.pdf']
+  1. invoice_10624.pdf    score=0.0177 match=exact    RELEVANT
+  2. invoice_10775.pdf    score=0.0175 match=exact    RELEVANT
+  3. invoice_11003.pdf    score=0.0172 match=exact    RELEVANT
+  4. invoice_10624.pdf    score=0.0008 match=exact    RELEVANT
+  5. invoice_10775.pdf    score=0.0007 match=exact    RELEVANT
+  6. invoice_11003.pdf    score=0.0007 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find all invoices belonging to customer OTTIK.
+Expected (10): ['invoice_10260.pdf', 'invoice_10407.pdf', 'invoice_10508.pdf', 'invoice_10554.pdf', 'invoice_10580.pdf', 'invoice_10684.pdf'] ...
+  1. invoice_10833.pdf    score=0.0320 match=exact    RELEVANT
+  2. invoice_10999.pdf    score=0.0318 match=exact    RELEVANT
+  3. invoice_10407.pdf    score=0.0313 match=exact    RELEVANT
+  4. invoice_10508.pdf    score=0.0311 match=exact    RELEVANT
+  5. invoice_10684.pdf    score=0.0306 match=exact    RELEVANT
+  6. invoice_10554.pdf    score=0.0306 match=exact    RELEVANT
+  7. invoice_10260.pdf    score=0.0301 match=exact    RELEVANT
+  8. invoice_10766.pdf    score=0.0297 match=exact    RELEVANT
+  9. invoice_11020.pdf    score=0.0296 match=exact    RELEVANT
+  10. invoice_10580.pdf    score=0.0292 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.30  mrr@3=1.00
+
+Question: Which invoices belong to customer BERGS?
+Expected (18): ['invoice_10278.pdf', 'invoice_10280.pdf', 'invoice_10384.pdf', 'invoice_10444.pdf', 'invoice_10445.pdf', 'invoice_10524.pdf'] ...
+  1. invoice_10857.pdf    score=0.0320 match=exact    RELEVANT
+  2. invoice_10778.pdf    score=0.0318 match=exact    RELEVANT
+  3. invoice_10672.pdf    score=0.0311 match=exact    RELEVANT
+  4. invoice_10837.pdf    score=0.0308 match=exact    RELEVANT
+  5. invoice_10924.pdf    score=0.0299 match=exact    RELEVANT
+  6. invoice_10875.pdf    score=0.0299 match=exact    RELEVANT
+  7. invoice_10280.pdf    score=0.0292 match=exact    RELEVANT
+  8. invoice_10278.pdf    score=0.0290 match=exact    RELEVANT
+  9. invoice_10572.pdf    score=0.0289 match=exact    RELEVANT
+  10. invoice_10654.pdf    score=0.0286 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.17  mrr@3=1.00
+
+Question: Find all invoices belonging to customer AROUT.
+Expected (13): ['invoice_10355.pdf', 'invoice_10383.pdf', 'invoice_10453.pdf', 'invoice_10558.pdf', 'invoice_10707.pdf', 'invoice_10741.pdf'] ...
+  1. invoice_10793.pdf    score=0.0298 match=exact    RELEVANT
+  2. invoice_10355.pdf    score=0.0297 match=exact    RELEVANT
+  3. invoice_10953.pdf    score=0.0284 match=exact    RELEVANT
+  4. invoice_10920.pdf    score=0.0283 match=exact    RELEVANT
+  5. invoice_10743.pdf    score=0.0282 match=exact    RELEVANT
+  6. invoice_10768.pdf    score=0.0275 match=exact    RELEVANT
+  7. invoice_10383.pdf    score=0.0272 match=exact    RELEVANT
+  8. invoice_11016.pdf    score=0.0266 match=exact    RELEVANT
+  9. invoice_10558.pdf    score=0.0260 match=exact    RELEVANT
+  10. invoice_10741.pdf    score=0.0257 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.23  mrr@3=1.00
+
+Question: Which invoices belong to customer GALED?
+Expected (5): ['invoice_10366.pdf', 'invoice_10426.pdf', 'invoice_10568.pdf', 'invoice_10887.pdf', 'invoice_10928.pdf']
+  1. invoice_10887.pdf    score=0.0325 match=exact    RELEVANT
+  2. invoice_10366.pdf    score=0.0323 match=exact    RELEVANT
+  3. invoice_10928.pdf    score=0.0318 match=exact    RELEVANT
+  4. invoice_10426.pdf    score=0.0313 match=exact    RELEVANT
+  5. invoice_10568.pdf    score=0.0310 match=exact    RELEVANT
+  6. invoice_10366.pdf    score=0.0011 match=exact    RELEVANT
+  7. invoice_10928.pdf    score=0.0010 match=exact    RELEVANT
+  8. invoice_10568.pdf    score=0.0010 match=exact    RELEVANT
+  9. invoice_10887.pdf    score=0.0009 match=exact    RELEVANT
+  10. invoice_10426.pdf    score=0.0008 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.60  mrr@3=1.00
+
+Question: Find all invoices belonging to customer GOURL.
+Expected (9): ['invoice_10423.pdf', 'invoice_10652.pdf', 'invoice_10685.pdf', 'invoice_10709.pdf', 'invoice_10734.pdf', 'invoice_10777.pdf'] ...
+  1. invoice_10790.pdf    score=0.0320 match=exact    RELEVANT
+  2. invoice_10423.pdf    score=0.0315 match=exact    RELEVANT
+  3. invoice_10777.pdf    score=0.0315 match=exact    RELEVANT
+  4. invoice_10734.pdf    score=0.0313 match=exact    RELEVANT
+  5. invoice_10709.pdf    score=0.0312 match=exact    RELEVANT
+  6. invoice_10959.pdf    score=0.0311 match=exact    RELEVANT
+  7. invoice_10652.pdf    score=0.0299 match=exact    RELEVANT
+  8. invoice_10685.pdf    score=0.0296 match=exact    RELEVANT
+  9. invoice_11049.pdf    score=0.0292 match=exact    RELEVANT
+  10. invoice_10423.pdf    score=0.0011 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.33  mrr@3=1.00
+
+Question: Which invoices belong to customer RICAR?
+Expected (11): ['invoice_10287.pdf', 'invoice_10299.pdf', 'invoice_10447.pdf', 'invoice_10481.pdf', 'invoice_10563.pdf', 'invoice_10622.pdf'] ...
+  1. invoice_10851.pdf    score=0.0311 match=exact    RELEVANT
+  2. invoice_10813.pdf    score=0.0302 match=exact    RELEVANT
+  3. invoice_10287.pdf    score=0.0294 match=exact    RELEVANT
+  4. invoice_10877.pdf    score=0.0284 match=exact    RELEVANT
+  5. invoice_10299.pdf    score=0.0280 match=exact    RELEVANT
+  6. invoice_10622.pdf    score=0.0274 match=exact    RELEVANT
+  7. invoice_11059.pdf    score=0.0272 match=exact    RELEVANT
+  8. invoice_10648.pdf    score=0.0270 match=exact    RELEVANT
+  9. invoice_10563.pdf    score=0.0268 match=exact    RELEVANT
+  10. invoice_10447.pdf    score=0.0261 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.27  mrr@3=1.00
+
+Question: Which invoices contain Aniseed Syrup?
+Expected (12): ['invoice_10289.pdf', 'invoice_10405.pdf', 'invoice_10485.pdf', 'invoice_10540.pdf', 'invoice_10591.pdf', 'invoice_10702.pdf'] ...
+  1. invoice_10702.pdf    score=0.0325 match=exact    RELEVANT
+  2. invoice_10764.pdf    score=0.0323 match=exact    RELEVANT
+  3. invoice_10289.pdf    score=0.0313 match=exact    RELEVANT
+  4. invoice_11017.pdf    score=0.0305 match=exact    RELEVANT
+  5. invoice_10405.pdf    score=0.0303 match=exact    RELEVANT
+  6. invoice_10849.pdf    score=0.0302 match=exact    RELEVANT
+  7. invoice_10591.pdf    score=0.0299 match=exact    RELEVANT
+  8. invoice_10540.pdf    score=0.0289 match=exact    RELEVANT
+  9. invoice_10742.pdf    score=0.0280 match=exact    RELEVANT
+  10. invoice_10485.pdf    score=0.0278 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.25  mrr@3=1.00
+
+Question: Find invoices containing Gustaf's Knäckebröd.
+Expected (14): ['invoice_10251.pdf', 'invoice_10435.pdf', 'invoice_10553.pdf', 'invoice_10603.pdf', 'invoice_10619.pdf', 'invoice_10635.pdf'] ...
+  1. invoice_10844.pdf    score=0.0328 match=exact    RELEVANT
+  2. invoice_10603.pdf    score=0.0323 match=exact    RELEVANT
+  3. invoice_10943.pdf    score=0.0315 match=exact    RELEVANT
+  4. invoice_10619.pdf    score=0.0300 match=exact    RELEVANT
+  5. invoice_10648.pdf    score=0.0299 match=exact    RELEVANT
+  6. invoice_10651.pdf    score=0.0290 match=exact    RELEVANT
+  7. invoice_10251.pdf    score=0.0290 match=exact    RELEVANT
+  8. invoice_10768.pdf    score=0.0288 match=exact    RELEVANT
+  9. invoice_10836.pdf    score=0.0288 match=exact    RELEVANT
+  10. invoice_10635.pdf    score=0.0284 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.21  mrr@3=1.00
+
+Question: Which invoices contain Queso Manchego La Pastora?
+Expected (14): ['invoice_10266.pdf', 'invoice_10439.pdf', 'invoice_10536.pdf', 'invoice_10543.pdf', 'invoice_10633.pdf', 'invoice_10678.pdf'] ...
+  1. invoice_10266.pdf    score=0.0328 match=exact    RELEVANT
+  2. invoice_11049.pdf    score=0.0265 match=exact    RELEVANT
+  3. invoice_10536.pdf    score=0.0263 match=exact    RELEVANT
+  4. invoice_11046.pdf    score=0.0263 match=exact    RELEVANT
+  5. invoice_10968.pdf    score=0.0253 match=exact    RELEVANT
+  6. invoice_10543.pdf    score=0.0250 match=exact    RELEVANT
+  7. invoice_10633.pdf    score=0.0200 match=exact    RELEVANT
+  8. invoice_11018.pdf    score=0.0200 match=exact    RELEVANT
+  9. invoice_10718.pdf    score=0.0194 match=exact    RELEVANT
+  10. invoice_10439.pdf    score=0.0180 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.21  mrr@3=1.00
+
+Question: Find invoices containing Genen Shouyu.
+Expected (6): ['invoice_10283.pdf', 'invoice_10323.pdf', 'invoice_10500.pdf', 'invoice_10579.pdf', 'invoice_10592.pdf', 'invoice_10657.pdf']
+  1. invoice_10657.pdf    score=0.0290 match=exact    RELEVANT
+  2. invoice_10323.pdf    score=0.0273 match=exact    RELEVANT
+  3. invoice_10579.pdf    score=0.0175 match=exact    RELEVANT
+  4. invoice_10592.pdf    score=0.0171 match=exact    RELEVANT
+  5. invoice_10500.pdf    score=0.0170 match=exact    RELEVANT
+  6. invoice_10283.pdf    score=0.0161 match=exact    RELEVANT
+  7. invoice_10323.pdf    score=0.0168 match=exact    RELEVANT
+  8. invoice_10579.pdf    score=0.0160 match=exact    RELEVANT
+  9. invoice_10657.pdf    score=0.0158 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.50  mrr@3=1.00
+
+Question: Which invoices contain Laughing Lumberjack Lager?
+Expected (10): ['invoice_10284.pdf', 'invoice_10502.pdf', 'invoice_10544.pdf', 'invoice_10670.pdf', 'invoice_10775.pdf', 'invoice_10864.pdf'] ...
+  1. invoice_11054.pdf    score=0.0323 match=exact    RELEVANT
+  2. invoice_10544.pdf    score=0.0318 match=exact    RELEVANT
+  3. invoice_10939.pdf    score=0.0315 match=exact    RELEVANT
+  4. invoice_10775.pdf    score=0.0315 match=exact    RELEVANT
+  5. invoice_10911.pdf    score=0.0310 match=exact    RELEVANT
+  6. invoice_10502.pdf    score=0.0303 match=exact    RELEVANT
+  7. invoice_10864.pdf    score=0.0303 match=exact    RELEVANT
+  8. invoice_10284.pdf    score=0.0292 match=exact    RELEVANT
+  9. invoice_10670.pdf    score=0.0286 match=exact    RELEVANT
+  10. invoice_10923.pdf    score=0.0279 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.30  mrr@3=1.00
+
+Question: Find invoices containing Raclette Courdavault.
+Expected (54): ['invoice_10255.pdf', 'invoice_10267.pdf', 'invoice_10275.pdf', 'invoice_10278.pdf', 'invoice_10298.pdf', 'invoice_10304.pdf'] ...
+  1. invoice_10994.pdf    score=0.0325 match=exact    RELEVANT
+  2. invoice_10617.pdf    score=0.0323 match=exact    RELEVANT
+  3. invoice_10947.pdf    score=0.0308 match=exact    RELEVANT
+  4. invoice_10679.pdf    score=0.0308 match=exact    RELEVANT
+  5. invoice_10457.pdf    score=0.0308 match=exact    RELEVANT
+  6. invoice_11036.pdf    score=0.0306 match=exact    RELEVANT
+  7. invoice_10892.pdf    score=0.0296 match=exact    RELEVANT
+  8. invoice_10531.pdf    score=0.0294 match=exact    RELEVANT
+  9. invoice_10341.pdf    score=0.0284 match=exact    RELEVANT
+  10. invoice_11005.pdf    score=0.0280 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.06  mrr@3=1.00
+
+Question: Which invoices contain Gula Malacca?
+Expected (24): ['invoice_10278.pdf', 'invoice_10284.pdf', 'invoice_10291.pdf', 'invoice_10351.pdf', 'invoice_10411.pdf', 'invoice_10452.pdf'] ...
+  1. invoice_10721.pdf    score=0.0328 match=exact    RELEVANT
+  2. invoice_10656.pdf    score=0.0315 match=exact    RELEVANT
+  3. invoice_10576.pdf    score=0.0308 match=exact    RELEVANT
+  4. invoice_11042.pdf    score=0.0308 match=exact    RELEVANT
+  5. invoice_10452.pdf    score=0.0304 match=exact    RELEVANT
+  6. invoice_10561.pdf    score=0.0304 match=exact    RELEVANT
+  7. invoice_10944.pdf    score=0.0291 match=exact    RELEVANT
+  8. invoice_10491.pdf    score=0.0287 match=exact    RELEVANT
+  9. invoice_10469.pdf    score=0.0284 match=exact    RELEVANT
+  10. invoice_10518.pdf    score=0.0280 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.12  mrr@3=1.00
+
+Question: Find invoices containing Thüringer Rostbratwurst.
+Expected (32): ['invoice_10268.pdf', 'invoice_10290.pdf', 'invoice_10305.pdf', 'invoice_10354.pdf', 'invoice_10360.pdf', 'invoice_10369.pdf'] ...
+  1. invoice_10971.pdf    score=0.0315 match=exact    RELEVANT
+  2. invoice_10897.pdf    score=0.0311 match=exact    RELEVANT
+  3. invoice_11006.pdf    score=0.0308 match=exact    RELEVANT
+  4. invoice_10510.pdf    score=0.0306 match=exact    RELEVANT
+  5. invoice_10629.pdf    score=0.0304 match=exact    RELEVANT
+  6. invoice_10912.pdf    score=0.0302 match=exact    RELEVANT
+  7. invoice_10834.pdf    score=0.0298 match=exact    RELEVANT
+  8. invoice_10772.pdf    score=0.0297 match=exact    RELEVANT
+  9. invoice_10354.pdf    score=0.0297 match=exact    RELEVANT
+  10. invoice_10787.pdf    score=0.0235 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.09  mrr@3=1.00
+
+Question: Which invoices contain Uncle Bob's Organic Dried Pears?
+Expected (29): ['invoice_10262.pdf', 'invoice_10385.pdf', 'invoice_10459.pdf', 'invoice_10471.pdf', 'invoice_10511.pdf', 'invoice_10546.pdf'] ...
+  1. invoice_10940.pdf    score=0.0328 match=exact    RELEVANT
+  2. invoice_10908.pdf    score=0.0318 match=exact    RELEVANT
+  3. invoice_11010.pdf    score=0.0308 match=exact    RELEVANT
+  4. invoice_10988.pdf    score=0.0294 match=exact    RELEVANT
+  5. invoice_10833.pdf    score=0.0289 match=exact    RELEVANT
+  6. invoice_10858.pdf    score=0.0287 match=exact    RELEVANT
+  7. invoice_10385.pdf    score=0.0282 match=exact    RELEVANT
+  8. invoice_10694.pdf    score=0.0280 match=exact    RELEVANT
+  9. invoice_10982.pdf    score=0.0280 match=exact    RELEVANT
+  10. invoice_10962.pdf    score=0.0278 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.10  mrr@3=1.00
+
+Question: Find invoices containing Alice Mutton.
+Expected (37): ['invoice_10265.pdf', 'invoice_10279.pdf', 'invoice_10294.pdf', 'invoice_10302.pdf', 'invoice_10319.pdf', 'invoice_10338.pdf'] ...
+  1. invoice_10686.pdf    score=0.0306 match=exact    RELEVANT
+  2. invoice_10430.pdf    score=0.0304 match=exact    RELEVANT
+  3. invoice_10972.pdf    score=0.0301 match=exact    RELEVANT
+  4. invoice_10415.pdf    score=0.0296 match=exact    RELEVANT
+  5. invoice_10279.pdf    score=0.0293 match=exact    RELEVANT
+  6. invoice_10727.pdf    score=0.0293 match=exact    RELEVANT
+  7. invoice_10346.pdf    score=0.0289 match=exact    RELEVANT
+  8. invoice_10801.pdf    score=0.0284 match=exact    RELEVANT
+  9. invoice_10915.pdf    score=0.0283 match=exact    RELEVANT
+  10. invoice_10696.pdf    score=0.0282 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.08  mrr@3=1.00
+
+Question: Find invoices associated with Peter Franken.
+Expected (15): ['invoice_10267.pdf', 'invoice_10337.pdf', 'invoice_10342.pdf', 'invoice_10396.pdf', 'invoice_10488.pdf', 'invoice_10560.pdf'] ...
+  1. invoice_10717.pdf    score=0.0328 match=hybrid   RELEVANT
+  2. invoice_10929.pdf    score=0.0313 match=hybrid   RELEVANT
+  3. invoice_10859.pdf    score=0.0310 match=hybrid   RELEVANT
+  4. invoice_10791.pdf    score=0.0308 match=hybrid   RELEVANT
+  5. invoice_10670.pdf    score=0.0304 match=hybrid   RELEVANT
+  6. invoice_10560.pdf    score=0.0302 match=hybrid   RELEVANT
+  7. invoice_10337.pdf    score=0.0295 match=hybrid   RELEVANT
+  8. invoice_11012.pdf    score=0.0291 match=hybrid   RELEVANT
+  9. invoice_10488.pdf    score=0.0290 match=hybrid   RELEVANT
+  10. invoice_10396.pdf    score=0.0286 match=hybrid   RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.20  mrr@3=1.00
+
+Question: Find invoices associated with Horst Kloss.
+Expected (28): ['invoice_10273.pdf', 'invoice_10285.pdf', 'invoice_10286.pdf', 'invoice_10313.pdf', 'invoice_10345.pdf', 'invoice_10361.pdf'] ...
+  1. invoice_10765.pdf    score=0.0294 match=hybrid   RELEVANT
+  2. invoice_10962.pdf    score=0.0278 match=hybrid   RELEVANT
+  3. invoice_10721.pdf    score=0.0276 match=hybrid   RELEVANT
+  4. invoice_10694.pdf    score=0.0274 match=hybrid   RELEVANT
+  5. invoice_10345.pdf    score=0.0274 match=hybrid   RELEVANT
+  6. invoice_10527.pdf    score=0.0271 match=hybrid   RELEVANT
+  7. invoice_10788.pdf    score=0.0266 match=hybrid   RELEVANT
+  8. invoice_10938.pdf    score=0.0263 match=hybrid   RELEVANT
+  9. invoice_10996.pdf    score=0.0262 match=hybrid   RELEVANT
+  10. invoice_10878.pdf    score=0.0260 match=hybrid   RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.11  mrr@3=1.00
+
+Question: Find invoices associated with Catherine Dewey.
+Expected (7): ['invoice_10529.pdf', 'invoice_10649.pdf', 'invoice_10760.pdf', 'invoice_10892.pdf', 'invoice_10896.pdf', 'invoice_10978.pdf'] ...
+  1. invoice_10760.pdf    score=0.0320 match=hybrid   RELEVANT
+  2. invoice_11004.pdf    score=0.0320 match=hybrid   RELEVANT
+  3. invoice_10649.pdf    score=0.0315 match=hybrid   RELEVANT
+  4. invoice_10892.pdf    score=0.0313 match=hybrid   RELEVANT
+  5. invoice_10978.pdf    score=0.0308 match=hybrid   RELEVANT
+  6. invoice_10896.pdf    score=0.0308 match=hybrid   RELEVANT
+  7. invoice_10529.pdf    score=0.0305 match=hybrid   RELEVANT
+  8. invoice_10429.pdf    score=0.0147 match=hybrid   not relevant
+  9. invoice_10701.pdf    score=0.0145 match=hybrid   not relevant
+  10. invoice_10736.pdf    score=0.0143 match=hybrid   not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.43  mrr@3=1.00
+
+Question: Find invoices associated with Yoshi Tannamuri.
+Expected (3): ['invoice_10495.pdf', 'invoice_10620.pdf', 'invoice_10810.pdf']
+  1. invoice_10495.pdf    score=0.0325 match=hybrid   RELEVANT
+  2. invoice_10620.pdf    score=0.0325 match=hybrid   RELEVANT
+  3. invoice_10810.pdf    score=0.0317 match=hybrid   RELEVANT
+  4. invoice_10660.pdf    score=0.0257 match=hybrid   not relevant
+  5. invoice_10394.pdf    score=0.0246 match=hybrid   not relevant
+  6. invoice_10600.pdf    score=0.0245 match=hybrid   not relevant
+  7. invoice_10804.pdf    score=0.0156 match=hybrid   not relevant
+  8. invoice_10561.pdf    score=0.0154 match=hybrid   not relevant
+  9. invoice_10341.pdf    score=0.0152 match=hybrid   not relevant
+  10. invoice_10415.pdf    score=0.0152 match=hybrid   not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find invoices associated with Maria Larsson.
+Expected (19): ['invoice_10264.pdf', 'invoice_10327.pdf', 'invoice_10378.pdf', 'invoice_10434.pdf', 'invoice_10460.pdf', 'invoice_10533.pdf'] ...
+  1. invoice_10824.pdf    score=0.0313 match=hybrid   RELEVANT
+  2. invoice_10762.pdf    score=0.0299 match=hybrid   RELEVANT
+  3. invoice_10977.pdf    score=0.0299 match=hybrid   RELEVANT
+  4. invoice_10980.pdf    score=0.0299 match=hybrid   RELEVANT
+  5. invoice_10955.pdf    score=0.0297 match=hybrid   RELEVANT
+  6. invoice_10993.pdf    score=0.0294 match=hybrid   RELEVANT
+  7. invoice_10952.pdf    score=0.0287 match=hybrid   not relevant
+  8. invoice_11011.pdf    score=0.0284 match=hybrid   not relevant
+  9. invoice_10835.pdf    score=0.0283 match=hybrid   not relevant
+  10. invoice_10434.pdf    score=0.0280 match=hybrid   RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.16  mrr@3=1.00
+
+Question: What is the total price of Order ID 10472?
+Expected (1): ['invoice_10472.pdf']
+  1. invoice_10472.pdf    score=0.0189 match=exact    RELEVANT
+  2. invoice_10472.pdf    score=0.0047 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: What quantity of Ravioli Angelo was ordered in Order ID 11039?
+Expected (1): ['invoice_11039.pdf']
+  1. invoice_11039.pdf    score=0.0191 match=exact    RELEVANT
+  2. invoice_11039.pdf    score=0.0139 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: What is the unit price of Tarte au sucre in Order ID 10599?
+Expected (1): ['invoice_10599.pdf']
+  1. invoice_10599.pdf    score=0.0320 match=exact    RELEVANT
+  2. invoice_10599.pdf    score=0.0188 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: What is the total price of Order ID 10354?
+Expected (1): ['invoice_10354.pdf']
+  1. invoice_10354.pdf    score=0.0187 match=exact    RELEVANT
+  2. invoice_10354.pdf    score=0.0020 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: What quantity of Scottish Longbreads was ordered in Order ID 10343?
+Expected (1): ['invoice_10343.pdf']
+  1. invoice_10343.pdf    score=0.0276 match=exact    RELEVANT
+  2. invoice_10343.pdf    score=0.0123 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which invoices contain expensive products, with a unit price above 200?
+Expected (24): ['invoice_10329.pdf', 'invoice_10351.pdf', 'invoice_10353.pdf', 'invoice_10360.pdf', 'invoice_10372.pdf', 'invoice_10417.pdf'] ...
+  1. invoice_11040.pdf    score=0.0323 match=hybrid   not relevant
+  2. invoice_10365.pdf    score=0.0270 match=hybrid   not relevant
+  3. invoice_11050.pdf    score=0.0264 match=hybrid   not relevant
+  4. invoice_10955.pdf    score=0.0242 match=hybrid   not relevant
+  5. invoice_10501.pdf    score=0.0238 match=hybrid   not relevant
+  6. invoice_10692.pdf    score=0.0233 match=hybrid   not relevant
+  7. invoice_10980.pdf    score=0.0227 match=hybrid   not relevant
+  8. invoice_10797.pdf    score=0.0225 match=hybrid   not relevant
+  9. invoice_10815.pdf    score=0.0222 match=hybrid   not relevant
+  10. invoice_10581.pdf    score=0.0220 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices have a total price above 10000?
+Expected (14): ['invoice_10353.pdf', 'invoice_10372.pdf', 'invoice_10417.pdf', 'invoice_10424.pdf', 'invoice_10479.pdf', 'invoice_10515.pdf'] ...
+  1. invoice_11050.pdf    score=0.0274 match=hybrid   not relevant
+  2. invoice_10365.pdf    score=0.0266 match=hybrid   not relevant
+  3. invoice_10501.pdf    score=0.0229 match=hybrid   not relevant
+  4. invoice_10536.pdf    score=0.0164 match=hybrid   not relevant
+  5. invoice_10374.pdf    score=0.0161 match=hybrid   not relevant
+  6. invoice_10891.pdf    score=0.0161 match=hybrid   not relevant
+  7. invoice_10528.pdf    score=0.0159 match=hybrid   not relevant
+  8. invoice_10284.pdf    score=0.0159 match=hybrid   not relevant
+  9. invoice_10998.pdf    score=0.0156 match=hybrid   not relevant
+  10. invoice_10497.pdf    score=0.0156 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoice has the highest total price?
+Expected (1): ['invoice_10865.pdf']
+  1. invoice_10501.pdf    score=0.0289 match=hybrid   not relevant
+  2. invoice_10815.pdf    score=0.0267 match=hybrid   not relevant
+  3. invoice_11050.pdf    score=0.0260 match=hybrid   not relevant
+  4. invoice_10980.pdf    score=0.0257 match=hybrid   not relevant
+  5. invoice_10365.pdf    score=0.0249 match=hybrid   not relevant
+  6. invoice_10874.pdf    score=0.0237 match=hybrid   not relevant
+  7. invoice_10692.pdf    score=0.0236 match=hybrid   not relevant
+  8. invoice_10955.pdf    score=0.0230 match=hybrid   not relevant
+  9. invoice_10349.pdf    score=0.0227 match=hybrid   not relevant
+  10. invoice_10271.pdf    score=0.0185 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoice has the lowest total price?
+Expected (1): ['invoice_10782.pdf']
+  1. invoice_10501.pdf    score=0.0301 match=hybrid   not relevant
+  2. invoice_10815.pdf    score=0.0290 match=hybrid   not relevant
+  3. invoice_10980.pdf    score=0.0282 match=hybrid   not relevant
+  4. invoice_10692.pdf    score=0.0280 match=hybrid   not relevant
+  5. invoice_11050.pdf    score=0.0278 match=hybrid   not relevant
+  6. invoice_10955.pdf    score=0.0272 match=hybrid   not relevant
+  7. invoice_10427.pdf    score=0.0260 match=hybrid   not relevant
+  8. invoice_10797.pdf    score=0.0238 match=hybrid   not relevant
+  9. invoice_10874.pdf    score=0.0237 match=hybrid   not relevant
+  10. invoice_10365.pdf    score=0.0233 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices are from customers in Norway?
+Expected (6): ['invoice_10387.pdf', 'invoice_10520.pdf', 'invoice_10639.pdf', 'invoice_10831.pdf', 'invoice_10909.pdf', 'invoice_11015.pdf']
+  1. invoice_10831.pdf    score=0.0323 match=hybrid   RELEVANT
+  2. invoice_10520.pdf    score=0.0318 match=hybrid   RELEVANT
+  3. invoice_10639.pdf    score=0.0318 match=hybrid   RELEVANT
+  4. invoice_10909.pdf    score=0.0318 match=hybrid   RELEVANT
+  5. invoice_11015.pdf    score=0.0313 match=hybrid   RELEVANT
+  6. invoice_10387.pdf    score=0.0303 match=hybrid   RELEVANT
+  7. invoice_10417.pdf    score=0.0149 match=hybrid   not relevant
+  8. invoice_10946.pdf    score=0.0147 match=hybrid   not relevant
+  9. invoice_10642.pdf    score=0.0145 match=hybrid   not relevant
+  10. invoice_10688.pdf    score=0.0143 match=hybrid   not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.50  mrr@3=1.00
+
+Question: Which invoices are from customers in Poland?
+Expected (7): ['invoice_10374.pdf', 'invoice_10611.pdf', 'invoice_10792.pdf', 'invoice_10870.pdf', 'invoice_10906.pdf', 'invoice_10998.pdf'] ...
+  1. invoice_11044.pdf    score=0.0318 match=hybrid   RELEVANT
+  2. invoice_10792.pdf    score=0.0315 match=hybrid   RELEVANT
+  3. invoice_10374.pdf    score=0.0313 match=hybrid   RELEVANT
+  4. invoice_10998.pdf    score=0.0312 match=hybrid   RELEVANT
+  5. invoice_10611.pdf    score=0.0311 match=hybrid   RELEVANT
+  6. invoice_10906.pdf    score=0.0311 match=hybrid   RELEVANT
+  7. invoice_10870.pdf    score=0.0310 match=hybrid   RELEVANT
+  8. invoice_10553.pdf    score=0.0147 match=hybrid   not relevant
+  9. invoice_10781.pdf    score=0.0145 match=hybrid   not relevant
+  10. invoice_10455.pdf    score=0.0143 match=hybrid   not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.43  mrr@3=1.00
+
+Question: Which invoices contain six or more product line items?
+Expected (4): ['invoice_10657.pdf', 'invoice_10847.pdf', 'invoice_10979.pdf', 'invoice_11077.pdf']
+  1. invoice_10528.pdf    score=0.0164 match=hybrid   not relevant
+  2. invoice_10898.pdf    score=0.0164 match=hybrid   not relevant
+  3. invoice_10816.pdf    score=0.0161 match=hybrid   not relevant
+  4. invoice_10531.pdf    score=0.0161 match=hybrid   not relevant
+  5. invoice_10616.pdf    score=0.0159 match=hybrid   not relevant
+  6. invoice_10496.pdf    score=0.0159 match=hybrid   not relevant
+  7. invoice_10708.pdf    score=0.0156 match=hybrid   not relevant
+  8. invoice_10759.pdf    score=0.0156 match=hybrid   not relevant
+  9. invoice_10681.pdf    score=0.0154 match=hybrid   not relevant
+  10. invoice_10405.pdf    score=0.0154 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices were placed in May 2018?
+Expected (14): ['invoice_11064.pdf', 'invoice_11065.pdf', 'invoice_11066.pdf', 'invoice_11067.pdf', 'invoice_11068.pdf', 'invoice_11069.pdf'] ...
+  1. invoice_11028.pdf    score=0.0201 match=hybrid   not relevant
+  2. invoice_10856.pdf    score=0.0164 match=hybrid   not relevant
+  3. invoice_10258.pdf    score=0.0164 match=hybrid   not relevant
+  4. invoice_10816.pdf    score=0.0161 match=hybrid   not relevant
+  5. invoice_10878.pdf    score=0.0161 match=hybrid   not relevant
+  6. invoice_10708.pdf    score=0.0159 match=hybrid   not relevant
+  7. invoice_10893.pdf    score=0.0159 match=hybrid   not relevant
+  8. invoice_10992.pdf    score=0.0156 match=hybrid   not relevant
+  9. invoice_10996.pdf    score=0.0156 match=hybrid   not relevant
+  10. invoice_10573.pdf    score=0.0154 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices include an order line with a quantity of 100 or more?
+Expected (20): ['invoice_10286.pdf', 'invoice_10398.pdf', 'invoice_10451.pdf', 'invoice_10452.pdf', 'invoice_10515.pdf', 'invoice_10549.pdf'] ...
+  1. invoice_10365.pdf    score=0.0164 match=hybrid   not relevant
+  2. invoice_11030.pdf    score=0.0164 match=hybrid   RELEVANT
+  3. invoice_10535.pdf    score=0.0161 match=hybrid   not relevant
+  4. invoice_10854.pdf    score=0.0161 match=hybrid   RELEVANT
+  5. invoice_10573.pdf    score=0.0159 match=hybrid   not relevant
+  6. invoice_10452.pdf    score=0.0159 match=hybrid   RELEVANT
+  7. invoice_10248.pdf    score=0.0156 match=hybrid   not relevant
+  8. invoice_10286.pdf    score=0.0156 match=hybrid   RELEVANT
+  9. invoice_10259.pdf    score=0.0154 match=hybrid   not relevant
+  10. invoice_10588.pdf    score=0.0154 match=hybrid   RELEVANT
+  hit@3=1.00  precision@3=0.33  recall@3=0.05  mrr@3=0.50
+
+Question: Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?
+Expected (2): ['invoice_10465.pdf', 'invoice_10893.pdf']
+  1. invoice_10465.pdf    score=0.0318 match=exact    RELEVANT
+  2. invoice_10386.pdf    score=0.0270 match=exact    not relevant
+  3. invoice_10883.pdf    score=0.0257 match=exact    not relevant
+  4. invoice_10565.pdf    score=0.0249 match=exact    not relevant
+  5. invoice_10467.pdf    score=0.0242 match=exact    not relevant
+  6. invoice_10254.pdf    score=0.0241 match=exact    not relevant
+  7. invoice_11031.pdf    score=0.0238 match=exact    not relevant
+  8. invoice_10893.pdf    score=0.0231 match=exact    RELEVANT
+  9. invoice_11006.pdf    score=0.0231 match=exact    not relevant
+  10. invoice_10275.pdf    score=0.0231 match=exact    not relevant
+  hit@3=1.00  precision@3=0.33  recall@3=0.50  mrr@3=1.00
+
+========== HYBRID / STRUCTURE-AWARE ==========
+
+Question: Find the invoice with Order ID 10902.
+Expected (1): ['invoice_10902.pdf']
+  1. invoice_10902.pdf    score=0.0225 match=exact    RELEVANT
+  2. invoice_10902.pdf    score=0.0220 match=exact    RELEVANT
+  3. invoice_10902.pdf    score=0.0163 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which customer placed Order ID 10362?
+Expected (1): ['invoice_10362.pdf']
+  1. invoice_10362.pdf    score=0.0171 match=exact    RELEVANT
+  2. invoice_10362.pdf    score=0.0168 match=exact    RELEVANT
+  3. invoice_10362.pdf    score=0.0163 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find the invoice with Order ID 10273.
+Expected (1): ['invoice_10273.pdf']
+  1. invoice_10273.pdf    score=0.0193 match=exact    RELEVANT
+  2. invoice_10273.pdf    score=0.0169 match=exact    RELEVANT
+  3. invoice_10273.pdf    score=0.0163 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which customer placed Order ID 11007?
+Expected (1): ['invoice_11007.pdf']
+  1. invoice_11007.pdf    score=0.0172 match=exact    RELEVANT
+  2. invoice_11007.pdf    score=0.0168 match=exact    RELEVANT
+  3. invoice_11007.pdf    score=0.0165 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find the invoice with Order ID 10529.
+Expected (1): ['invoice_10529.pdf']
+  1. invoice_10529.pdf    score=0.0306 match=exact    RELEVANT
+  2. invoice_10529.pdf    score=0.0191 match=exact    RELEVANT
+  3. invoice_10529.pdf    score=0.0170 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which customer placed Order ID 10498?
+Expected (1): ['invoice_10498.pdf']
+  1. invoice_10498.pdf    score=0.0216 match=exact    RELEVANT
+  2. invoice_10498.pdf    score=0.0171 match=exact    RELEVANT
+  3. invoice_10498.pdf    score=0.0163 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find the invoice with Order ID 10476.
+Expected (1): ['invoice_10476.pdf']
+  1. invoice_10476.pdf    score=0.0184 match=exact    RELEVANT
+  2. invoice_10476.pdf    score=0.0170 match=exact    RELEVANT
+  3. invoice_10476.pdf    score=0.0167 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which customer placed Order ID 10390?
+Expected (1): ['invoice_10390.pdf']
+  1. invoice_10390.pdf    score=0.0299 match=exact    RELEVANT
+  2. invoice_10390.pdf    score=0.0173 match=exact    RELEVANT
+  3. invoice_10390.pdf    score=0.0164 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find the invoice with Order ID 11002.
+Expected (1): ['invoice_11002.pdf']
+  1. invoice_11002.pdf    score=0.0235 match=exact    RELEVANT
+  2. invoice_11002.pdf    score=0.0192 match=exact    RELEVANT
+  3. invoice_11002.pdf    score=0.0168 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which customer placed Order ID 10352?
+Expected (1): ['invoice_10352.pdf']
+  1. invoice_10352.pdf    score=0.0177 match=exact    RELEVANT
+  2. invoice_10352.pdf    score=0.0171 match=exact    RELEVANT
+  3. invoice_10352.pdf    score=0.0166 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find all invoices belonging to customer WHITC.
+Expected (14): ['invoice_10269.pdf', 'invoice_10344.pdf', 'invoice_10469.pdf', 'invoice_10483.pdf', 'invoice_10504.pdf', 'invoice_10596.pdf'] ...
+  1. invoice_10344.pdf    score=0.0315 match=exact    RELEVANT
+  2. invoice_10740.pdf    score=0.0315 match=exact    RELEVANT
+  3. invoice_10269.pdf    score=0.0285 match=exact    RELEVANT
+  4. invoice_10723.pdf    score=0.0276 match=exact    RELEVANT
+  5. invoice_10483.pdf    score=0.0272 match=exact    RELEVANT
+  6. invoice_10861.pdf    score=0.0272 match=exact    RELEVANT
+  7. invoice_10693.pdf    score=0.0262 match=exact    RELEVANT
+  8. invoice_10469.pdf    score=0.0261 match=exact    RELEVANT
+  9. invoice_10596.pdf    score=0.0260 match=exact    RELEVANT
+  10. invoice_10696.pdf    score=0.0258 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.21  mrr@3=1.00
+
+Question: Which invoices belong to customer SEVES?
+Expected (9): ['invoice_10359.pdf', 'invoice_10377.pdf', 'invoice_10388.pdf', 'invoice_10472.pdf', 'invoice_10523.pdf', 'invoice_10547.pdf'] ...
+  1. invoice_10472.pdf    score=0.0323 match=exact    RELEVANT
+  2. invoice_10359.pdf    score=0.0320 match=exact    RELEVANT
+  3. invoice_10377.pdf    score=0.0311 match=exact    RELEVANT
+  4. invoice_10388.pdf    score=0.0310 match=exact    RELEVANT
+  5. invoice_10523.pdf    score=0.0308 match=exact    RELEVANT
+  6. invoice_10800.pdf    score=0.0306 match=exact    RELEVANT
+  7. invoice_10869.pdf    score=0.0306 match=exact    RELEVANT
+  8. invoice_10547.pdf    score=0.0299 match=exact    RELEVANT
+  9. invoice_10804.pdf    score=0.0292 match=exact    RELEVANT
+  10. invoice_10377.pdf    score=0.0208 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.33  mrr@3=1.00
+
+Question: Find all invoices belonging to customer CACTU.
+Expected (6): ['invoice_10521.pdf', 'invoice_10782.pdf', 'invoice_10819.pdf', 'invoice_10881.pdf', 'invoice_10937.pdf', 'invoice_11054.pdf']
+  1. invoice_10782.pdf    score=0.0328 match=exact    RELEVANT
+  2. invoice_11054.pdf    score=0.0320 match=exact    RELEVANT
+  3. invoice_10521.pdf    score=0.0318 match=exact    RELEVANT
+  4. invoice_10937.pdf    score=0.0315 match=exact    RELEVANT
+  5. invoice_10881.pdf    score=0.0305 match=exact    RELEVANT
+  6. invoice_10819.pdf    score=0.0292 match=exact    RELEVANT
+  7. invoice_10782.pdf    score=0.0294 match=exact    RELEVANT
+  8. invoice_10521.pdf    score=0.0293 match=exact    RELEVANT
+  9. invoice_10782.pdf    score=0.0292 match=exact    RELEVANT
+  10. invoice_10937.pdf    score=0.0284 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.50  mrr@3=1.00
+
+Question: Which invoices belong to customer THECR?
+Expected (3): ['invoice_10624.pdf', 'invoice_10775.pdf', 'invoice_11003.pdf']
+  1. invoice_11003.pdf    score=0.0320 match=exact    RELEVANT
+  2. invoice_10624.pdf    score=0.0320 match=exact    RELEVANT
+  3. invoice_10775.pdf    score=0.0320 match=exact    RELEVANT
+  4. invoice_10624.pdf    score=0.0167 match=exact    RELEVANT
+  5. invoice_10775.pdf    score=0.0164 match=exact    RELEVANT
+  6. invoice_10775.pdf    score=0.0159 match=exact    RELEVANT
+  7. invoice_11003.pdf    score=0.0156 match=exact    RELEVANT
+  8. invoice_10624.pdf    score=0.0154 match=exact    RELEVANT
+  9. invoice_11003.pdf    score=0.0153 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find all invoices belonging to customer OTTIK.
+Expected (10): ['invoice_10260.pdf', 'invoice_10407.pdf', 'invoice_10508.pdf', 'invoice_10554.pdf', 'invoice_10580.pdf', 'invoice_10684.pdf'] ...
+  1. invoice_10260.pdf    score=0.0305 match=exact    RELEVANT
+  2. invoice_10999.pdf    score=0.0301 match=exact    RELEVANT
+  3. invoice_10407.pdf    score=0.0292 match=exact    RELEVANT
+  4. invoice_10684.pdf    score=0.0292 match=exact    RELEVANT
+  5. invoice_10508.pdf    score=0.0291 match=exact    RELEVANT
+  6. invoice_10833.pdf    score=0.0288 match=exact    RELEVANT
+  7. invoice_11020.pdf    score=0.0285 match=exact    RELEVANT
+  8. invoice_10554.pdf    score=0.0284 match=exact    RELEVANT
+  9. invoice_10580.pdf    score=0.0283 match=exact    RELEVANT
+  10. invoice_10766.pdf    score=0.0273 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.30  mrr@3=1.00
+
+Question: Which invoices belong to customer BERGS?
+Expected (18): ['invoice_10278.pdf', 'invoice_10280.pdf', 'invoice_10384.pdf', 'invoice_10444.pdf', 'invoice_10445.pdf', 'invoice_10524.pdf'] ...
+  1. invoice_10733.pdf    score=0.0325 match=exact    RELEVANT
+  2. invoice_10778.pdf    score=0.0320 match=exact    RELEVANT
+  3. invoice_10444.pdf    score=0.0320 match=exact    RELEVANT
+  4. invoice_10689.pdf    score=0.0303 match=exact    RELEVANT
+  5. invoice_10672.pdf    score=0.0293 match=exact    RELEVANT
+  6. invoice_10384.pdf    score=0.0287 match=exact    RELEVANT
+  7. invoice_10572.pdf    score=0.0273 match=exact    RELEVANT
+  8. invoice_10866.pdf    score=0.0273 match=exact    RELEVANT
+  9. invoice_10445.pdf    score=0.0271 match=exact    RELEVANT
+  10. invoice_10857.pdf    score=0.0264 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.17  mrr@3=1.00
+
+Question: Find all invoices belonging to customer AROUT.
+Expected (13): ['invoice_10355.pdf', 'invoice_10383.pdf', 'invoice_10453.pdf', 'invoice_10558.pdf', 'invoice_10707.pdf', 'invoice_10741.pdf'] ...
+  1. invoice_10741.pdf    score=0.0308 match=exact    RELEVANT
+  2. invoice_10864.pdf    score=0.0308 match=exact    RELEVANT
+  3. invoice_10743.pdf    score=0.0306 match=exact    RELEVANT
+  4. invoice_10768.pdf    score=0.0298 match=exact    RELEVANT
+  5. invoice_10383.pdf    score=0.0292 match=exact    RELEVANT
+  6. invoice_10558.pdf    score=0.0286 match=exact    RELEVANT
+  7. invoice_10355.pdf    score=0.0280 match=exact    RELEVANT
+  8. invoice_10793.pdf    score=0.0277 match=exact    RELEVANT
+  9. invoice_10953.pdf    score=0.0270 match=exact    RELEVANT
+  10. invoice_10707.pdf    score=0.0263 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.23  mrr@3=1.00
+
+Question: Which invoices belong to customer GALED?
+Expected (5): ['invoice_10366.pdf', 'invoice_10426.pdf', 'invoice_10568.pdf', 'invoice_10887.pdf', 'invoice_10928.pdf']
+  1. invoice_10426.pdf    score=0.0325 match=exact    RELEVANT
+  2. invoice_10366.pdf    score=0.0323 match=exact    RELEVANT
+  3. invoice_10928.pdf    score=0.0320 match=exact    RELEVANT
+  4. invoice_10568.pdf    score=0.0310 match=exact    RELEVANT
+  5. invoice_10887.pdf    score=0.0310 match=exact    RELEVANT
+  6. invoice_10568.pdf    score=0.0301 match=exact    RELEVANT
+  7. invoice_10928.pdf    score=0.0299 match=exact    RELEVANT
+  8. invoice_10887.pdf    score=0.0294 match=exact    RELEVANT
+  9. invoice_10426.pdf    score=0.0282 match=exact    RELEVANT
+  10. invoice_10366.pdf    score=0.0282 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.60  mrr@3=1.00
+
+Question: Find all invoices belonging to customer GOURL.
+Expected (9): ['invoice_10423.pdf', 'invoice_10652.pdf', 'invoice_10685.pdf', 'invoice_10709.pdf', 'invoice_10734.pdf', 'invoice_10777.pdf'] ...
+  1. invoice_10734.pdf    score=0.0323 match=exact    RELEVANT
+  2. invoice_10959.pdf    score=0.0313 match=exact    RELEVANT
+  3. invoice_10777.pdf    score=0.0313 match=exact    RELEVANT
+  4. invoice_10790.pdf    score=0.0305 match=exact    RELEVANT
+  5. invoice_10685.pdf    score=0.0303 match=exact    RELEVANT
+  6. invoice_10652.pdf    score=0.0301 match=exact    RELEVANT
+  7. invoice_11049.pdf    score=0.0300 match=exact    RELEVANT
+  8. invoice_10423.pdf    score=0.0299 match=exact    RELEVANT
+  9. invoice_10709.pdf    score=0.0290 match=exact    RELEVANT
+  10. invoice_10959.pdf    score=0.0290 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.33  mrr@3=1.00
+
+Question: Which invoices belong to customer RICAR?
+Expected (11): ['invoice_10287.pdf', 'invoice_10299.pdf', 'invoice_10447.pdf', 'invoice_10481.pdf', 'invoice_10563.pdf', 'invoice_10622.pdf'] ...
+  1. invoice_11059.pdf    score=0.0313 match=exact    RELEVANT
+  2. invoice_10447.pdf    score=0.0313 match=exact    RELEVANT
+  3. invoice_10622.pdf    score=0.0313 match=exact    RELEVANT
+  4. invoice_10481.pdf    score=0.0310 match=exact    RELEVANT
+  5. invoice_10851.pdf    score=0.0308 match=exact    RELEVANT
+  6. invoice_10648.pdf    score=0.0308 match=exact    RELEVANT
+  7. invoice_10563.pdf    score=0.0306 match=exact    RELEVANT
+  8. invoice_10299.pdf    score=0.0290 match=exact    RELEVANT
+  9. invoice_10813.pdf    score=0.0288 match=exact    RELEVANT
+  10. invoice_10287.pdf    score=0.0284 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.27  mrr@3=1.00
+
+Question: Which invoices contain Aniseed Syrup?
+Expected (12): ['invoice_10289.pdf', 'invoice_10405.pdf', 'invoice_10485.pdf', 'invoice_10540.pdf', 'invoice_10591.pdf', 'invoice_10702.pdf'] ...
+  1. invoice_11017.pdf    score=0.0315 match=exact    RELEVANT
+  2. invoice_10764.pdf    score=0.0313 match=exact    RELEVANT
+  3. invoice_10849.pdf    score=0.0308 match=exact    RELEVANT
+  4. invoice_10742.pdf    score=0.0306 match=exact    RELEVANT
+  5. invoice_10405.pdf    score=0.0305 match=exact    RELEVANT
+  6. invoice_10289.pdf    score=0.0301 match=exact    RELEVANT
+  7. invoice_10702.pdf    score=0.0300 match=exact    RELEVANT
+  8. invoice_11077.pdf    score=0.0300 match=exact    RELEVANT
+  9. invoice_10540.pdf    score=0.0297 match=exact    RELEVANT
+  10. invoice_10857.pdf    score=0.0294 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.25  mrr@3=1.00
+
+Question: Find invoices containing Gustaf's Knäckebröd.
+Expected (14): ['invoice_10251.pdf', 'invoice_10435.pdf', 'invoice_10553.pdf', 'invoice_10603.pdf', 'invoice_10619.pdf', 'invoice_10635.pdf'] ...
+  1. invoice_10844.pdf    score=0.0323 match=exact    RELEVANT
+  2. invoice_10648.pdf    score=0.0315 match=exact    RELEVANT
+  3. invoice_10603.pdf    score=0.0308 match=exact    RELEVANT
+  4. invoice_10651.pdf    score=0.0306 match=exact    RELEVANT
+  5. invoice_10251.pdf    score=0.0305 match=exact    RELEVANT
+  6. invoice_10619.pdf    score=0.0300 match=exact    RELEVANT
+  7. invoice_10635.pdf    score=0.0297 match=exact    RELEVANT
+  8. invoice_10768.pdf    score=0.0290 match=exact    RELEVANT
+  9. invoice_10943.pdf    score=0.0290 match=exact    RELEVANT
+  10. invoice_11001.pdf    score=0.0290 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.21  mrr@3=1.00
+
+Question: Which invoices contain Queso Manchego La Pastora?
+Expected (14): ['invoice_10266.pdf', 'invoice_10439.pdf', 'invoice_10536.pdf', 'invoice_10543.pdf', 'invoice_10633.pdf', 'invoice_10678.pdf'] ...
+  1. invoice_10968.pdf    score=0.0315 match=exact    RELEVANT
+  2. invoice_10536.pdf    score=0.0311 match=exact    RELEVANT
+  3. invoice_10266.pdf    score=0.0307 match=exact    RELEVANT
+  4. invoice_10718.pdf    score=0.0290 match=exact    RELEVANT
+  5. invoice_10543.pdf    score=0.0275 match=exact    RELEVANT
+  6. invoice_11046.pdf    score=0.0267 match=exact    RELEVANT
+  7. invoice_11049.pdf    score=0.0257 match=exact    RELEVANT
+  8. invoice_10633.pdf    score=0.0251 match=exact    RELEVANT
+  9. invoice_10439.pdf    score=0.0245 match=exact    RELEVANT
+  10. invoice_10695.pdf    score=0.0242 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.21  mrr@3=1.00
+
+Question: Find invoices containing Genen Shouyu.
+Expected (6): ['invoice_10283.pdf', 'invoice_10323.pdf', 'invoice_10500.pdf', 'invoice_10579.pdf', 'invoice_10592.pdf', 'invoice_10657.pdf']
+  1. invoice_10323.pdf    score=0.0265 match=exact    RELEVANT
+  2. invoice_10500.pdf    score=0.0262 match=exact    RELEVANT
+  3. invoice_10283.pdf    score=0.0187 match=exact    RELEVANT
+  4. invoice_10579.pdf    score=0.0177 match=exact    RELEVANT
+  5. invoice_10592.pdf    score=0.0174 match=exact    RELEVANT
+  6. invoice_10657.pdf    score=0.0162 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.50  mrr@3=1.00
+
+Question: Which invoices contain Laughing Lumberjack Lager?
+Expected (10): ['invoice_10284.pdf', 'invoice_10502.pdf', 'invoice_10544.pdf', 'invoice_10670.pdf', 'invoice_10775.pdf', 'invoice_10864.pdf'] ...
+  1. invoice_10775.pdf    score=0.0323 match=exact    RELEVANT
+  2. invoice_11054.pdf    score=0.0320 match=exact    RELEVANT
+  3. invoice_10939.pdf    score=0.0318 match=exact    RELEVANT
+  4. invoice_10864.pdf    score=0.0315 match=exact    RELEVANT
+  5. invoice_10544.pdf    score=0.0312 match=exact    RELEVANT
+  6. invoice_10502.pdf    score=0.0301 match=exact    RELEVANT
+  7. invoice_10911.pdf    score=0.0299 match=exact    RELEVANT
+  8. invoice_10670.pdf    score=0.0292 match=exact    RELEVANT
+  9. invoice_10284.pdf    score=0.0290 match=exact    RELEVANT
+  10. invoice_10923.pdf    score=0.0269 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.30  mrr@3=1.00
+
+Question: Find invoices containing Raclette Courdavault.
+Expected (54): ['invoice_10255.pdf', 'invoice_10267.pdf', 'invoice_10275.pdf', 'invoice_10278.pdf', 'invoice_10298.pdf', 'invoice_10304.pdf'] ...
+  1. invoice_10457.pdf    score=0.0320 match=exact    RELEVANT
+  2. invoice_10617.pdf    score=0.0315 match=exact    RELEVANT
+  3. invoice_10892.pdf    score=0.0313 match=exact    RELEVANT
+  4. invoice_10994.pdf    score=0.0311 match=exact    RELEVANT
+  5. invoice_10531.pdf    score=0.0308 match=exact    RELEVANT
+  6. invoice_10679.pdf    score=0.0306 match=exact    RELEVANT
+  7. invoice_10947.pdf    score=0.0300 match=exact    RELEVANT
+  8. invoice_10488.pdf    score=0.0287 match=exact    RELEVANT
+  9. invoice_10410.pdf    score=0.0286 match=exact    RELEVANT
+  10. invoice_10341.pdf    score=0.0272 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.06  mrr@3=1.00
+
+Question: Which invoices contain Gula Malacca?
+Expected (24): ['invoice_10278.pdf', 'invoice_10284.pdf', 'invoice_10291.pdf', 'invoice_10351.pdf', 'invoice_10411.pdf', 'invoice_10452.pdf'] ...
+  1. invoice_10721.pdf    score=0.0323 match=exact    RELEVANT
+  2. invoice_10452.pdf    score=0.0315 match=exact    RELEVANT
+  3. invoice_10656.pdf    score=0.0313 match=exact    RELEVANT
+  4. invoice_10576.pdf    score=0.0308 match=exact    RELEVANT
+  5. invoice_10469.pdf    score=0.0308 match=exact    RELEVANT
+  6. invoice_11042.pdf    score=0.0298 match=exact    RELEVANT
+  7. invoice_10518.pdf    score=0.0289 match=exact    RELEVANT
+  8. invoice_10624.pdf    score=0.0288 match=exact    RELEVANT
+  9. invoice_10561.pdf    score=0.0286 match=exact    RELEVANT
+  10. invoice_10944.pdf    score=0.0284 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.12  mrr@3=1.00
+
+Question: Find invoices containing Thüringer Rostbratwurst.
+Expected (32): ['invoice_10268.pdf', 'invoice_10290.pdf', 'invoice_10305.pdf', 'invoice_10354.pdf', 'invoice_10360.pdf', 'invoice_10369.pdf'] ...
+  1. invoice_10971.pdf    score=0.0323 match=exact    RELEVANT
+  2. invoice_10834.pdf    score=0.0309 match=exact    RELEVANT
+  3. invoice_10772.pdf    score=0.0303 match=exact    RELEVANT
+  4. invoice_10629.pdf    score=0.0302 match=exact    RELEVANT
+  5. invoice_10787.pdf    score=0.0298 match=exact    RELEVANT
+  6. invoice_10801.pdf    score=0.0296 match=exact    RELEVANT
+  7. invoice_11006.pdf    score=0.0296 match=exact    RELEVANT
+  8. invoice_10897.pdf    score=0.0294 match=exact    RELEVANT
+  9. invoice_10354.pdf    score=0.0286 match=exact    RELEVANT
+  10. invoice_10369.pdf    score=0.0284 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.09  mrr@3=1.00
+
+Question: Which invoices contain Uncle Bob's Organic Dried Pears?
+Expected (29): ['invoice_10262.pdf', 'invoice_10385.pdf', 'invoice_10459.pdf', 'invoice_10471.pdf', 'invoice_10511.pdf', 'invoice_10546.pdf'] ...
+  1. invoice_11010.pdf    score=0.0320 match=exact    RELEVANT
+  2. invoice_10908.pdf    score=0.0315 match=exact    RELEVANT
+  3. invoice_11071.pdf    score=0.0306 match=exact    RELEVANT
+  4. invoice_10988.pdf    score=0.0299 match=exact    RELEVANT
+  5. invoice_10940.pdf    score=0.0296 match=exact    RELEVANT
+  6. invoice_10694.pdf    score=0.0288 match=exact    RELEVANT
+  7. invoice_10833.pdf    score=0.0287 match=exact    RELEVANT
+  8. invoice_10790.pdf    score=0.0280 match=exact    RELEVANT
+  9. invoice_11056.pdf    score=0.0277 match=exact    RELEVANT
+  10. invoice_10982.pdf    score=0.0275 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.10  mrr@3=1.00
+
+Question: Find invoices containing Alice Mutton.
+Expected (37): ['invoice_10265.pdf', 'invoice_10279.pdf', 'invoice_10294.pdf', 'invoice_10302.pdf', 'invoice_10319.pdf', 'invoice_10338.pdf'] ...
+  1. invoice_10346.pdf    score=0.0315 match=exact    RELEVANT
+  2. invoice_10430.pdf    score=0.0312 match=exact    RELEVANT
+  3. invoice_10727.pdf    score=0.0304 match=exact    RELEVANT
+  4. invoice_10801.pdf    score=0.0304 match=exact    RELEVANT
+  5. invoice_10279.pdf    score=0.0298 match=exact    RELEVANT
+  6. invoice_10415.pdf    score=0.0296 match=exact    RELEVANT
+  7. invoice_10972.pdf    score=0.0296 match=exact    RELEVANT
+  8. invoice_10696.pdf    score=0.0295 match=exact    RELEVANT
+  9. invoice_10338.pdf    score=0.0294 match=exact    RELEVANT
+  10. invoice_10573.pdf    score=0.0287 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.08  mrr@3=1.00
+
+Question: Find invoices associated with Peter Franken.
+Expected (15): ['invoice_10267.pdf', 'invoice_10337.pdf', 'invoice_10342.pdf', 'invoice_10396.pdf', 'invoice_10488.pdf', 'invoice_10560.pdf'] ...
+  1. invoice_10717.pdf    score=0.0328 match=hybrid   RELEVANT
+  2. invoice_10791.pdf    score=0.0315 match=hybrid   RELEVANT
+  3. invoice_10859.pdf    score=0.0310 match=hybrid   RELEVANT
+  4. invoice_10560.pdf    score=0.0302 match=hybrid   RELEVANT
+  5. invoice_10342.pdf    score=0.0298 match=hybrid   RELEVANT
+  6. invoice_11012.pdf    score=0.0295 match=hybrid   RELEVANT
+  7. invoice_10670.pdf    score=0.0294 match=hybrid   RELEVANT
+  8. invoice_10929.pdf    score=0.0293 match=hybrid   RELEVANT
+  9. invoice_10396.pdf    score=0.0290 match=hybrid   RELEVANT
+  10. invoice_10675.pdf    score=0.0290 match=hybrid   RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.20  mrr@3=1.00
+
+Question: Find invoices associated with Horst Kloss.
+Expected (28): ['invoice_10273.pdf', 'invoice_10285.pdf', 'invoice_10286.pdf', 'invoice_10313.pdf', 'invoice_10345.pdf', 'invoice_10361.pdf'] ...
+  1. invoice_10721.pdf    score=0.0284 match=hybrid   RELEVANT
+  2. invoice_10938.pdf    score=0.0281 match=hybrid   RELEVANT
+  3. invoice_10991.pdf    score=0.0275 match=hybrid   RELEVANT
+  4. invoice_10865.pdf    score=0.0274 match=hybrid   RELEVANT
+  5. invoice_10765.pdf    score=0.0271 match=hybrid   RELEVANT
+  6. invoice_10745.pdf    score=0.0268 match=hybrid   RELEVANT
+  7. invoice_10694.pdf    score=0.0265 match=hybrid   RELEVANT
+  8. invoice_10788.pdf    score=0.0265 match=hybrid   RELEVANT
+  9. invoice_10962.pdf    score=0.0263 match=hybrid   RELEVANT
+  10. invoice_10878.pdf    score=0.0262 match=hybrid   RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.11  mrr@3=1.00
+
+Question: Find invoices associated with Catherine Dewey.
+Expected (7): ['invoice_10529.pdf', 'invoice_10649.pdf', 'invoice_10760.pdf', 'invoice_10892.pdf', 'invoice_10896.pdf', 'invoice_10978.pdf'] ...
+  1. invoice_11004.pdf    score=0.0320 match=hybrid   RELEVANT
+  2. invoice_10760.pdf    score=0.0318 match=hybrid   RELEVANT
+  3. invoice_10892.pdf    score=0.0315 match=hybrid   RELEVANT
+  4. invoice_10649.pdf    score=0.0313 match=hybrid   RELEVANT
+  5. invoice_10978.pdf    score=0.0312 match=hybrid   RELEVANT
+  6. invoice_10896.pdf    score=0.0308 match=hybrid   RELEVANT
+  7. invoice_10529.pdf    score=0.0303 match=hybrid   RELEVANT
+  8. invoice_10646.pdf    score=0.0147 match=hybrid   not relevant
+  9. invoice_10712.pdf    score=0.0145 match=hybrid   not relevant
+  10. invoice_10701.pdf    score=0.0143 match=hybrid   not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.43  mrr@3=1.00
+
+Question: Find invoices associated with Yoshi Tannamuri.
+Expected (3): ['invoice_10495.pdf', 'invoice_10620.pdf', 'invoice_10810.pdf']
+  1. invoice_10620.pdf    score=0.0325 match=hybrid   RELEVANT
+  2. invoice_10810.pdf    score=0.0325 match=hybrid   RELEVANT
+  3. invoice_10495.pdf    score=0.0317 match=hybrid   RELEVANT
+  4. invoice_10660.pdf    score=0.0271 match=hybrid   not relevant
+  5. invoice_10600.pdf    score=0.0266 match=hybrid   not relevant
+  6. invoice_10415.pdf    score=0.0263 match=hybrid   not relevant
+  7. invoice_10394.pdf    score=0.0258 match=hybrid   not relevant
+  8. invoice_10832.pdf    score=0.0156 match=hybrid   not relevant
+  9. invoice_10787.pdf    score=0.0154 match=hybrid   not relevant
+  10. invoice_10624.pdf    score=0.0152 match=hybrid   not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Find invoices associated with Maria Larsson.
+Expected (19): ['invoice_10264.pdf', 'invoice_10327.pdf', 'invoice_10378.pdf', 'invoice_10434.pdf', 'invoice_10460.pdf', 'invoice_10533.pdf'] ...
+  1. invoice_10703.pdf    score=0.0308 match=hybrid   RELEVANT
+  2. invoice_10977.pdf    score=0.0299 match=hybrid   RELEVANT
+  3. invoice_10774.pdf    score=0.0292 match=hybrid   RELEVANT
+  4. invoice_10762.pdf    score=0.0285 match=hybrid   RELEVANT
+  5. invoice_10952.pdf    score=0.0283 match=hybrid   not relevant
+  6. invoice_10702.pdf    score=0.0283 match=hybrid   not relevant
+  7. invoice_10692.pdf    score=0.0281 match=hybrid   not relevant
+  8. invoice_10835.pdf    score=0.0279 match=hybrid   not relevant
+  9. invoice_10824.pdf    score=0.0279 match=hybrid   RELEVANT
+  10. invoice_10955.pdf    score=0.0278 match=hybrid   RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=0.16  mrr@3=1.00
+
+Question: What is the total price of Order ID 10472?
+Expected (1): ['invoice_10472.pdf']
+  1. invoice_10472.pdf    score=0.0313 match=exact    RELEVANT
+  2. invoice_10472.pdf    score=0.0173 match=exact    RELEVANT
+  3. invoice_10472.pdf    score=0.0163 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: What quantity of Ravioli Angelo was ordered in Order ID 11039?
+Expected (1): ['invoice_11039.pdf']
+  1. invoice_11039.pdf    score=0.0225 match=exact    RELEVANT
+  2. invoice_11039.pdf    score=0.0166 match=exact    RELEVANT
+  3. invoice_11039.pdf    score=0.0127 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: What is the unit price of Tarte au sucre in Order ID 10599?
+Expected (1): ['invoice_10599.pdf']
+  1. invoice_10599.pdf    score=0.0301 match=exact    RELEVANT
+  2. invoice_10599.pdf    score=0.0123 match=exact    RELEVANT
+  3. invoice_10599.pdf    score=0.0100 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: What is the total price of Order ID 10354?
+Expected (1): ['invoice_10354.pdf']
+  1. invoice_10354.pdf    score=0.0225 match=exact    RELEVANT
+  2. invoice_10354.pdf    score=0.0174 match=exact    RELEVANT
+  3. invoice_10354.pdf    score=0.0166 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: What quantity of Scottish Longbreads was ordered in Order ID 10343?
+Expected (1): ['invoice_10343.pdf']
+  1. invoice_10343.pdf    score=0.0257 match=exact    RELEVANT
+  2. invoice_10343.pdf    score=0.0169 match=exact    RELEVANT
+  3. invoice_10343.pdf    score=0.0109 match=exact    RELEVANT
+  hit@3=1.00  precision@3=1.00  recall@3=1.00  mrr@3=1.00
+
+Question: Which invoices contain expensive products, with a unit price above 200?
+Expected (24): ['invoice_10329.pdf', 'invoice_10351.pdf', 'invoice_10353.pdf', 'invoice_10360.pdf', 'invoice_10372.pdf', 'invoice_10417.pdf'] ...
+  1. invoice_11040.pdf    score=0.0271 match=hybrid   not relevant
+  2. invoice_10520.pdf    score=0.0257 match=hybrid   not relevant
+  3. invoice_11058.pdf    score=0.0164 match=hybrid   not relevant
+  4. invoice_10496.pdf    score=0.0164 match=hybrid   not relevant
+  5. invoice_10727.pdf    score=0.0161 match=hybrid   not relevant
+  6. invoice_10430.pdf    score=0.0159 match=hybrid   not relevant
+  7. invoice_11006.pdf    score=0.0156 match=hybrid   not relevant
+  8. invoice_10862.pdf    score=0.0156 match=hybrid   not relevant
+  9. invoice_10614.pdf    score=0.0154 match=hybrid   not relevant
+  10. invoice_10772.pdf    score=0.0154 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices have a total price above 10000?
+Expected (14): ['invoice_10353.pdf', 'invoice_10372.pdf', 'invoice_10417.pdf', 'invoice_10424.pdf', 'invoice_10479.pdf', 'invoice_10515.pdf'] ...
+  1. invoice_10349.pdf    score=0.0205 match=hybrid   not relevant
+  2. invoice_11006.pdf    score=0.0164 match=hybrid   not relevant
+  3. invoice_10279.pdf    score=0.0164 match=hybrid   not relevant
+  4. invoice_10550.pdf    score=0.0161 match=hybrid   not relevant
+  5. invoice_10772.pdf    score=0.0161 match=hybrid   not relevant
+  6. invoice_10430.pdf    score=0.0159 match=hybrid   not relevant
+  7. invoice_10284.pdf    score=0.0159 match=hybrid   not relevant
+  8. invoice_10727.pdf    score=0.0156 match=hybrid   not relevant
+  9. invoice_10593.pdf    score=0.0156 match=hybrid   not relevant
+  10. invoice_10637.pdf    score=0.0154 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoice has the highest total price?
+Expected (1): ['invoice_10865.pdf']
+  1. invoice_10727.pdf    score=0.0164 match=hybrid   not relevant
+  2. invoice_10942.pdf    score=0.0164 match=hybrid   not relevant
+  3. invoice_10430.pdf    score=0.0161 match=hybrid   not relevant
+  4. invoice_10689.pdf    score=0.0161 match=hybrid   not relevant
+  5. invoice_10861.pdf    score=0.0159 match=hybrid   not relevant
+  6. invoice_10412.pdf    score=0.0159 match=hybrid   not relevant
+  7. invoice_10657.pdf    score=0.0156 match=hybrid   not relevant
+  8. invoice_10628.pdf    score=0.0156 match=hybrid   not relevant
+  9. invoice_10346.pdf    score=0.0154 match=hybrid   not relevant
+  10. invoice_10271.pdf    score=0.0154 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoice has the lowest total price?
+Expected (1): ['invoice_10782.pdf']
+  1. invoice_10727.pdf    score=0.0164 match=hybrid   not relevant
+  2. invoice_10942.pdf    score=0.0164 match=hybrid   not relevant
+  3. invoice_10430.pdf    score=0.0161 match=hybrid   not relevant
+  4. invoice_10689.pdf    score=0.0161 match=hybrid   not relevant
+  5. invoice_10346.pdf    score=0.0159 match=hybrid   not relevant
+  6. invoice_10412.pdf    score=0.0159 match=hybrid   not relevant
+  7. invoice_10861.pdf    score=0.0156 match=hybrid   not relevant
+  8. invoice_10628.pdf    score=0.0156 match=hybrid   not relevant
+  9. invoice_10657.pdf    score=0.0154 match=hybrid   not relevant
+  10. invoice_10271.pdf    score=0.0154 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices are from customers in Norway?
+Expected (6): ['invoice_10387.pdf', 'invoice_10520.pdf', 'invoice_10639.pdf', 'invoice_10831.pdf', 'invoice_10909.pdf', 'invoice_11015.pdf']
+  1. invoice_10909.pdf    score=0.0323 match=hybrid   RELEVANT
+  2. invoice_10831.pdf    score=0.0320 match=hybrid   RELEVANT
+  3. invoice_10520.pdf    score=0.0318 match=hybrid   RELEVANT
+  4. invoice_10639.pdf    score=0.0315 match=hybrid   RELEVANT
+  5. invoice_11015.pdf    score=0.0313 match=hybrid   RELEVANT
+  6. invoice_10387.pdf    score=0.0303 match=hybrid   RELEVANT
+  7. invoice_10669.pdf    score=0.0149 match=hybrid   not relevant
+  8. invoice_10417.pdf    score=0.0147 match=hybrid   not relevant
+  9. invoice_10760.pdf    score=0.0145 match=hybrid   not relevant
+  10. invoice_10341.pdf    score=0.0143 match=hybrid   not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.50  mrr@3=1.00
+
+Question: Which invoices are from customers in Poland?
+Expected (7): ['invoice_10374.pdf', 'invoice_10611.pdf', 'invoice_10792.pdf', 'invoice_10870.pdf', 'invoice_10906.pdf', 'invoice_10998.pdf'] ...
+  1. invoice_10792.pdf    score=0.0318 match=hybrid   RELEVANT
+  2. invoice_11044.pdf    score=0.0318 match=hybrid   RELEVANT
+  3. invoice_10870.pdf    score=0.0313 match=hybrid   RELEVANT
+  4. invoice_10374.pdf    score=0.0311 match=hybrid   RELEVANT
+  5. invoice_10611.pdf    score=0.0310 match=hybrid   RELEVANT
+  6. invoice_10906.pdf    score=0.0310 match=hybrid   RELEVANT
+  7. invoice_10998.pdf    score=0.0310 match=hybrid   RELEVANT
+  8. invoice_10750.pdf    score=0.0147 match=hybrid   not relevant
+  9. invoice_10781.pdf    score=0.0145 match=hybrid   not relevant
+  10. invoice_10266.pdf    score=0.0143 match=hybrid   not relevant
+  hit@3=1.00  precision@3=1.00  recall@3=0.43  mrr@3=1.00
+
+Question: Which invoices contain six or more product line items?
+Expected (4): ['invoice_10657.pdf', 'invoice_10847.pdf', 'invoice_10979.pdf', 'invoice_11077.pdf']
+  1. invoice_10614.pdf    score=0.0164 match=hybrid   not relevant
+  2. invoice_10914.pdf    score=0.0164 match=hybrid   not relevant
+  3. invoice_10430.pdf    score=0.0161 match=hybrid   not relevant
+  4. invoice_10969.pdf    score=0.0161 match=hybrid   not relevant
+  5. invoice_10637.pdf    score=0.0159 match=hybrid   not relevant
+  6. invoice_10874.pdf    score=0.0159 match=hybrid   not relevant
+  7. invoice_10466.pdf    score=0.0156 match=hybrid   not relevant
+  8. invoice_10898.pdf    score=0.0156 match=hybrid   not relevant
+  9. invoice_10926.pdf    score=0.0154 match=hybrid   not relevant
+  10. invoice_10317.pdf    score=0.0154 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices were placed in May 2018?
+Expected (14): ['invoice_11064.pdf', 'invoice_11065.pdf', 'invoice_11066.pdf', 'invoice_11067.pdf', 'invoice_11068.pdf', 'invoice_11069.pdf'] ...
+  1. invoice_10911.pdf    score=0.0253 match=hybrid   not relevant
+  2. invoice_11058.pdf    score=0.0232 match=hybrid   not relevant
+  3. invoice_10933.pdf    score=0.0214 match=hybrid   not relevant
+  4. invoice_10956.pdf    score=0.0164 match=hybrid   not relevant
+  5. invoice_10922.pdf    score=0.0164 match=hybrid   not relevant
+  6. invoice_10744.pdf    score=0.0161 match=hybrid   not relevant
+  7. invoice_10921.pdf    score=0.0161 match=hybrid   not relevant
+  8. invoice_10961.pdf    score=0.0159 match=hybrid   not relevant
+  9. invoice_10920.pdf    score=0.0159 match=hybrid   not relevant
+  10. invoice_10860.pdf    score=0.0156 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices include an order line with a quantity of 100 or more?
+Expected (20): ['invoice_10286.pdf', 'invoice_10398.pdf', 'invoice_10451.pdf', 'invoice_10452.pdf', 'invoice_10515.pdf', 'invoice_10549.pdf'] ...
+  1. invoice_10428.pdf    score=0.0228 match=hybrid   not relevant
+  2. invoice_10743.pdf    score=0.0212 match=hybrid   not relevant
+  3. invoice_10741.pdf    score=0.0191 match=hybrid   not relevant
+  4. invoice_10727.pdf    score=0.0164 match=hybrid   not relevant
+  5. invoice_11030.pdf    score=0.0164 match=hybrid   RELEVANT
+  6. invoice_10430.pdf    score=0.0161 match=hybrid   not relevant
+  7. invoice_10854.pdf    score=0.0161 match=hybrid   RELEVANT
+  8. invoice_10294.pdf    score=0.0159 match=hybrid   not relevant
+  9. invoice_10452.pdf    score=0.0159 match=hybrid   RELEVANT
+  10. invoice_10322.pdf    score=0.0156 match=hybrid   not relevant
+  hit@3=0.00  precision@3=0.00  recall@3=0.00  mrr@3=0.00
+
+Question: Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?
+Expected (2): ['invoice_10465.pdf', 'invoice_10893.pdf']
+  1. invoice_10893.pdf    score=0.0318 match=exact    RELEVANT
+  2. invoice_10465.pdf    score=0.0299 match=exact    RELEVANT
+  3. invoice_11006.pdf    score=0.0285 match=exact    not relevant
+  4. invoice_10467.pdf    score=0.0263 match=exact    not relevant
+  5. invoice_10268.pdf    score=0.0260 match=exact    not relevant
+  6. invoice_10275.pdf    score=0.0260 match=exact    not relevant
+  7. invoice_10386.pdf    score=0.0260 match=exact    not relevant
+  8. invoice_10352.pdf    score=0.0259 match=exact    not relevant
+  9. invoice_10629.pdf    score=0.0257 match=exact    not relevant
+  10. invoice_10624.pdf    score=0.0254 match=exact    not relevant
+  hit@3=1.00  precision@3=0.67  recall@3=1.00  mrr@3=1.00
+
+========== RETRIEVAL SUMMARY (invoice level) ==========
+Retrieval Strategy        Chunking  hit@1  precision@1  recall@1  mrr@1  hit@3  precision@3  recall@3  mrr@3  hit@5  precision@5  recall@5  mrr@5  hit@10  precision@10  recall@10  mrr@10
+          Semantic      Fixed-size   0.44         0.44     0.063   0.44   0.46        0.413     0.145   0.45   0.50        0.400     0.221  0.459    0.56         0.358      0.336   0.465
+          Semantic Structure-aware   0.44         0.44     0.045   0.44   0.48        0.453     0.148   0.46   0.50        0.444     0.239  0.465    0.56         0.396      0.401   0.473
+            Hybrid      Fixed-size   0.86         0.86     0.368   0.86   0.88        0.853     0.485   0.87   0.88        0.844     0.576  0.870    0.88         0.814      0.728   0.870
+            Hybrid Structure-aware   0.86         0.86     0.368   0.86   0.86        0.853     0.494   0.86   0.88        0.840     0.584  0.864    0.88         0.808      0.725   0.864
+
+========== HIT@3 / MRR@3 BY QUESTION CATEGORY ==========
+                          hit@3                                                 mrr@3                                           
+Retrieval Strategy       Hybrid                   Semantic                     Hybrid                   Semantic                
+Chunking             Fixed-size Structure-aware Fixed-size Structure-aware Fixed-size Structure-aware Fixed-size Structure-aware
+category                                                                                                                        
+customer_id_lookup          1.0             1.0        0.7             1.0       1.00             1.0       0.70             0.9
+customer_name_lookup        1.0             1.0        0.6             0.6       1.00             1.0       0.60             0.6
+natural_language            0.4             0.3        0.3             0.2       0.35             0.3       0.25             0.2
+numerical                   1.0             1.0        0.2             0.0       1.00             1.0       0.20             0.0
+order_id_lookup             1.0             1.0        0.0             0.0       1.00             1.0       0.00             0.0
+product_lookup              1.0             1.0        0.9             0.9       1.00             1.0       0.90             0.9
+
+========== MULTI-INVOICE QUESTIONS: TOP-K 3 vs 5 vs 10 ==========
+                                                                                                               Precision@K           Recall@K            
+K                                                                                                                       3    5    10       3     5     10
+question                                                                    Retrieval Strategy Chunking                                                  
+Find all invoices belonging to customer CACTU.                              Hybrid             Fixed-size             1.00  1.0  1.0     0.50  0.83  1.00
+                                                                                               Structure-aware        1.00  1.0  1.0     0.50  0.83  1.00
+                                                                            Semantic           Fixed-size             1.00  1.0  0.6     0.50  0.83  1.00
+                                                                                               Structure-aware        1.00  1.0  0.6     0.50  0.83  1.00
+Find all invoices belonging to customer GOURL.                              Hybrid             Fixed-size             1.00  1.0  1.0     0.33  0.56  1.00
+                                                                                               Structure-aware        1.00  1.0  1.0     0.33  0.56  1.00
+                                                                            Semantic           Fixed-size             1.00  1.0  0.9     0.33  0.56  1.00
+                                                                                               Structure-aware        1.00  1.0  0.9     0.33  0.56  1.00
+Find all invoices belonging to customer OTTIK.                              Hybrid             Fixed-size             1.00  1.0  1.0     0.30  0.50  1.00
+                                                                                               Structure-aware        1.00  1.0  1.0     0.30  0.50  1.00
+                                                                            Semantic           Fixed-size             1.00  1.0  1.0     0.30  0.50  1.00
+                                                                                               Structure-aware        1.00  1.0  1.0     0.30  0.50  1.00
+Find invoices associated with Catherine Dewey.                              Hybrid             Fixed-size             1.00  1.0  0.7     0.43  0.71  1.00
+                                                                                               Structure-aware        1.00  1.0  0.7     0.43  0.71  1.00
+                                                                            Semantic           Fixed-size             1.00  1.0  0.7     0.43  0.71  1.00
+                                                                                               Structure-aware        1.00  1.0  0.7     0.43  0.71  1.00
+Find invoices associated with Yoshi Tannamuri.                              Hybrid             Fixed-size             1.00  0.6  0.3     1.00  1.00  1.00
+                                                                                               Structure-aware        1.00  0.6  0.3     1.00  1.00  1.00
+                                                                            Semantic           Fixed-size             1.00  0.6  0.3     1.00  1.00  1.00
+                                                                                               Structure-aware        1.00  0.6  0.3     1.00  1.00  1.00
+Find invoices containing Genen Shouyu.                                      Hybrid             Fixed-size             1.00  1.0  1.0     0.50  0.83  1.00
+                                                                                               Structure-aware        1.00  1.0  1.0     0.50  0.83  1.00
+                                                                            Semantic           Fixed-size             0.00  0.0  0.1     0.00  0.00  0.17
+                                                                                               Structure-aware        0.00  0.0  0.0     0.00  0.00  0.00
+Which invoices are from customers in Norway?                                Hybrid             Fixed-size             1.00  1.0  0.6     0.50  0.83  1.00
+                                                                                               Structure-aware        1.00  1.0  0.6     0.50  0.83  1.00
+                                                                            Semantic           Fixed-size             1.00  1.0  0.6     0.50  0.83  1.00
+                                                                                               Structure-aware        1.00  1.0  0.6     0.50  0.83  1.00
+Which invoices are from customers in Poland?                                Hybrid             Fixed-size             1.00  1.0  0.7     0.43  0.71  1.00
+                                                                                               Structure-aware        1.00  1.0  0.7     0.43  0.71  1.00
+                                                                            Semantic           Fixed-size             1.00  1.0  0.7     0.43  0.71  1.00
+                                                                                               Structure-aware        1.00  1.0  0.7     0.43  0.71  1.00
+Which invoices belong to customer GALED?                                    Hybrid             Fixed-size             1.00  1.0  1.0     0.60  1.00  1.00
+                                                                                               Structure-aware        1.00  1.0  1.0     0.60  1.00  1.00
+                                                                            Semantic           Fixed-size             1.00  1.0  0.5     0.60  1.00  1.00
+                                                                                               Structure-aware        1.00  1.0  0.5     0.60  1.00  1.00
+Which invoices belong to customer SEVES?                                    Hybrid             Fixed-size             1.00  1.0  1.0     0.33  0.56  1.00
+                                                                                               Structure-aware        1.00  1.0  1.0     0.33  0.56  1.00
+                                                                            Semantic           Fixed-size             0.67  0.4  0.6     0.22  0.22  0.67
+                                                                                               Structure-aware        1.00  1.0  0.9     0.33  0.56  1.00
+Which invoices belong to customer THECR?                                    Hybrid             Fixed-size             1.00  1.0  1.0     1.00  1.00  1.00
+                                                                                               Structure-aware        1.00  1.0  1.0     1.00  1.00  1.00
+                                                                            Semantic           Fixed-size             0.00  0.0  0.0     0.00  0.00  0.00
+                                                                                               Structure-aware        0.67  0.6  0.3     0.67  1.00  1.00
+Which invoices contain Laughing Lumberjack Lager?                           Hybrid             Fixed-size             1.00  1.0  1.0     0.30  0.50  1.00
+                                                                                               Structure-aware        1.00  1.0  1.0     0.30  0.50  1.00
+                                                                            Semantic           Fixed-size             1.00  1.0  0.9     0.30  0.50  0.90
+                                                                                               Structure-aware        1.00  1.0  0.9     0.30  0.50  0.90
+Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst? Hybrid             Fixed-size             0.33  0.2  0.2     0.50  0.50  1.00
+                                                                                               Structure-aware        0.67  0.4  0.2     1.00  1.00  1.00
+                                                                            Semantic           Fixed-size             0.00  0.2  0.1     0.00  0.50  0.50
+                                                                                               Structure-aware        0.00  0.2  0.1     0.00  0.50  0.50
+Which invoices contain six or more product line items?                      Hybrid             Fixed-size             0.00  0.0  0.0     0.00  0.00  0.00
+                                                                                               Structure-aware        0.00  0.0  0.0     0.00  0.00  0.00
+                                                                            Semantic           Fixed-size             0.00  0.0  0.0     0.00  0.00  0.00
+                                                                                               Structure-aware        0.00  0.0  0.0     0.00  0.00  0.00
+
+Saved results/retrieval_metrics.csv and results/retrieval_per_question.csv

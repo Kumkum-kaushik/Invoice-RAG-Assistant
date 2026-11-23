@@ -1,0 +1,5 @@
+Retrieval Strategy,Chunking,Context Precision,Context Recall,Failed evaluations
+Semantic,Fixed-size,0.22916666665104163,0.125,0
+Semantic,Structure-aware,0.14583333332604165,0.275,0
+Hybrid,Fixed-size,0.74999999995,0.775,0
+Hybrid,Structure-aware,0.8333333332958334,0.775,0

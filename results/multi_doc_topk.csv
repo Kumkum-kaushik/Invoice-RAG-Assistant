@@ -1,0 +1,169 @@
+Retrieval Strategy,Chunking,question,relevant,K,Precision@K,Recall@K
+Semantic,Fixed-size,Which invoices belong to customer SEVES?,9,3,0.6666666666666666,0.2222222222222222
+Semantic,Fixed-size,Which invoices belong to customer SEVES?,9,5,0.4,0.2222222222222222
+Semantic,Fixed-size,Which invoices belong to customer SEVES?,9,10,0.6,0.6666666666666666
+Semantic,Fixed-size,Find all invoices belonging to customer CACTU.,6,3,1.0,0.5
+Semantic,Fixed-size,Find all invoices belonging to customer CACTU.,6,5,1.0,0.8333333333333334
+Semantic,Fixed-size,Find all invoices belonging to customer CACTU.,6,10,0.6,1.0
+Semantic,Fixed-size,Which invoices belong to customer THECR?,3,3,0.0,0.0
+Semantic,Fixed-size,Which invoices belong to customer THECR?,3,5,0.0,0.0
+Semantic,Fixed-size,Which invoices belong to customer THECR?,3,10,0.0,0.0
+Semantic,Fixed-size,Find all invoices belonging to customer OTTIK.,10,3,1.0,0.3
+Semantic,Fixed-size,Find all invoices belonging to customer OTTIK.,10,5,1.0,0.5
+Semantic,Fixed-size,Find all invoices belonging to customer OTTIK.,10,10,1.0,1.0
+Semantic,Fixed-size,Which invoices belong to customer GALED?,5,3,1.0,0.6
+Semantic,Fixed-size,Which invoices belong to customer GALED?,5,5,1.0,1.0
+Semantic,Fixed-size,Which invoices belong to customer GALED?,5,10,0.5,1.0
+Semantic,Fixed-size,Find all invoices belonging to customer GOURL.,9,3,1.0,0.3333333333333333
+Semantic,Fixed-size,Find all invoices belonging to customer GOURL.,9,5,1.0,0.5555555555555556
+Semantic,Fixed-size,Find all invoices belonging to customer GOURL.,9,10,0.9,1.0
+Semantic,Fixed-size,Find invoices containing Genen Shouyu.,6,3,0.0,0.0
+Semantic,Fixed-size,Find invoices containing Genen Shouyu.,6,5,0.0,0.0
+Semantic,Fixed-size,Find invoices containing Genen Shouyu.,6,10,0.1,0.16666666666666666
+Semantic,Fixed-size,Which invoices contain Laughing Lumberjack Lager?,10,3,1.0,0.3
+Semantic,Fixed-size,Which invoices contain Laughing Lumberjack Lager?,10,5,1.0,0.5
+Semantic,Fixed-size,Which invoices contain Laughing Lumberjack Lager?,10,10,0.9,0.9
+Semantic,Fixed-size,Find invoices associated with Catherine Dewey.,7,3,1.0,0.42857142857142855
+Semantic,Fixed-size,Find invoices associated with Catherine Dewey.,7,5,1.0,0.7142857142857143
+Semantic,Fixed-size,Find invoices associated with Catherine Dewey.,7,10,0.7,1.0
+Semantic,Fixed-size,Find invoices associated with Yoshi Tannamuri.,3,3,1.0,1.0
+Semantic,Fixed-size,Find invoices associated with Yoshi Tannamuri.,3,5,0.6,1.0
+Semantic,Fixed-size,Find invoices associated with Yoshi Tannamuri.,3,10,0.3,1.0
+Semantic,Fixed-size,Which invoices are from customers in Norway?,6,3,1.0,0.5
+Semantic,Fixed-size,Which invoices are from customers in Norway?,6,5,1.0,0.8333333333333334
+Semantic,Fixed-size,Which invoices are from customers in Norway?,6,10,0.6,1.0
+Semantic,Fixed-size,Which invoices are from customers in Poland?,7,3,1.0,0.42857142857142855
+Semantic,Fixed-size,Which invoices are from customers in Poland?,7,5,1.0,0.7142857142857143
+Semantic,Fixed-size,Which invoices are from customers in Poland?,7,10,0.7,1.0
+Semantic,Fixed-size,Which invoices contain six or more product line items?,4,3,0.0,0.0
+Semantic,Fixed-size,Which invoices contain six or more product line items?,4,5,0.0,0.0
+Semantic,Fixed-size,Which invoices contain six or more product line items?,4,10,0.0,0.0
+Semantic,Fixed-size,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,3,0.0,0.0
+Semantic,Fixed-size,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,5,0.2,0.5
+Semantic,Fixed-size,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,10,0.1,0.5
+Semantic,Structure-aware,Which invoices belong to customer SEVES?,9,3,1.0,0.3333333333333333
+Semantic,Structure-aware,Which invoices belong to customer SEVES?,9,5,1.0,0.5555555555555556
+Semantic,Structure-aware,Which invoices belong to customer SEVES?,9,10,0.9,1.0
+Semantic,Structure-aware,Find all invoices belonging to customer CACTU.,6,3,1.0,0.5
+Semantic,Structure-aware,Find all invoices belonging to customer CACTU.,6,5,1.0,0.8333333333333334
+Semantic,Structure-aware,Find all invoices belonging to customer CACTU.,6,10,0.6,1.0
+Semantic,Structure-aware,Which invoices belong to customer THECR?,3,3,0.6666666666666666,0.6666666666666666
+Semantic,Structure-aware,Which invoices belong to customer THECR?,3,5,0.6,1.0
+Semantic,Structure-aware,Which invoices belong to customer THECR?,3,10,0.3,1.0
+Semantic,Structure-aware,Find all invoices belonging to customer OTTIK.,10,3,1.0,0.3
+Semantic,Structure-aware,Find all invoices belonging to customer OTTIK.,10,5,1.0,0.5
+Semantic,Structure-aware,Find all invoices belonging to customer OTTIK.,10,10,1.0,1.0
+Semantic,Structure-aware,Which invoices belong to customer GALED?,5,3,1.0,0.6
+Semantic,Structure-aware,Which invoices belong to customer GALED?,5,5,1.0,1.0
+Semantic,Structure-aware,Which invoices belong to customer GALED?,5,10,0.5,1.0
+Semantic,Structure-aware,Find all invoices belonging to customer GOURL.,9,3,1.0,0.3333333333333333
+Semantic,Structure-aware,Find all invoices belonging to customer GOURL.,9,5,1.0,0.5555555555555556
+Semantic,Structure-aware,Find all invoices belonging to customer GOURL.,9,10,0.9,1.0
+Semantic,Structure-aware,Find invoices containing Genen Shouyu.,6,3,0.0,0.0
+Semantic,Structure-aware,Find invoices containing Genen Shouyu.,6,5,0.0,0.0
+Semantic,Structure-aware,Find invoices containing Genen Shouyu.,6,10,0.0,0.0
+Semantic,Structure-aware,Which invoices contain Laughing Lumberjack Lager?,10,3,1.0,0.3
+Semantic,Structure-aware,Which invoices contain Laughing Lumberjack Lager?,10,5,1.0,0.5
+Semantic,Structure-aware,Which invoices contain Laughing Lumberjack Lager?,10,10,0.9,0.9
+Semantic,Structure-aware,Find invoices associated with Catherine Dewey.,7,3,1.0,0.42857142857142855
+Semantic,Structure-aware,Find invoices associated with Catherine Dewey.,7,5,1.0,0.7142857142857143
+Semantic,Structure-aware,Find invoices associated with Catherine Dewey.,7,10,0.7,1.0
+Semantic,Structure-aware,Find invoices associated with Yoshi Tannamuri.,3,3,1.0,1.0
+Semantic,Structure-aware,Find invoices associated with Yoshi Tannamuri.,3,5,0.6,1.0
+Semantic,Structure-aware,Find invoices associated with Yoshi Tannamuri.,3,10,0.3,1.0
+Semantic,Structure-aware,Which invoices are from customers in Norway?,6,3,1.0,0.5
+Semantic,Structure-aware,Which invoices are from customers in Norway?,6,5,1.0,0.8333333333333334
+Semantic,Structure-aware,Which invoices are from customers in Norway?,6,10,0.6,1.0
+Semantic,Structure-aware,Which invoices are from customers in Poland?,7,3,1.0,0.42857142857142855
+Semantic,Structure-aware,Which invoices are from customers in Poland?,7,5,1.0,0.7142857142857143
+Semantic,Structure-aware,Which invoices are from customers in Poland?,7,10,0.7,1.0
+Semantic,Structure-aware,Which invoices contain six or more product line items?,4,3,0.0,0.0
+Semantic,Structure-aware,Which invoices contain six or more product line items?,4,5,0.0,0.0
+Semantic,Structure-aware,Which invoices contain six or more product line items?,4,10,0.0,0.0
+Semantic,Structure-aware,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,3,0.0,0.0
+Semantic,Structure-aware,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,5,0.2,0.5
+Semantic,Structure-aware,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,10,0.1,0.5
+Hybrid,Fixed-size,Which invoices belong to customer SEVES?,9,3,1.0,0.3333333333333333
+Hybrid,Fixed-size,Which invoices belong to customer SEVES?,9,5,1.0,0.5555555555555556
+Hybrid,Fixed-size,Which invoices belong to customer SEVES?,9,10,1.0,1.0
+Hybrid,Fixed-size,Find all invoices belonging to customer CACTU.,6,3,1.0,0.5
+Hybrid,Fixed-size,Find all invoices belonging to customer CACTU.,6,5,1.0,0.8333333333333334
+Hybrid,Fixed-size,Find all invoices belonging to customer CACTU.,6,10,1.0,1.0
+Hybrid,Fixed-size,Which invoices belong to customer THECR?,3,3,1.0,1.0
+Hybrid,Fixed-size,Which invoices belong to customer THECR?,3,5,1.0,1.0
+Hybrid,Fixed-size,Which invoices belong to customer THECR?,3,10,1.0,1.0
+Hybrid,Fixed-size,Find all invoices belonging to customer OTTIK.,10,3,1.0,0.3
+Hybrid,Fixed-size,Find all invoices belonging to customer OTTIK.,10,5,1.0,0.5
+Hybrid,Fixed-size,Find all invoices belonging to customer OTTIK.,10,10,1.0,1.0
+Hybrid,Fixed-size,Which invoices belong to customer GALED?,5,3,1.0,0.6
+Hybrid,Fixed-size,Which invoices belong to customer GALED?,5,5,1.0,1.0
+Hybrid,Fixed-size,Which invoices belong to customer GALED?,5,10,1.0,1.0
+Hybrid,Fixed-size,Find all invoices belonging to customer GOURL.,9,3,1.0,0.3333333333333333
+Hybrid,Fixed-size,Find all invoices belonging to customer GOURL.,9,5,1.0,0.5555555555555556
+Hybrid,Fixed-size,Find all invoices belonging to customer GOURL.,9,10,1.0,1.0
+Hybrid,Fixed-size,Find invoices containing Genen Shouyu.,6,3,1.0,0.5
+Hybrid,Fixed-size,Find invoices containing Genen Shouyu.,6,5,1.0,0.8333333333333334
+Hybrid,Fixed-size,Find invoices containing Genen Shouyu.,6,10,1.0,1.0
+Hybrid,Fixed-size,Which invoices contain Laughing Lumberjack Lager?,10,3,1.0,0.3
+Hybrid,Fixed-size,Which invoices contain Laughing Lumberjack Lager?,10,5,1.0,0.5
+Hybrid,Fixed-size,Which invoices contain Laughing Lumberjack Lager?,10,10,1.0,1.0
+Hybrid,Fixed-size,Find invoices associated with Catherine Dewey.,7,3,1.0,0.42857142857142855
+Hybrid,Fixed-size,Find invoices associated with Catherine Dewey.,7,5,1.0,0.7142857142857143
+Hybrid,Fixed-size,Find invoices associated with Catherine Dewey.,7,10,0.7,1.0
+Hybrid,Fixed-size,Find invoices associated with Yoshi Tannamuri.,3,3,1.0,1.0
+Hybrid,Fixed-size,Find invoices associated with Yoshi Tannamuri.,3,5,0.6,1.0
+Hybrid,Fixed-size,Find invoices associated with Yoshi Tannamuri.,3,10,0.3,1.0
+Hybrid,Fixed-size,Which invoices are from customers in Norway?,6,3,1.0,0.5
+Hybrid,Fixed-size,Which invoices are from customers in Norway?,6,5,1.0,0.8333333333333334
+Hybrid,Fixed-size,Which invoices are from customers in Norway?,6,10,0.6,1.0
+Hybrid,Fixed-size,Which invoices are from customers in Poland?,7,3,1.0,0.42857142857142855
+Hybrid,Fixed-size,Which invoices are from customers in Poland?,7,5,1.0,0.7142857142857143
+Hybrid,Fixed-size,Which invoices are from customers in Poland?,7,10,0.7,1.0
+Hybrid,Fixed-size,Which invoices contain six or more product line items?,4,3,0.0,0.0
+Hybrid,Fixed-size,Which invoices contain six or more product line items?,4,5,0.0,0.0
+Hybrid,Fixed-size,Which invoices contain six or more product line items?,4,10,0.0,0.0
+Hybrid,Fixed-size,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,3,0.3333333333333333,0.5
+Hybrid,Fixed-size,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,5,0.2,0.5
+Hybrid,Fixed-size,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,10,0.2,1.0
+Hybrid,Structure-aware,Which invoices belong to customer SEVES?,9,3,1.0,0.3333333333333333
+Hybrid,Structure-aware,Which invoices belong to customer SEVES?,9,5,1.0,0.5555555555555556
+Hybrid,Structure-aware,Which invoices belong to customer SEVES?,9,10,1.0,1.0
+Hybrid,Structure-aware,Find all invoices belonging to customer CACTU.,6,3,1.0,0.5
+Hybrid,Structure-aware,Find all invoices belonging to customer CACTU.,6,5,1.0,0.8333333333333334
+Hybrid,Structure-aware,Find all invoices belonging to customer CACTU.,6,10,1.0,1.0
+Hybrid,Structure-aware,Which invoices belong to customer THECR?,3,3,1.0,1.0
+Hybrid,Structure-aware,Which invoices belong to customer THECR?,3,5,1.0,1.0
+Hybrid,Structure-aware,Which invoices belong to customer THECR?,3,10,1.0,1.0
+Hybrid,Structure-aware,Find all invoices belonging to customer OTTIK.,10,3,1.0,0.3
+Hybrid,Structure-aware,Find all invoices belonging to customer OTTIK.,10,5,1.0,0.5
+Hybrid,Structure-aware,Find all invoices belonging to customer OTTIK.,10,10,1.0,1.0
+Hybrid,Structure-aware,Which invoices belong to customer GALED?,5,3,1.0,0.6
+Hybrid,Structure-aware,Which invoices belong to customer GALED?,5,5,1.0,1.0
+Hybrid,Structure-aware,Which invoices belong to customer GALED?,5,10,1.0,1.0
+Hybrid,Structure-aware,Find all invoices belonging to customer GOURL.,9,3,1.0,0.3333333333333333
+Hybrid,Structure-aware,Find all invoices belonging to customer GOURL.,9,5,1.0,0.5555555555555556
+Hybrid,Structure-aware,Find all invoices belonging to customer GOURL.,9,10,1.0,1.0
+Hybrid,Structure-aware,Find invoices containing Genen Shouyu.,6,3,1.0,0.5
+Hybrid,Structure-aware,Find invoices containing Genen Shouyu.,6,5,1.0,0.8333333333333334
+Hybrid,Structure-aware,Find invoices containing Genen Shouyu.,6,10,1.0,1.0
+Hybrid,Structure-aware,Which invoices contain Laughing Lumberjack Lager?,10,3,1.0,0.3
+Hybrid,Structure-aware,Which invoices contain Laughing Lumberjack Lager?,10,5,1.0,0.5
+Hybrid,Structure-aware,Which invoices contain Laughing Lumberjack Lager?,10,10,1.0,1.0
+Hybrid,Structure-aware,Find invoices associated with Catherine Dewey.,7,3,1.0,0.42857142857142855
+Hybrid,Structure-aware,Find invoices associated with Catherine Dewey.,7,5,1.0,0.7142857142857143
+Hybrid,Structure-aware,Find invoices associated with Catherine Dewey.,7,10,0.7,1.0
+Hybrid,Structure-aware,Find invoices associated with Yoshi Tannamuri.,3,3,1.0,1.0
+Hybrid,Structure-aware,Find invoices associated with Yoshi Tannamuri.,3,5,0.6,1.0
+Hybrid,Structure-aware,Find invoices associated with Yoshi Tannamuri.,3,10,0.3,1.0
+Hybrid,Structure-aware,Which invoices are from customers in Norway?,6,3,1.0,0.5
+Hybrid,Structure-aware,Which invoices are from customers in Norway?,6,5,1.0,0.8333333333333334
+Hybrid,Structure-aware,Which invoices are from customers in Norway?,6,10,0.6,1.0
+Hybrid,Structure-aware,Which invoices are from customers in Poland?,7,3,1.0,0.42857142857142855
+Hybrid,Structure-aware,Which invoices are from customers in Poland?,7,5,1.0,0.7142857142857143
+Hybrid,Structure-aware,Which invoices are from customers in Poland?,7,10,0.7,1.0
+Hybrid,Structure-aware,Which invoices contain six or more product line items?,4,3,0.0,0.0
+Hybrid,Structure-aware,Which invoices contain six or more product line items?,4,5,0.0,0.0
+Hybrid,Structure-aware,Which invoices contain six or more product line items?,4,10,0.0,0.0
+Hybrid,Structure-aware,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,3,0.6666666666666666,1.0
+Hybrid,Structure-aware,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,5,0.4,1.0
+Hybrid,Structure-aware,Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?,2,10,0.2,1.0

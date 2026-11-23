@@ -1,0 +1,17 @@
+Retrieval Strategy,Chunking,question,context_precision,context_recall,errors
+Semantic,Fixed-size,Find the invoice with Order ID 11062,0.0,0.0,0
+Semantic,Fixed-size,Which customer placed Order ID 11062?,0.0,0.0,0
+Semantic,Fixed-size,Find the invoice for customer DRACD,0.99999999995,0.5,0
+Semantic,Fixed-size,Which invoices contain Mishi Kobe Niku?,0.49999999995,0.6,0
+Semantic,Structure-aware,Find the invoice with Order ID 11062,0.0,0.0,0
+Semantic,Structure-aware,Which customer placed Order ID 11062?,0.0,0.0,0
+Semantic,Structure-aware,Find the invoice for customer DRACD,0.5833333333041666,0.5,0
+Semantic,Structure-aware,Which invoices contain Mishi Kobe Niku?,0.3333333333,0.6,0
+Hybrid,Fixed-size,Find the invoice with Order ID 11062,0.99999999995,1.0,0
+Hybrid,Fixed-size,Which customer placed Order ID 11062?,0.9999999999,1.0,0
+Hybrid,Fixed-size,Find the invoice for customer DRACD,0.9999999999666667,,1
+Hybrid,Fixed-size,Which invoices contain Mishi Kobe Niku?,0.8333333332916666,0.6,0
+Hybrid,Structure-aware,Find the invoice with Order ID 11062,0.9999999999666667,1.0,0
+Hybrid,Structure-aware,Which customer placed Order ID 11062?,0.9999999999666667,1.0,0
+Hybrid,Structure-aware,Find the invoice for customer DRACD,0.49999999995,,1
+Hybrid,Structure-aware,Which invoices contain Mishi Kobe Niku?,0.3333333333,0.6,0

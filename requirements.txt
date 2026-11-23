@@ -1,0 +1,25 @@
+# PDF ingestion (imported as `fitz` in src/ingestion.py)
+pymupdf>=1.24
+
+# Text chunking (src/chunking.py, src/structure_chunking.py)
+langchain-text-splitters>=0.3
+
+# Embeddings (src/embeddings.py, src/vectorstore.py); pulls in torch + transformers
+sentence-transformers>=3.0
+
+# Vector search (src/vectorstore.py)
+faiss-cpu>=1.8
+
+# Keyword search for hybrid retrieval (src/vectorstore.py)
+rank-bm25>=0.2.2
+
+numpy>=1.26
+
+# transformers needs huggingface-hub < 2.0 (ragas can pull in 2.x)
+huggingface-hub>=1.5,<2.0
+
+# Evaluation (src/evaluate_retrieval.py, src/evaluate_ragas.py)
+pandas>=2.0
+ragas==0.4.4
+openai>=1.0
+python-dotenv>=1.0

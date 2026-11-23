@@ -1,0 +1,1700 @@
+{
+  "meta": {
+    "dataset_version": "invoice-eval-v1",
+    "seed": 42,
+    "source_file": "data/processed/extracted_invoices.json",
+    "source_sha256_16": "601528da2ffd623b",
+    "invoices_parsed": 830,
+    "questions": 50,
+    "per_category": {
+      "order_id_lookup": 10,
+      "customer_id_lookup": 10,
+      "product_lookup": 10,
+      "customer_name_lookup": 5,
+      "numerical": 5,
+      "natural_language": 10
+    },
+    "excluded": []
+  },
+  "data": [
+    {
+      "id": "ORD-01",
+      "category": "order_id_lookup",
+      "question": "Find the invoice with Order ID 10902.",
+      "expected_invoices": [
+        "invoice_10902.pdf"
+      ],
+      "source_order_ids": [
+        "10902"
+      ],
+      "criteria": {
+        "type": "order_id",
+        "value": "10902"
+      }
+    },
+    {
+      "id": "ORD-02",
+      "category": "order_id_lookup",
+      "question": "Which customer placed Order ID 10362?",
+      "expected_invoices": [
+        "invoice_10362.pdf"
+      ],
+      "source_order_ids": [
+        "10362"
+      ],
+      "criteria": {
+        "type": "order_id",
+        "value": "10362"
+      }
+    },
+    {
+      "id": "ORD-03",
+      "category": "order_id_lookup",
+      "question": "Find the invoice with Order ID 10273.",
+      "expected_invoices": [
+        "invoice_10273.pdf"
+      ],
+      "source_order_ids": [
+        "10273"
+      ],
+      "criteria": {
+        "type": "order_id",
+        "value": "10273"
+      }
+    },
+    {
+      "id": "ORD-04",
+      "category": "order_id_lookup",
+      "question": "Which customer placed Order ID 11007?",
+      "expected_invoices": [
+        "invoice_11007.pdf"
+      ],
+      "source_order_ids": [
+        "11007"
+      ],
+      "criteria": {
+        "type": "order_id",
+        "value": "11007"
+      }
+    },
+    {
+      "id": "ORD-05",
+      "category": "order_id_lookup",
+      "question": "Find the invoice with Order ID 10529.",
+      "expected_invoices": [
+        "invoice_10529.pdf"
+      ],
+      "source_order_ids": [
+        "10529"
+      ],
+      "criteria": {
+        "type": "order_id",
+        "value": "10529"
+      }
+    },
+    {
+      "id": "ORD-06",
+      "category": "order_id_lookup",
+      "question": "Which customer placed Order ID 10498?",
+      "expected_invoices": [
+        "invoice_10498.pdf"
+      ],
+      "source_order_ids": [
+        "10498"
+      ],
+      "criteria": {
+        "type": "order_id",
+        "value": "10498"
+      }
+    },
+    {
+      "id": "ORD-07",
+      "category": "order_id_lookup",
+      "question": "Find the invoice with Order ID 10476.",
+      "expected_invoices": [
+        "invoice_10476.pdf"
+      ],
+      "source_order_ids": [
+        "10476"
+      ],
+      "criteria": {
+        "type": "order_id",
+        "value": "10476"
+      }
+    },
+    {
+      "id": "ORD-08",
+      "category": "order_id_lookup",
+      "question": "Which customer placed Order ID 10390?",
+      "expected_invoices": [
+        "invoice_10390.pdf"
+      ],
+      "source_order_ids": [
+        "10390"
+      ],
+      "criteria": {
+        "type": "order_id",
+        "value": "10390"
+      }
+    },
+    {
+      "id": "ORD-09",
+      "category": "order_id_lookup",
+      "question": "Find the invoice with Order ID 11002.",
+      "expected_invoices": [
+        "invoice_11002.pdf"
+      ],
+      "source_order_ids": [
+        "11002"
+      ],
+      "criteria": {
+        "type": "order_id",
+        "value": "11002"
+      }
+    },
+    {
+      "id": "ORD-10",
+      "category": "order_id_lookup",
+      "question": "Which customer placed Order ID 10352?",
+      "expected_invoices": [
+        "invoice_10352.pdf"
+      ],
+      "source_order_ids": [
+        "10352"
+      ],
+      "criteria": {
+        "type": "order_id",
+        "value": "10352"
+      }
+    },
+    {
+      "id": "CUS-01",
+      "category": "customer_id_lookup",
+      "question": "Find all invoices belonging to customer WHITC.",
+      "expected_invoices": [
+        "invoice_10269.pdf",
+        "invoice_10344.pdf",
+        "invoice_10469.pdf",
+        "invoice_10483.pdf",
+        "invoice_10504.pdf",
+        "invoice_10596.pdf",
+        "invoice_10693.pdf",
+        "invoice_10696.pdf",
+        "invoice_10723.pdf",
+        "invoice_10740.pdf",
+        "invoice_10861.pdf",
+        "invoice_10904.pdf",
+        "invoice_11032.pdf",
+        "invoice_11066.pdf"
+      ],
+      "source_order_ids": [
+        "10269",
+        "10344",
+        "10469",
+        "10483",
+        "10504",
+        "10596",
+        "10693",
+        "10696",
+        "10723",
+        "10740",
+        "10861",
+        "10904",
+        "11032",
+        "11066"
+      ],
+      "criteria": {
+        "type": "customer_id",
+        "value": "WHITC"
+      }
+    },
+    {
+      "id": "CUS-02",
+      "category": "customer_id_lookup",
+      "question": "Which invoices belong to customer SEVES?",
+      "expected_invoices": [
+        "invoice_10359.pdf",
+        "invoice_10377.pdf",
+        "invoice_10388.pdf",
+        "invoice_10472.pdf",
+        "invoice_10523.pdf",
+        "invoice_10547.pdf",
+        "invoice_10800.pdf",
+        "invoice_10804.pdf",
+        "invoice_10869.pdf"
+      ],
+      "source_order_ids": [
+        "10359",
+        "10377",
+        "10388",
+        "10472",
+        "10523",
+        "10547",
+        "10800",
+        "10804",
+        "10869"
+      ],
+      "criteria": {
+        "type": "customer_id",
+        "value": "SEVES"
+      }
+    },
+    {
+      "id": "CUS-03",
+      "category": "customer_id_lookup",
+      "question": "Find all invoices belonging to customer CACTU.",
+      "expected_invoices": [
+        "invoice_10521.pdf",
+        "invoice_10782.pdf",
+        "invoice_10819.pdf",
+        "invoice_10881.pdf",
+        "invoice_10937.pdf",
+        "invoice_11054.pdf"
+      ],
+      "source_order_ids": [
+        "10521",
+        "10782",
+        "10819",
+        "10881",
+        "10937",
+        "11054"
+      ],
+      "criteria": {
+        "type": "customer_id",
+        "value": "CACTU"
+      }
+    },
+    {
+      "id": "CUS-04",
+      "category": "customer_id_lookup",
+      "question": "Which invoices belong to customer THECR?",
+      "expected_invoices": [
+        "invoice_10624.pdf",
+        "invoice_10775.pdf",
+        "invoice_11003.pdf"
+      ],
+      "source_order_ids": [
+        "10624",
+        "10775",
+        "11003"
+      ],
+      "criteria": {
+        "type": "customer_id",
+        "value": "THECR"
+      }
+    },
+    {
+      "id": "CUS-05",
+      "category": "customer_id_lookup",
+      "question": "Find all invoices belonging to customer OTTIK.",
+      "expected_invoices": [
+        "invoice_10260.pdf",
+        "invoice_10407.pdf",
+        "invoice_10508.pdf",
+        "invoice_10554.pdf",
+        "invoice_10580.pdf",
+        "invoice_10684.pdf",
+        "invoice_10766.pdf",
+        "invoice_10833.pdf",
+        "invoice_10999.pdf",
+        "invoice_11020.pdf"
+      ],
+      "source_order_ids": [
+        "10260",
+        "10407",
+        "10508",
+        "10554",
+        "10580",
+        "10684",
+        "10766",
+        "10833",
+        "10999",
+        "11020"
+      ],
+      "criteria": {
+        "type": "customer_id",
+        "value": "OTTIK"
+      }
+    },
+    {
+      "id": "CUS-06",
+      "category": "customer_id_lookup",
+      "question": "Which invoices belong to customer BERGS?",
+      "expected_invoices": [
+        "invoice_10278.pdf",
+        "invoice_10280.pdf",
+        "invoice_10384.pdf",
+        "invoice_10444.pdf",
+        "invoice_10445.pdf",
+        "invoice_10524.pdf",
+        "invoice_10572.pdf",
+        "invoice_10626.pdf",
+        "invoice_10654.pdf",
+        "invoice_10672.pdf",
+        "invoice_10689.pdf",
+        "invoice_10733.pdf",
+        "invoice_10778.pdf",
+        "invoice_10837.pdf",
+        "invoice_10857.pdf",
+        "invoice_10866.pdf",
+        "invoice_10875.pdf",
+        "invoice_10924.pdf"
+      ],
+      "source_order_ids": [
+        "10278",
+        "10280",
+        "10384",
+        "10444",
+        "10445",
+        "10524",
+        "10572",
+        "10626",
+        "10654",
+        "10672",
+        "10689",
+        "10733",
+        "10778",
+        "10837",
+        "10857",
+        "10866",
+        "10875",
+        "10924"
+      ],
+      "criteria": {
+        "type": "customer_id",
+        "value": "BERGS"
+      }
+    },
+    {
+      "id": "CUS-07",
+      "category": "customer_id_lookup",
+      "question": "Find all invoices belonging to customer AROUT.",
+      "expected_invoices": [
+        "invoice_10355.pdf",
+        "invoice_10383.pdf",
+        "invoice_10453.pdf",
+        "invoice_10558.pdf",
+        "invoice_10707.pdf",
+        "invoice_10741.pdf",
+        "invoice_10743.pdf",
+        "invoice_10768.pdf",
+        "invoice_10793.pdf",
+        "invoice_10864.pdf",
+        "invoice_10920.pdf",
+        "invoice_10953.pdf",
+        "invoice_11016.pdf"
+      ],
+      "source_order_ids": [
+        "10355",
+        "10383",
+        "10453",
+        "10558",
+        "10707",
+        "10741",
+        "10743",
+        "10768",
+        "10793",
+        "10864",
+        "10920",
+        "10953",
+        "11016"
+      ],
+      "criteria": {
+        "type": "customer_id",
+        "value": "AROUT"
+      }
+    },
+    {
+      "id": "CUS-08",
+      "category": "customer_id_lookup",
+      "question": "Which invoices belong to customer GALED?",
+      "expected_invoices": [
+        "invoice_10366.pdf",
+        "invoice_10426.pdf",
+        "invoice_10568.pdf",
+        "invoice_10887.pdf",
+        "invoice_10928.pdf"
+      ],
+      "source_order_ids": [
+        "10366",
+        "10426",
+        "10568",
+        "10887",
+        "10928"
+      ],
+      "criteria": {
+        "type": "customer_id",
+        "value": "GALED"
+      }
+    },
+    {
+      "id": "CUS-09",
+      "category": "customer_id_lookup",
+      "question": "Find all invoices belonging to customer GOURL.",
+      "expected_invoices": [
+        "invoice_10423.pdf",
+        "invoice_10652.pdf",
+        "invoice_10685.pdf",
+        "invoice_10709.pdf",
+        "invoice_10734.pdf",
+        "invoice_10777.pdf",
+        "invoice_10790.pdf",
+        "invoice_10959.pdf",
+        "invoice_11049.pdf"
+      ],
+      "source_order_ids": [
+        "10423",
+        "10652",
+        "10685",
+        "10709",
+        "10734",
+        "10777",
+        "10790",
+        "10959",
+        "11049"
+      ],
+      "criteria": {
+        "type": "customer_id",
+        "value": "GOURL"
+      }
+    },
+    {
+      "id": "CUS-10",
+      "category": "customer_id_lookup",
+      "question": "Which invoices belong to customer RICAR?",
+      "expected_invoices": [
+        "invoice_10287.pdf",
+        "invoice_10299.pdf",
+        "invoice_10447.pdf",
+        "invoice_10481.pdf",
+        "invoice_10563.pdf",
+        "invoice_10622.pdf",
+        "invoice_10648.pdf",
+        "invoice_10813.pdf",
+        "invoice_10851.pdf",
+        "invoice_10877.pdf",
+        "invoice_11059.pdf"
+      ],
+      "source_order_ids": [
+        "10287",
+        "10299",
+        "10447",
+        "10481",
+        "10563",
+        "10622",
+        "10648",
+        "10813",
+        "10851",
+        "10877",
+        "11059"
+      ],
+      "criteria": {
+        "type": "customer_id",
+        "value": "RICAR"
+      }
+    },
+    {
+      "id": "PRD-01",
+      "category": "product_lookup",
+      "question": "Which invoices contain Aniseed Syrup?",
+      "expected_invoices": [
+        "invoice_10289.pdf",
+        "invoice_10405.pdf",
+        "invoice_10485.pdf",
+        "invoice_10540.pdf",
+        "invoice_10591.pdf",
+        "invoice_10702.pdf",
+        "invoice_10742.pdf",
+        "invoice_10764.pdf",
+        "invoice_10849.pdf",
+        "invoice_10857.pdf",
+        "invoice_11017.pdf",
+        "invoice_11077.pdf"
+      ],
+      "source_order_ids": [
+        "10289",
+        "10405",
+        "10485",
+        "10540",
+        "10591",
+        "10702",
+        "10742",
+        "10764",
+        "10849",
+        "10857",
+        "11017",
+        "11077"
+      ],
+      "criteria": {
+        "type": "product",
+        "value": "Aniseed Syrup"
+      }
+    },
+    {
+      "id": "PRD-02",
+      "category": "product_lookup",
+      "question": "Find invoices containing Gustaf's Knäckebröd.",
+      "expected_invoices": [
+        "invoice_10251.pdf",
+        "invoice_10435.pdf",
+        "invoice_10553.pdf",
+        "invoice_10603.pdf",
+        "invoice_10619.pdf",
+        "invoice_10635.pdf",
+        "invoice_10648.pdf",
+        "invoice_10651.pdf",
+        "invoice_10763.pdf",
+        "invoice_10768.pdf",
+        "invoice_10836.pdf",
+        "invoice_10844.pdf",
+        "invoice_10943.pdf",
+        "invoice_11001.pdf"
+      ],
+      "source_order_ids": [
+        "10251",
+        "10435",
+        "10553",
+        "10603",
+        "10619",
+        "10635",
+        "10648",
+        "10651",
+        "10763",
+        "10768",
+        "10836",
+        "10844",
+        "10943",
+        "11001"
+      ],
+      "criteria": {
+        "type": "product",
+        "value": "Gustaf's Knäckebröd"
+      }
+    },
+    {
+      "id": "PRD-03",
+      "category": "product_lookup",
+      "question": "Which invoices contain Queso Manchego La Pastora?",
+      "expected_invoices": [
+        "invoice_10266.pdf",
+        "invoice_10439.pdf",
+        "invoice_10536.pdf",
+        "invoice_10543.pdf",
+        "invoice_10633.pdf",
+        "invoice_10678.pdf",
+        "invoice_10695.pdf",
+        "invoice_10718.pdf",
+        "invoice_10968.pdf",
+        "invoice_10979.pdf",
+        "invoice_11018.pdf",
+        "invoice_11046.pdf",
+        "invoice_11049.pdf",
+        "invoice_11077.pdf"
+      ],
+      "source_order_ids": [
+        "10266",
+        "10439",
+        "10536",
+        "10543",
+        "10633",
+        "10678",
+        "10695",
+        "10718",
+        "10968",
+        "10979",
+        "11018",
+        "11046",
+        "11049",
+        "11077"
+      ],
+      "criteria": {
+        "type": "product",
+        "value": "Queso Manchego La Pastora"
+      }
+    },
+    {
+      "id": "PRD-04",
+      "category": "product_lookup",
+      "question": "Find invoices containing Genen Shouyu.",
+      "expected_invoices": [
+        "invoice_10283.pdf",
+        "invoice_10323.pdf",
+        "invoice_10500.pdf",
+        "invoice_10579.pdf",
+        "invoice_10592.pdf",
+        "invoice_10657.pdf"
+      ],
+      "source_order_ids": [
+        "10283",
+        "10323",
+        "10500",
+        "10579",
+        "10592",
+        "10657"
+      ],
+      "criteria": {
+        "type": "product",
+        "value": "Genen Shouyu"
+      }
+    },
+    {
+      "id": "PRD-05",
+      "category": "product_lookup",
+      "question": "Which invoices contain Laughing Lumberjack Lager?",
+      "expected_invoices": [
+        "invoice_10284.pdf",
+        "invoice_10502.pdf",
+        "invoice_10544.pdf",
+        "invoice_10670.pdf",
+        "invoice_10775.pdf",
+        "invoice_10864.pdf",
+        "invoice_10911.pdf",
+        "invoice_10923.pdf",
+        "invoice_10939.pdf",
+        "invoice_11054.pdf"
+      ],
+      "source_order_ids": [
+        "10284",
+        "10502",
+        "10544",
+        "10670",
+        "10775",
+        "10864",
+        "10911",
+        "10923",
+        "10939",
+        "11054"
+      ],
+      "criteria": {
+        "type": "product",
+        "value": "Laughing Lumberjack Lager"
+      }
+    },
+    {
+      "id": "PRD-06",
+      "category": "product_lookup",
+      "question": "Find invoices containing Raclette Courdavault.",
+      "expected_invoices": [
+        "invoice_10255.pdf",
+        "invoice_10267.pdf",
+        "invoice_10275.pdf",
+        "invoice_10278.pdf",
+        "invoice_10298.pdf",
+        "invoice_10304.pdf",
+        "invoice_10324.pdf",
+        "invoice_10328.pdf",
+        "invoice_10341.pdf",
+        "invoice_10387.pdf",
+        "invoice_10410.pdf",
+        "invoice_10411.pdf",
+        "invoice_10423.pdf",
+        "invoice_10430.pdf",
+        "invoice_10457.pdf",
+        "invoice_10479.pdf",
+        "invoice_10480.pdf",
+        "invoice_10488.pdf",
+        "invoice_10490.pdf",
+        "invoice_10517.pdf",
+        "invoice_10531.pdf",
+        "invoice_10535.pdf",
+        "invoice_10567.pdf",
+        "invoice_10575.pdf",
+        "invoice_10601.pdf",
+        "invoice_10605.pdf",
+        "invoice_10617.pdf",
+        "invoice_10665.pdf",
+        "invoice_10679.pdf",
+        "invoice_10694.pdf",
+        "invoice_10701.pdf",
+        "invoice_10703.pdf",
+        "invoice_10706.pdf",
+        "invoice_10727.pdf",
+        "invoice_10745.pdf",
+        "invoice_10749.pdf",
+        "invoice_10750.pdf",
+        "invoice_10757.pdf",
+        "invoice_10772.pdf",
+        "invoice_10799.pdf",
+        "invoice_10803.pdf",
+        "invoice_10823.pdf",
+        "invoice_10835.pdf",
+        "invoice_10841.pdf",
+        "invoice_10851.pdf",
+        "invoice_10892.pdf",
+        "invoice_10947.pdf",
+        "invoice_10994.pdf",
+        "invoice_11005.pdf",
+        "invoice_11017.pdf",
+        "invoice_11028.pdf",
+        "invoice_11030.pdf",
+        "invoice_11032.pdf",
+        "invoice_11036.pdf"
+      ],
+      "source_order_ids": [
+        "10255",
+        "10267",
+        "10275",
+        "10278",
+        "10298",
+        "10304",
+        "10324",
+        "10328",
+        "10341",
+        "10387",
+        "10410",
+        "10411",
+        "10423",
+        "10430",
+        "10457",
+        "10479",
+        "10480",
+        "10488",
+        "10490",
+        "10517",
+        "10531",
+        "10535",
+        "10567",
+        "10575",
+        "10601",
+        "10605",
+        "10617",
+        "10665",
+        "10679",
+        "10694",
+        "10701",
+        "10703",
+        "10706",
+        "10727",
+        "10745",
+        "10749",
+        "10750",
+        "10757",
+        "10772",
+        "10799",
+        "10803",
+        "10823",
+        "10835",
+        "10841",
+        "10851",
+        "10892",
+        "10947",
+        "10994",
+        "11005",
+        "11017",
+        "11028",
+        "11030",
+        "11032",
+        "11036"
+      ],
+      "criteria": {
+        "type": "product",
+        "value": "Raclette Courdavault"
+      }
+    },
+    {
+      "id": "PRD-07",
+      "category": "product_lookup",
+      "question": "Which invoices contain Gula Malacca?",
+      "expected_invoices": [
+        "invoice_10278.pdf",
+        "invoice_10284.pdf",
+        "invoice_10291.pdf",
+        "invoice_10351.pdf",
+        "invoice_10411.pdf",
+        "invoice_10452.pdf",
+        "invoice_10469.pdf",
+        "invoice_10491.pdf",
+        "invoice_10518.pdf",
+        "invoice_10551.pdf",
+        "invoice_10561.pdf",
+        "invoice_10576.pdf",
+        "invoice_10624.pdf",
+        "invoice_10656.pdf",
+        "invoice_10676.pdf",
+        "invoice_10691.pdf",
+        "invoice_10721.pdf",
+        "invoice_10745.pdf",
+        "invoice_10796.pdf",
+        "invoice_10832.pdf",
+        "invoice_10944.pdf",
+        "invoice_10978.pdf",
+        "invoice_11034.pdf",
+        "invoice_11042.pdf"
+      ],
+      "source_order_ids": [
+        "10278",
+        "10284",
+        "10291",
+        "10351",
+        "10411",
+        "10452",
+        "10469",
+        "10491",
+        "10518",
+        "10551",
+        "10561",
+        "10576",
+        "10624",
+        "10656",
+        "10676",
+        "10691",
+        "10721",
+        "10745",
+        "10796",
+        "10832",
+        "10944",
+        "10978",
+        "11034",
+        "11042"
+      ],
+      "criteria": {
+        "type": "product",
+        "value": "Gula Malacca"
+      }
+    },
+    {
+      "id": "PRD-08",
+      "category": "product_lookup",
+      "question": "Find invoices containing Thüringer Rostbratwurst.",
+      "expected_invoices": [
+        "invoice_10268.pdf",
+        "invoice_10290.pdf",
+        "invoice_10305.pdf",
+        "invoice_10354.pdf",
+        "invoice_10360.pdf",
+        "invoice_10369.pdf",
+        "invoice_10382.pdf",
+        "invoice_10400.pdf",
+        "invoice_10440.pdf",
+        "invoice_10465.pdf",
+        "invoice_10510.pdf",
+        "invoice_10583.pdf",
+        "invoice_10624.pdf",
+        "invoice_10629.pdf",
+        "invoice_10666.pdf",
+        "invoice_10687.pdf",
+        "invoice_10691.pdf",
+        "invoice_10698.pdf",
+        "invoice_10772.pdf",
+        "invoice_10787.pdf",
+        "invoice_10791.pdf",
+        "invoice_10801.pdf",
+        "invoice_10834.pdf",
+        "invoice_10857.pdf",
+        "invoice_10893.pdf",
+        "invoice_10897.pdf",
+        "invoice_10912.pdf",
+        "invoice_10971.pdf",
+        "invoice_10993.pdf",
+        "invoice_11006.pdf",
+        "invoice_11007.pdf",
+        "invoice_11030.pdf"
+      ],
+      "source_order_ids": [
+        "10268",
+        "10290",
+        "10305",
+        "10354",
+        "10360",
+        "10369",
+        "10382",
+        "10400",
+        "10440",
+        "10465",
+        "10510",
+        "10583",
+        "10624",
+        "10629",
+        "10666",
+        "10687",
+        "10691",
+        "10698",
+        "10772",
+        "10787",
+        "10791",
+        "10801",
+        "10834",
+        "10857",
+        "10893",
+        "10897",
+        "10912",
+        "10971",
+        "10993",
+        "11006",
+        "11007",
+        "11030"
+      ],
+      "criteria": {
+        "type": "product",
+        "value": "Thüringer Rostbratwurst"
+      }
+    },
+    {
+      "id": "PRD-09",
+      "category": "product_lookup",
+      "question": "Which invoices contain Uncle Bob's Organic Dried Pears?",
+      "expected_invoices": [
+        "invoice_10262.pdf",
+        "invoice_10385.pdf",
+        "invoice_10459.pdf",
+        "invoice_10471.pdf",
+        "invoice_10511.pdf",
+        "invoice_10546.pdf",
+        "invoice_10591.pdf",
+        "invoice_10607.pdf",
+        "invoice_10634.pdf",
+        "invoice_10694.pdf",
+        "invoice_10766.pdf",
+        "invoice_10790.pdf",
+        "invoice_10833.pdf",
+        "invoice_10858.pdf",
+        "invoice_10908.pdf",
+        "invoice_10909.pdf",
+        "invoice_10940.pdf",
+        "invoice_10958.pdf",
+        "invoice_10962.pdf",
+        "invoice_10979.pdf",
+        "invoice_10982.pdf",
+        "invoice_10987.pdf",
+        "invoice_10988.pdf",
+        "invoice_11001.pdf",
+        "invoice_11010.pdf",
+        "invoice_11023.pdf",
+        "invoice_11056.pdf",
+        "invoice_11071.pdf",
+        "invoice_11077.pdf"
+      ],
+      "source_order_ids": [
+        "10262",
+        "10385",
+        "10459",
+        "10471",
+        "10511",
+        "10546",
+        "10591",
+        "10607",
+        "10634",
+        "10694",
+        "10766",
+        "10790",
+        "10833",
+        "10858",
+        "10908",
+        "10909",
+        "10940",
+        "10958",
+        "10962",
+        "10979",
+        "10982",
+        "10987",
+        "10988",
+        "11001",
+        "11010",
+        "11023",
+        "11056",
+        "11071",
+        "11077"
+      ],
+      "criteria": {
+        "type": "product",
+        "value": "Uncle Bob's Organic Dried Pears"
+      }
+    },
+    {
+      "id": "PRD-10",
+      "category": "product_lookup",
+      "question": "Find invoices containing Alice Mutton.",
+      "expected_invoices": [
+        "invoice_10265.pdf",
+        "invoice_10279.pdf",
+        "invoice_10294.pdf",
+        "invoice_10302.pdf",
+        "invoice_10319.pdf",
+        "invoice_10338.pdf",
+        "invoice_10339.pdf",
+        "invoice_10346.pdf",
+        "invoice_10415.pdf",
+        "invoice_10430.pdf",
+        "invoice_10431.pdf",
+        "invoice_10444.pdf",
+        "invoice_10523.pdf",
+        "invoice_10530.pdf",
+        "invoice_10550.pdf",
+        "invoice_10564.pdf",
+        "invoice_10573.pdf",
+        "invoice_10607.pdf",
+        "invoice_10686.pdf",
+        "invoice_10696.pdf",
+        "invoice_10698.pdf",
+        "invoice_10714.pdf",
+        "invoice_10727.pdf",
+        "invoice_10773.pdf",
+        "invoice_10795.pdf",
+        "invoice_10801.pdf",
+        "invoice_10852.pdf",
+        "invoice_10861.pdf",
+        "invoice_10871.pdf",
+        "invoice_10890.pdf",
+        "invoice_10911.pdf",
+        "invoice_10915.pdf",
+        "invoice_10922.pdf",
+        "invoice_10949.pdf",
+        "invoice_10972.pdf",
+        "invoice_11059.pdf",
+        "invoice_11064.pdf"
+      ],
+      "source_order_ids": [
+        "10265",
+        "10279",
+        "10294",
+        "10302",
+        "10319",
+        "10338",
+        "10339",
+        "10346",
+        "10415",
+        "10430",
+        "10431",
+        "10444",
+        "10523",
+        "10530",
+        "10550",
+        "10564",
+        "10573",
+        "10607",
+        "10686",
+        "10696",
+        "10698",
+        "10714",
+        "10727",
+        "10773",
+        "10795",
+        "10801",
+        "10852",
+        "10861",
+        "10871",
+        "10890",
+        "10911",
+        "10915",
+        "10922",
+        "10949",
+        "10972",
+        "11059",
+        "11064"
+      ],
+      "criteria": {
+        "type": "product",
+        "value": "Alice Mutton"
+      }
+    },
+    {
+      "id": "NAM-01",
+      "category": "customer_name_lookup",
+      "question": "Find invoices associated with Peter Franken.",
+      "expected_invoices": [
+        "invoice_10267.pdf",
+        "invoice_10337.pdf",
+        "invoice_10342.pdf",
+        "invoice_10396.pdf",
+        "invoice_10488.pdf",
+        "invoice_10560.pdf",
+        "invoice_10623.pdf",
+        "invoice_10653.pdf",
+        "invoice_10670.pdf",
+        "invoice_10675.pdf",
+        "invoice_10717.pdf",
+        "invoice_10791.pdf",
+        "invoice_10859.pdf",
+        "invoice_10929.pdf",
+        "invoice_11012.pdf"
+      ],
+      "source_order_ids": [
+        "10267",
+        "10337",
+        "10342",
+        "10396",
+        "10488",
+        "10560",
+        "10623",
+        "10653",
+        "10670",
+        "10675",
+        "10717",
+        "10791",
+        "10859",
+        "10929",
+        "11012"
+      ],
+      "criteria": {
+        "type": "contact_name",
+        "value": "Peter Franken"
+      }
+    },
+    {
+      "id": "NAM-02",
+      "category": "customer_name_lookup",
+      "question": "Find invoices associated with Horst Kloss.",
+      "expected_invoices": [
+        "invoice_10273.pdf",
+        "invoice_10285.pdf",
+        "invoice_10286.pdf",
+        "invoice_10313.pdf",
+        "invoice_10345.pdf",
+        "invoice_10361.pdf",
+        "invoice_10418.pdf",
+        "invoice_10451.pdf",
+        "invoice_10515.pdf",
+        "invoice_10527.pdf",
+        "invoice_10540.pdf",
+        "invoice_10549.pdf",
+        "invoice_10588.pdf",
+        "invoice_10658.pdf",
+        "invoice_10691.pdf",
+        "invoice_10694.pdf",
+        "invoice_10721.pdf",
+        "invoice_10745.pdf",
+        "invoice_10765.pdf",
+        "invoice_10788.pdf",
+        "invoice_10845.pdf",
+        "invoice_10865.pdf",
+        "invoice_10878.pdf",
+        "invoice_10938.pdf",
+        "invoice_10962.pdf",
+        "invoice_10991.pdf",
+        "invoice_10996.pdf",
+        "invoice_11021.pdf"
+      ],
+      "source_order_ids": [
+        "10273",
+        "10285",
+        "10286",
+        "10313",
+        "10345",
+        "10361",
+        "10418",
+        "10451",
+        "10515",
+        "10527",
+        "10540",
+        "10549",
+        "10588",
+        "10658",
+        "10691",
+        "10694",
+        "10721",
+        "10745",
+        "10765",
+        "10788",
+        "10845",
+        "10865",
+        "10878",
+        "10938",
+        "10962",
+        "10991",
+        "10996",
+        "11021"
+      ],
+      "criteria": {
+        "type": "contact_name",
+        "value": "Horst Kloss"
+      }
+    },
+    {
+      "id": "NAM-03",
+      "category": "customer_name_lookup",
+      "question": "Find invoices associated with Catherine Dewey.",
+      "expected_invoices": [
+        "invoice_10529.pdf",
+        "invoice_10649.pdf",
+        "invoice_10760.pdf",
+        "invoice_10892.pdf",
+        "invoice_10896.pdf",
+        "invoice_10978.pdf",
+        "invoice_11004.pdf"
+      ],
+      "source_order_ids": [
+        "10529",
+        "10649",
+        "10760",
+        "10892",
+        "10896",
+        "10978",
+        "11004"
+      ],
+      "criteria": {
+        "type": "contact_name",
+        "value": "Catherine Dewey"
+      }
+    },
+    {
+      "id": "NAM-04",
+      "category": "customer_name_lookup",
+      "question": "Find invoices associated with Yoshi Tannamuri.",
+      "expected_invoices": [
+        "invoice_10495.pdf",
+        "invoice_10620.pdf",
+        "invoice_10810.pdf"
+      ],
+      "source_order_ids": [
+        "10495",
+        "10620",
+        "10810"
+      ],
+      "criteria": {
+        "type": "contact_name",
+        "value": "Yoshi Tannamuri"
+      }
+    },
+    {
+      "id": "NAM-05",
+      "category": "customer_name_lookup",
+      "question": "Find invoices associated with Maria Larsson.",
+      "expected_invoices": [
+        "invoice_10264.pdf",
+        "invoice_10327.pdf",
+        "invoice_10378.pdf",
+        "invoice_10434.pdf",
+        "invoice_10460.pdf",
+        "invoice_10533.pdf",
+        "invoice_10561.pdf",
+        "invoice_10703.pdf",
+        "invoice_10762.pdf",
+        "invoice_10774.pdf",
+        "invoice_10824.pdf",
+        "invoice_10880.pdf",
+        "invoice_10902.pdf",
+        "invoice_10955.pdf",
+        "invoice_10977.pdf",
+        "invoice_10980.pdf",
+        "invoice_10993.pdf",
+        "invoice_11001.pdf",
+        "invoice_11050.pdf"
+      ],
+      "source_order_ids": [
+        "10264",
+        "10327",
+        "10378",
+        "10434",
+        "10460",
+        "10533",
+        "10561",
+        "10703",
+        "10762",
+        "10774",
+        "10824",
+        "10880",
+        "10902",
+        "10955",
+        "10977",
+        "10980",
+        "10993",
+        "11001",
+        "11050"
+      ],
+      "criteria": {
+        "type": "contact_name",
+        "value": "Maria Larsson"
+      }
+    },
+    {
+      "id": "NUM-01",
+      "category": "numerical",
+      "question": "What is the total price of Order ID 10472?",
+      "expected_invoices": [
+        "invoice_10472.pdf"
+      ],
+      "source_order_ids": [
+        "10472"
+      ],
+      "criteria": {
+        "type": "total_price",
+        "order_id": "10472",
+        "value": 1051.2
+      }
+    },
+    {
+      "id": "NUM-02",
+      "category": "numerical",
+      "question": "What quantity of Ravioli Angelo was ordered in Order ID 11039?",
+      "expected_invoices": [
+        "invoice_11039.pdf"
+      ],
+      "source_order_ids": [
+        "11039"
+      ],
+      "criteria": {
+        "type": "quantity",
+        "order_id": "11039",
+        "product": "Ravioli Angelo",
+        "value": 28
+      }
+    },
+    {
+      "id": "NUM-03",
+      "category": "numerical",
+      "question": "What is the unit price of Tarte au sucre in Order ID 10599?",
+      "expected_invoices": [
+        "invoice_10599.pdf"
+      ],
+      "source_order_ids": [
+        "10599"
+      ],
+      "criteria": {
+        "type": "unit_price",
+        "order_id": "10599",
+        "product": "Tarte au sucre",
+        "value": 49.3
+      }
+    },
+    {
+      "id": "NUM-04",
+      "category": "numerical",
+      "question": "What is the total price of Order ID 10354?",
+      "expected_invoices": [
+        "invoice_10354.pdf"
+      ],
+      "source_order_ids": [
+        "10354"
+      ],
+      "criteria": {
+        "type": "total_price",
+        "order_id": "10354",
+        "value": 568.8
+      }
+    },
+    {
+      "id": "NUM-05",
+      "category": "numerical",
+      "question": "What quantity of Scottish Longbreads was ordered in Order ID 10343?",
+      "expected_invoices": [
+        "invoice_10343.pdf"
+      ],
+      "source_order_ids": [
+        "10343"
+      ],
+      "criteria": {
+        "type": "quantity",
+        "order_id": "10343",
+        "product": "Scottish Longbreads",
+        "value": 4
+      }
+    },
+    {
+      "id": "NLQ-01",
+      "category": "natural_language",
+      "question": "Which invoices contain expensive products, with a unit price above 200?",
+      "expected_invoices": [
+        "invoice_10329.pdf",
+        "invoice_10351.pdf",
+        "invoice_10353.pdf",
+        "invoice_10360.pdf",
+        "invoice_10372.pdf",
+        "invoice_10417.pdf",
+        "invoice_10424.pdf",
+        "invoice_10479.pdf",
+        "invoice_10518.pdf",
+        "invoice_10540.pdf",
+        "invoice_10541.pdf",
+        "invoice_10616.pdf",
+        "invoice_10672.pdf",
+        "invoice_10783.pdf",
+        "invoice_10805.pdf",
+        "invoice_10816.pdf",
+        "invoice_10817.pdf",
+        "invoice_10828.pdf",
+        "invoice_10831.pdf",
+        "invoice_10865.pdf",
+        "invoice_10889.pdf",
+        "invoice_10964.pdf",
+        "invoice_10981.pdf",
+        "invoice_11032.pdf"
+      ],
+      "source_order_ids": [
+        "10329",
+        "10351",
+        "10353",
+        "10360",
+        "10372",
+        "10417",
+        "10424",
+        "10479",
+        "10518",
+        "10540",
+        "10541",
+        "10616",
+        "10672",
+        "10783",
+        "10805",
+        "10816",
+        "10817",
+        "10828",
+        "10831",
+        "10865",
+        "10889",
+        "10964",
+        "10981",
+        "11032"
+      ],
+      "criteria": {
+        "type": "unit_price_above",
+        "value": 200
+      }
+    },
+    {
+      "id": "NLQ-02",
+      "category": "natural_language",
+      "question": "Which invoices have a total price above 10000?",
+      "expected_invoices": [
+        "invoice_10353.pdf",
+        "invoice_10372.pdf",
+        "invoice_10417.pdf",
+        "invoice_10424.pdf",
+        "invoice_10479.pdf",
+        "invoice_10515.pdf",
+        "invoice_10540.pdf",
+        "invoice_10691.pdf",
+        "invoice_10817.pdf",
+        "invoice_10865.pdf",
+        "invoice_10889.pdf",
+        "invoice_10897.pdf",
+        "invoice_10981.pdf",
+        "invoice_11030.pdf"
+      ],
+      "source_order_ids": [
+        "10353",
+        "10372",
+        "10417",
+        "10424",
+        "10479",
+        "10515",
+        "10540",
+        "10691",
+        "10817",
+        "10865",
+        "10889",
+        "10897",
+        "10981",
+        "11030"
+      ],
+      "criteria": {
+        "type": "total_above",
+        "value": 10000
+      }
+    },
+    {
+      "id": "NLQ-03",
+      "category": "natural_language",
+      "question": "Which invoice has the highest total price?",
+      "expected_invoices": [
+        "invoice_10865.pdf"
+      ],
+      "source_order_ids": [
+        "10865"
+      ],
+      "criteria": {
+        "type": "max_total"
+      }
+    },
+    {
+      "id": "NLQ-04",
+      "category": "natural_language",
+      "question": "Which invoice has the lowest total price?",
+      "expected_invoices": [
+        "invoice_10782.pdf"
+      ],
+      "source_order_ids": [
+        "10782"
+      ],
+      "criteria": {
+        "type": "min_total"
+      }
+    },
+    {
+      "id": "NLQ-05",
+      "category": "natural_language",
+      "question": "Which invoices are from customers in Norway?",
+      "expected_invoices": [
+        "invoice_10387.pdf",
+        "invoice_10520.pdf",
+        "invoice_10639.pdf",
+        "invoice_10831.pdf",
+        "invoice_10909.pdf",
+        "invoice_11015.pdf"
+      ],
+      "source_order_ids": [
+        "10387",
+        "10520",
+        "10639",
+        "10831",
+        "10909",
+        "11015"
+      ],
+      "criteria": {
+        "type": "country",
+        "value": "Norway"
+      }
+    },
+    {
+      "id": "NLQ-06",
+      "category": "natural_language",
+      "question": "Which invoices are from customers in Poland?",
+      "expected_invoices": [
+        "invoice_10374.pdf",
+        "invoice_10611.pdf",
+        "invoice_10792.pdf",
+        "invoice_10870.pdf",
+        "invoice_10906.pdf",
+        "invoice_10998.pdf",
+        "invoice_11044.pdf"
+      ],
+      "source_order_ids": [
+        "10374",
+        "10611",
+        "10792",
+        "10870",
+        "10906",
+        "10998",
+        "11044"
+      ],
+      "criteria": {
+        "type": "country",
+        "value": "Poland"
+      }
+    },
+    {
+      "id": "NLQ-07",
+      "category": "natural_language",
+      "question": "Which invoices contain six or more product line items?",
+      "expected_invoices": [
+        "invoice_10657.pdf",
+        "invoice_10847.pdf",
+        "invoice_10979.pdf",
+        "invoice_11077.pdf"
+      ],
+      "source_order_ids": [
+        "10657",
+        "10847",
+        "10979",
+        "11077"
+      ],
+      "criteria": {
+        "type": "line_items_at_least",
+        "value": 6
+      }
+    },
+    {
+      "id": "NLQ-08",
+      "category": "natural_language",
+      "question": "Which invoices were placed in May 2018?",
+      "expected_invoices": [
+        "invoice_11064.pdf",
+        "invoice_11065.pdf",
+        "invoice_11066.pdf",
+        "invoice_11067.pdf",
+        "invoice_11068.pdf",
+        "invoice_11069.pdf",
+        "invoice_11070.pdf",
+        "invoice_11071.pdf",
+        "invoice_11072.pdf",
+        "invoice_11073.pdf",
+        "invoice_11074.pdf",
+        "invoice_11075.pdf",
+        "invoice_11076.pdf",
+        "invoice_11077.pdf"
+      ],
+      "source_order_ids": [
+        "11064",
+        "11065",
+        "11066",
+        "11067",
+        "11068",
+        "11069",
+        "11070",
+        "11071",
+        "11072",
+        "11073",
+        "11074",
+        "11075",
+        "11076",
+        "11077"
+      ],
+      "criteria": {
+        "type": "date_prefix",
+        "value": "2018-05"
+      }
+    },
+    {
+      "id": "NLQ-09",
+      "category": "natural_language",
+      "question": "Which invoices include an order line with a quantity of 100 or more?",
+      "expected_invoices": [
+        "invoice_10286.pdf",
+        "invoice_10398.pdf",
+        "invoice_10451.pdf",
+        "invoice_10452.pdf",
+        "invoice_10515.pdf",
+        "invoice_10549.pdf",
+        "invoice_10588.pdf",
+        "invoice_10595.pdf",
+        "invoice_10607.pdf",
+        "invoice_10678.pdf",
+        "invoice_10711.pdf",
+        "invoice_10713.pdf",
+        "invoice_10764.pdf",
+        "invoice_10776.pdf",
+        "invoice_10854.pdf",
+        "invoice_10894.pdf",
+        "invoice_10895.pdf",
+        "invoice_11017.pdf",
+        "invoice_11030.pdf",
+        "invoice_11072.pdf"
+      ],
+      "source_order_ids": [
+        "10286",
+        "10398",
+        "10451",
+        "10452",
+        "10515",
+        "10549",
+        "10588",
+        "10595",
+        "10607",
+        "10678",
+        "10711",
+        "10713",
+        "10764",
+        "10776",
+        "10854",
+        "10894",
+        "10895",
+        "11017",
+        "11030",
+        "11072"
+      ],
+      "criteria": {
+        "type": "quantity_at_least",
+        "value": 100
+      }
+    },
+    {
+      "id": "NLQ-10",
+      "category": "natural_language",
+      "question": "Which invoices contain both Guaraná Fantástica and Thüringer Rostbratwurst?",
+      "expected_invoices": [
+        "invoice_10465.pdf",
+        "invoice_10893.pdf"
+      ],
+      "source_order_ids": [
+        "10465",
+        "10893"
+      ],
+      "criteria": {
+        "type": "product_pair",
+        "value": [
+          "Guaraná Fantástica",
+          "Thüringer Rostbratwurst"
+        ]
+      }
+    }
+  ]
+}

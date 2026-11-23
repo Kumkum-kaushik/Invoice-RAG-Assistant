@@ -1,0 +1,25 @@
+category,Retrieval Strategy,Chunking,hit@3,precision@3,recall@3,mrr@3,recall@10
+customer_id_lookup,Hybrid,Fixed-size,1.0,1.0,0.39511155511155505,1.0,0.8948162948162949
+customer_id_lookup,Hybrid,Structure-aware,1.0,1.0,0.39511155511155505,1.0,0.8948162948162949
+customer_id_lookup,Semantic,Fixed-size,0.7,0.6666666666666666,0.23365079365079366,0.7,0.6195249195249195
+customer_id_lookup,Semantic,Structure-aware,1.0,0.9,0.3463936063936064,0.9,0.8426184926184925
+customer_name_lookup,Hybrid,Fixed-size,1.0,1.0,0.37872180451127824,1.0,0.6784461152882205
+customer_name_lookup,Hybrid,Structure-aware,1.0,1.0,0.37872180451127824,1.0,0.6679197994987469
+customer_name_lookup,Semantic,Fixed-size,0.6,0.6,0.32571428571428573,0.6,0.5859649122807017
+customer_name_lookup,Semantic,Structure-aware,0.6,0.6,0.32571428571428573,0.6,0.5754385964912281
+natural_language,Hybrid,Fixed-size,0.4,0.26666666666666666,0.14785714285714285,0.35,0.325
+natural_language,Hybrid,Structure-aware,0.3,0.26666666666666666,0.19285714285714287,0.3,0.315
+natural_language,Semantic,Fixed-size,0.3,0.2333333333333333,0.09702380952380953,0.25,0.2541666666666667
+natural_language,Semantic,Structure-aware,0.2,0.2,0.09285714285714286,0.2,0.25
+numerical,Hybrid,Fixed-size,1.0,1.0,1.0,1.0,1.0
+numerical,Hybrid,Structure-aware,1.0,1.0,1.0,1.0,1.0
+numerical,Semantic,Fixed-size,0.2,0.06666666666666667,0.2,0.2,0.2
+numerical,Semantic,Structure-aware,0.0,0.0,0.0,0.0,0.2
+order_id_lookup,Hybrid,Fixed-size,1.0,1.0,1.0,1.0,1.0
+order_id_lookup,Hybrid,Structure-aware,1.0,1.0,1.0,1.0,1.0
+order_id_lookup,Semantic,Fixed-size,0.0,0.0,0.0,0.0,0.0
+order_id_lookup,Semantic,Structure-aware,0.0,0.0,0.0,0.0,0.1
+product_lookup,Hybrid,Fixed-size,1.0,1.0,0.19374063410701342,1.0,0.579135447023378
+product_lookup,Hybrid,Structure-aware,1.0,1.0,0.19374063410701342,1.0,0.579135447023378
+product_lookup,Semantic,Fixed-size,0.9,0.8333333333333334,0.12945491982129914,0.9,0.4152663994043304
+product_lookup,Semantic,Structure-aware,0.9,0.8666666666666666,0.13659777696415626,0.9,0.42627830416623524
