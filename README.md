@@ -226,4 +226,4 @@ Retrieval evaluation is implemented separately.
 AI/ML Engineer | Generative AI | RAG | AI Agents
 
 - GitHub: https://github.com/Kumkum-kaushik
-- LinkedIn: https://www.linkedin.com/in/kumkum-kaush
+- LinkedIn: https://www.linkedin.com/in/kumkum-kaushik-73a678244/
